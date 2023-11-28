@@ -53,7 +53,7 @@ function createExam() {
 
 // Function to restart the exam question
 restartExamQuestion=()=> {
-	// Resetting the question counter
+    // Resetting the question counter
     questionCounter = 0;
 
     // Resetting the flag for taking the topics
@@ -75,15 +75,15 @@ restartExamQuestion=()=> {
     // Resetting the user's answer
     my_answer = [];
 
-	// Resetting the General Information set of Questions
-	// The Overall set of Question for Gen Info is 20 Questions.
-	// The topics include: Philippine Constitution, Code of Conduct, Environmental Management, and Peace and Human Rights concepts and issues.
-	// We need to divide the 20 Questions into 4 sets of topics.
-	// Generate unique random questions for each topic
-	data_00_QuestionsArray = uniqueRandomQuestion(0, (data_00.length - 1), 5); // Topic 0
-	data_01_QuestionsArray = uniqueRandomQuestion(0, (data_01.length - 1), 5); // Topic 1
-	data_02_QuestionsArray = uniqueRandomQuestion(0, (data_02.length - 1), 5); // Topic 2
-	data_03_QuestionsArray = uniqueRandomQuestion(0, (data_03.length - 1), 5); // Topic 3
+    // Resetting the General Information set of Questions
+    // The Overall set of Question for Gen Info is 20 Questions.
+    // The topics include: Philippine Constitution, Code of Conduct, Environmental Management, and Peace and Human Rights concepts and issues.
+    // We need to divide the 20 Questions into 4 sets of topics.
+    // Generate unique random questions for each topic
+    data_00_QuestionsArray = uniqueRandomQuestion(0, (data_00.length - 1), 5); // Topic 0
+    data_01_QuestionsArray = uniqueRandomQuestion(0, (data_01.length - 1), 5); // Topic 1
+    data_02_QuestionsArray = uniqueRandomQuestion(0, (data_02.length - 1), 5); // Topic 2
+    data_03_QuestionsArray = uniqueRandomQuestion(0, (data_03.length - 1), 5); // Topic 3
 
     // Resetting the Numerical Ability set of Questions
     // The Overall set of Question for Numerical Ability is 50 Questions.
@@ -401,7 +401,6 @@ checkAnswerExam=(selectedIndexExam)=> {
 function checkExamaneeAnswerForExam(answerData) {
     // Get all choice elements
     let choiceElements = document.getElementsByClassName("choices");
-
     // Loop through all choices
     for (var i = 0; i < choiceElements.length; i++) {
         // Reset background color for all choices
