@@ -1,0 +1,565 @@
+/**
+ * Author: @Manuel G. Sintos
+ * Date: Nov 27, 2023, 1:11 PM
+ *
+ */
+
+:root {
+  --sideNavActiveColor: #c2e7ff;
+  --btnBorderRadius: 20px;
+}
+body {
+  margin: 6.5% 0 10% 0;
+  padding: 0;
+}
+* {
+  font-size: 18px;
+  font-family: arial;
+}
+.side_nav::-webkit-scrollbar { 
+  display: none; 
+}
+.side_nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: 0 0 20% 0;
+  padding: 20px 20px 50% 20px;
+  width: 300px;
+  border: none;
+  height: 94%;
+  background: #f0f0f0;
+  z-index: 10;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.side_nav .list {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #fff;
+  margin: 10px 0 0 0;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 17px;
+}
+.side_nav .active {
+  background: var(--sideNavActiveColor);
+}
+.side_nav .list:active {
+  background: var(--sideNavActiveColor);
+}
+.side_nav_title {
+  background: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.main_topic_title {
+  margin: 15px 0 0 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #6060be;
+}
+
+/* Header and Footer */
+.header {
+  position: fixed;
+  background: #dbdbdb;
+  /* box-shadow: 0 1px 10px 0px silver; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 89px;
+  z-index: 9;
+}
+.footer {
+  position: fixed;
+  background: #dbdbdb;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 85px;
+  z-index: 8;
+  text-align: center;
+}
+.footer {
+  margin-top: 1%;
+}
+.creator {
+  margin-top: 1%;
+  margin-left: -41%;
+}
+.footer center {
+  font-size: 12px;
+}
+
+.donate_me_con {
+  background: none;
+  border: none;
+  border-radius: 10px;
+  width: 71%;
+  margin: 0 auto;
+  margin-left: 25%;
+}
+.donate_me {
+  background: none;
+  text-align: left;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  width: 700px;
+  max-width: 700px;
+  margin: 0 auto; /* Adds 50px of space at the top */
+  font-size: 12px;
+}
+.donate_me a {
+  font-size: 12px;
+}
+
+
+.content {
+  background: none;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  width: 71%;
+  margin: 0 auto;
+  margin-left: 25%;
+}
+.create_exam_btn_con {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  padding: 2px 5px 2px 5px;
+}
+.create_exam_btn_con:hover {
+  padding: 2px 5px 2px 5px;
+  border-radius: 50%;
+  background: var(--sideNavActiveColor);
+}
+
+
+
+/* Question and Choices Container their design */
+.instruction_con {
+  background: none;
+  border: none;
+  padding: 20px 20px 5px 0;
+  border-radius: 10px;
+  width: 700px;
+  max-width: 700px;
+  margin: 0 auto; 
+  margin-top: -11px;
+  margin-bottom: 19px;
+}
+.question_con {
+  background: none;
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-radius: 10px;
+  width: 700px;
+  max-width: 700px;
+  margin: 0 auto; /* Adds 50px of space at the top */
+}
+.question {
+  font-size: 20px !important;
+}
+.choices_con {
+  border: none;
+  margin-top: 20px;
+}
+.choices {
+  font-size: 21px !important;
+  border: 1px solid lightgray;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 5px;
+}
+.choices:hover {
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.submit_question {
+    margin: 10px 5px 0 0;
+    width: auto;
+    border-top: 1px solid lightgray;
+    text-align: right;
+    background: none;
+    padding: 10px 0 0 0;
+}
+.submit_question button {
+  background: #00a700;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: var(--btnBorderRadius);
+  cursor: pointer;
+}
+.submit_question button:active {
+  background: #034f03;
+  color: white;
+  padding: 10px;
+}
+.question_counter_con_and_timer {
+  margin: 10px 5px 0 0;
+  width: auto;
+  border-bottom: 1px solid lightgray;
+  text-align: left;
+  background: none;
+  padding: 0 0 10px 0;
+  margin: 0 0 10px 0;
+}
+
+
+.site_title {
+  color: black;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+.prev_question_con {
+  background: none;
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-radius: 10px;
+  width: 700px;
+  max-width: 700px;
+  margin: 0 auto; /* Adds 50px of space at the top */
+}
+.prev_question {
+  font-size: 20px !important;
+}
+.prev_choices_con {
+  border: none;
+  margin-top: 20px;
+}
+.prev_choices {
+  font-size: 21px !important;
+  border: 1px solid lightgray;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 5px;
+}
+.prev_choices.correct {
+    background: #00a700;
+    color: white;
+}
+.prev_choices.wrong {
+    background-color: #ff4f4f;
+    color: white;
+}
+.check_my_answers_btn {
+  border: 1px solid gray;
+  background: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+.check_my_answers_btn:active {
+  border: 1px solid #fff;
+  background: blue;
+  border-radius: 5px;
+  padding: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.prev_display_review_result_btn, .next_display_review_result_btn {
+  background: none;
+  padding: 10px;
+  border: 1px solid silver;
+  border-radius: var(--btnBorderRadius);
+  cursor: pointer;
+}
+.prev_display_review_result_btn:active, .next_display_review_result_btn:active {
+  background: lightgray;
+}
+
+.submit_con {
+    padding: 20px;
+    border-radius: 10px;
+    width: 700px;
+    max-width: 700px;
+    top: 11%;
+    left: 39%;
+    text-align: right;
+    position: absolute;
+    background: none;
+}
+.submit_con .submit {
+  background: #00a700;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: var(--btnBorderRadius);
+  cursor: pointer;
+}
+.submit_con .submit:active {
+  background: #034f03;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+/* end_of_question_con design landing page */
+.end_of_question_con {
+  background: none;
+  border: none;
+    padding: 20px;
+    border-radius: 10px;
+    width: 700px;
+    max-width: 700px;
+    margin: 0;
+    position: relative;
+    top: 18%;
+    left: 36%;
+    margin: 22% 0 2% 0;
+}
+.end_of_question_con button {
+  position: relative;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border: none;
+  border-radius: var(--btnBorderRadius);
+  background: #00a700;
+  color: white;
+  cursor: pointer;
+}
+.end_of_question_con button:active {
+  background: #034f03;
+  color: white;
+}
+.question_explanation {
+  background: lightyellow;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 2% 0 0 0;
+}
+
+/* Show result container */
+.show_result_con {
+  background: none;
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-radius: 20px;
+  width: 700px;
+  max-width: 700px;
+  margin: 0 auto; /* Adds 50px of space at the top */
+}
+.print_button_con {
+  background: none;
+  border: none;
+  padding: 0 0 5px 0;
+  width: 700px;
+  max-width: 700px;
+  margin: 0 auto; 
+  margin-top: -11px;
+  margin-bottom: 19px;
+  text-align: right;
+}
+.print_button_con button {
+  border: 1px solid gold;
+  background: #f7ffbc;
+  padding: 10px;
+  border-radius: var(--btnBorderRadius);
+  margin-right: -23px;
+  margin-bottom: -10px;
+  cursor: pointer;
+}
+.print_button_con button:active {
+  background: #dcdc00;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: center;
+}
+.review_answer, .retake_quiz {
+  clear: right;
+  float: right;
+  margin-right: -41px;
+  margin-top: -30px;
+  background: #00a700;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: var(--btnBorderRadius);
+  cursor: pointer;
+}
+.review_answer:active, .retake_quiz:active {
+  background: #034f03;
+  color: white;
+}
+
+
+.menu_modal {
+  display: none;
+  background: none;
+  position: fixed;
+  top: 53%;
+  right: -52%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 20;
+  border-radius: 20px;
+}
+
+.modal-content {
+  position: absolute;
+  right: 10px;
+  width: 20%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 23%);
+  text-align: left;
+  border-radius: 20px;
+}
+.modal-content a {
+  display: block;
+  background: #ffffff;
+  text-decoration: none;
+  text-align: left;
+  padding: 20px;
+  width: auto;
+  border-radius: 20px;
+  color: black;
+}
+
+.modal-content a:hover {
+  background: var(--sideNavActiveColor);
+}
+
+.start_topic {
+  background: #00a700;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: var(--btnBorderRadius);
+  cursor: pointer;
+}
+.start_topic:active {
+  background: #034f03;
+  color: white;
+  padding: 10px;
+}
+
+
+/* AlertDialog Design */
+.alertDialogWindow {
+  display: block;
+  position: fixed;
+  z-index: 99;
+  top: 0px;
+  left: 0px;
+  background: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+}
+.alertDialogFirstCon {
+  background: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  height: 450px;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.alertDialogCon {
+  background: #fff;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 20em;
+  transform: translate(-50%, -50%);
+  padding: 20px 20px 12px 20px;
+  border-radius: 10px;
+  animation: alertDialog 0.4s;
+  box-shadow: 0 16px 24px 2px rgb(0 0 0 / 14%), 0 6px 30px 5px rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(0 0 0 / 40%);
+}
+@keyframes alertDialog {
+  0% {
+    top: -200%;
+    opacity: 0.5;
+  }
+  100% {
+    top: 40%;
+    opacity: 1;
+  }
+}
+.alertDialogCon_DonateMe {
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 35em;
+  transform: translate(-50%, -50%);
+  padding: 20px 20px 12px 20px;
+  border-radius: 10px;
+  animation: alertDialogForDonateMe 0.4s;
+  box-shadow: 0 16px 24px 2px rgb(0 0 0 / 14%), 0 6px 30px 5px rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(0 0 0 / 40%);
+}
+@keyframes alertDialogForDonateMe {
+  0% {
+    top: -200%;
+    opacity: 0.5;
+  }
+  100% {
+    top: 50%;
+    opacity: 1;
+  }
+}
+.alerDialogTitleCon {}
+.alerDialogTitle {
+  font-weight: bold;
+  color: #333;
+  padding-bottom: 10px;
+  text-shadow: none;
+}
+.alertDialogMessage {
+  color: gray;
+  margin-bottom: 20px;
+  text-shadow: none;
+}
+.alertDialogButtonCon {
+  text-align: right;
+  margin-right: -5px;
+}
+.alertDialogButtonCon button {
+  outline: none;
+  border: none;
+  text-shadow: none;
+  background: none;
+  padding: 5px 10px 5px 10px;
+  color: #38c;
+  font-weight: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.alertDialogButtonCon button:hover {
+  background: #eee;
+  border-radius: 5px;
+  cursor: pointer;
+}
