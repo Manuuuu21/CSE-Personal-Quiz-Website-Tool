@@ -1,0 +1,41 @@
+/**
+ * Author: @Manuel G. Sintos
+ * Date: Nov 27, 2023, 1:11 PM
+ *
+ */
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .header {
+    height: 87px;
+  }
+  .footer {
+    height: 70px;
+  }
+  .side_nav {
+    display: none;
+  }
+  .content {
+    width: auto;
+    margin: 22% 0 0 0;
+  }
+  .instruction_con {
+    width: auto;
+  }
+  .question_con {
+    width: auto;
+  }
+
+
+
+  .alertDialogCon_DonateMe {
+    width: 90%; /* Adjust width to fit smaller screens */
+    padding: 10px 10px 6px 10px; /* Adjust padding for smaller screens */
+  }
+  .donate_me_con {
+    margin-left: 0%;
+  }
+  .modal-content {
+    width: 61%;
+  }
+}
