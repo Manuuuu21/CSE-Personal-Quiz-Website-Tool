@@ -87,13 +87,14 @@ body {
 .footer {
   margin-top: 1%;
 }
+.footer center {
+  font-size: 12px;
+}
 .creator {
   margin-top: 1%;
   margin-left: -41%;
 }
-.footer center {
-  font-size: 12px;
-}
+
 
 .donate_me_con {
   background: none;

@@ -34,7 +34,7 @@ function createExam() {
     // Append a questions container and instruction to the body
     $(SELECT.BODY).append(
    	`<div class="content">
-        <h1>You are currently Taking Exams related to:</h1>
+        <h1>YOU ARE CURRENTLY TAKING EXAM RELATED TO:</h1>
         <p><b>Topic:</b> ` + topics[15] + `</p>
         <p><b>Total No. of Questions:</b> ` + examanee_number_of_questions + ` Questions.</p>
         <p><b>Passing Grade:</b> ` + passing_grade + `%.</p>
@@ -53,7 +53,7 @@ function createExam() {
 
 // Function to restart the exam question
 restartExamQuestion=()=> {
-    // Resetting the question counter
+	// Resetting the question counter
     questionCounter = 0;
 
     // Resetting the flag for taking the topics
@@ -75,15 +75,15 @@ restartExamQuestion=()=> {
     // Resetting the user's answer
     my_answer = [];
 
-    // Resetting the General Information set of Questions
-    // The Overall set of Question for Gen Info is 20 Questions.
-    // The topics include: Philippine Constitution, Code of Conduct, Environmental Management, and Peace and Human Rights concepts and issues.
-    // We need to divide the 20 Questions into 4 sets of topics.
-    // Generate unique random questions for each topic
-    data_00_QuestionsArray = uniqueRandomQuestion(0, (data_00.length - 1), 5); // Topic 0
-    data_01_QuestionsArray = uniqueRandomQuestion(0, (data_01.length - 1), 5); // Topic 1
-    data_02_QuestionsArray = uniqueRandomQuestion(0, (data_02.length - 1), 5); // Topic 2
-    data_03_QuestionsArray = uniqueRandomQuestion(0, (data_03.length - 1), 5); // Topic 3
+	// Resetting the General Information set of Questions
+	// The Overall set of Question for Gen Info is 20 Questions.
+	// The topics include: Philippine Constitution, Code of Conduct, Environmental Management, and Peace and Human Rights concepts and issues.
+	// We need to divide the 20 Questions into 4 sets of topics.
+	// Generate unique random questions for each topic
+	data_00_QuestionsArray = uniqueRandomQuestion(0, (data_00.length - 1), 5); // Topic 0
+	data_01_QuestionsArray = uniqueRandomQuestion(0, (data_01.length - 1), 5); // Topic 1
+	data_02_QuestionsArray = uniqueRandomQuestion(0, (data_02.length - 1), 5); // Topic 2
+	data_03_QuestionsArray = uniqueRandomQuestion(0, (data_03.length - 1), 5); // Topic 3
 
     // Resetting the Numerical Ability set of Questions
     // The Overall set of Question for Numerical Ability is 50 Questions.
@@ -401,6 +401,7 @@ checkAnswerExam=(selectedIndexExam)=> {
 function checkExamaneeAnswerForExam(answerData) {
     // Get all choice elements
     let choiceElements = document.getElementsByClassName("choices");
+
     // Loop through all choices
     for (var i = 0; i < choiceElements.length; i++) {
         // Reset background color for all choices
@@ -515,11 +516,9 @@ reviewed_ans_for_exam=()=> {
     displayPreviousQuestionsAndChoices_data(data_01_QuestionsArray, data_01, 5, false, false, false);
     displayPreviousQuestionsAndChoices_data(data_02_QuestionsArray, data_02, 10, false, false, false);
     displayPreviousQuestionsAndChoices_data(data_03_QuestionsArray, data_03, 15, false, false, false);
-
     displayPreviousQuestionsAndChoices_data(data_04_QuestionsArray, data_04, 20, false, false, false);
     displayPreviousQuestionsAndChoices_data(data_05_QuestionsArray, data_05, 38, false, false, false);
     displayPreviousQuestionsAndChoices_data(data_06_QuestionsArray, data_06, 54, false, false, false);
-
     displayPreviousQuestionsAndChoices_data(data_07_QuestionsArray, data_07, 70, true, false, false);
 }
 
@@ -537,7 +536,6 @@ next_display_review_result=()=> {
     displayPreviousQuestionsAndChoices_data(data_08_QuestionsArray, data_08, 84, false, false, false);
     displayPreviousQuestionsAndChoices_data(data_09_QuestionsArray, data_09, 96, false, false, false);
     displayPreviousQuestionsAndChoices_data(data_10_QuestionsArray, data_10, 108, false, false, false);
-
     displayPreviousQuestionsAndChoices_data(data_11_QuestionsArray, data_11, 120, false, false, false);
     displayPreviousQuestionsAndChoices_data(data_12_QuestionsArray, data_12, 134, false, false, false);
     displayPreviousQuestionsAndChoices_data(data_13_QuestionsArray, data_13, 146, false, false, false);

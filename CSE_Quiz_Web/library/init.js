@@ -64,7 +64,7 @@ selectedTopic=(topicID)=> {
 	// Append a questions container and instruction
 	$(SELECT.BODY).append(
 	`<div class="content">
-		<h1>You are currently Studying Topics related to:</h1>
+		<h1>YOU ARE CURRENTLY STUDYING TOPICS RELATED TO:</h1>
 		<p><b>Topic:</b> ` + topics[selectedTopicID] + `</p>
 		<p><b>Total No. of Questions:</b> ` + examanee_number_of_questions + ` Questions.</p>
 		<p><b>Passing Grade:</b> ` + passing_grade + `%.</p>
@@ -567,7 +567,7 @@ function showResult(showResultTopicID) {
 					<p>Dear Ma'am/Sir,</p>
 					<p>Good day!</p>
 					<p>
-					Please be informed that you <b>` + rating + `</b> the ` + subject_for_taking + ` - Personal Quiz Reviewer, with a general rating of <b>` + numberToWord(resultPercentage.toFixed(2)) + ` Percent (` + resultPercentage.toFixed(2) + `%)</b>
+					Please be informed that you <b>` + rating + `</b> the ` + subject_for_taking + ` - Personalize CSE Reviewer, with a general rating of <b>` + numberToWord(resultPercentage.toFixed(2)) + ` Percent (` + resultPercentage.toFixed(2) + `%)</b>
 					</p>
 					` + subject_per_area_score + `
 					<center>

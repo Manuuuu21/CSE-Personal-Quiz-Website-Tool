@@ -117,7 +117,7 @@ let letter_name = "MANUEL G. SINTOS";
 /* 
  * This is Position that will display to show result letter
  */
-let letter_position = "Website Creator - Personal Quiz Reviewer";
+let letter_position = "Website Creator - Personalise CSE Reviewer";
 
 let SELECT = {
 	CREATOR_ANNOUNCEMENT: 	`<h1>IMPORTANT NOTE FROM THE CREATOR OF THIS WEBSITE</h1>
