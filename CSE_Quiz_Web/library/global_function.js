@@ -66,7 +66,7 @@ function alertDialog(dialogTitle, dialogMes) {
  */
 function donateMe() {
     // Close the Menu Modal
-    closeMenuModal();
+    $("#myModal").remove();
     // Give time to initialize the createExam Function
     $(SELECT.BODY).append(`
         <div class="alertDialogWindow">
@@ -227,14 +227,27 @@ function openCSE_Quiz() {
 
 // Function to open the menu modal
 function openMenuModal() {
-    // Set the display style of the modal with the ID 'myModal' to 'block'
-    document.getElementById('myModal').style.display = 'block';
+    $(SELECT.BODY).append(`
+        <div id="myModal" class="menu_modal">
+            <div class="modal-content">
+                <a href="javascript:void(0)" onclick="openCreateQuestionnaire()">
+                <svg style="margin: 0 5px -6px 0;" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/></svg>
+                Create Your Own Questions</a>
+                <a href="javascript:void(0)" onclick="createExam()">
+                <svg style="margin: 0 5px -6px 0;" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/></svg>
+                Create Examination</a>
+                <a href="javascript:void(0)" onclick="donateMe()">
+                <svg style="margin: 0 5px -6px 0;" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M640-440 474-602q-31-30-52.5-66.5T400-748q0-55 38.5-93.5T532-880q32 0 60 13.5t48 36.5q20-23 48-36.5t60-13.5q55 0 93.5 38.5T880-748q0 43-21 79.5T807-602L640-440Zm0-112 109-107q19-19 35-40.5t16-48.5q0-22-15-37t-37-15q-14 0-26.5 5.5T700-778l-60 72-60-72q-9-11-21.5-16.5T532-800q-22 0-37 15t-15 37q0 27 16 48.5t35 40.5l109 107ZM280-220l278 76 238-74q-5-9-14.5-15.5T760-240H558q-27 0-43-2t-33-8l-93-31 22-78 81 27q17 5 40 8t68 4q0-11-6.5-21T578-354l-234-86h-64v220ZM40-80v-440h304q7 0 14 1.5t13 3.5l235 87q33 12 53.5 42t20.5 66h80q50 0 85 33t35 87v40L560-60l-280-78v58H40Zm80-80h80v-280h-80v280Zm520-546Z"/></svg>
+                Please Help me via Donation</a>
+            </div>
+        </div>
+    `);
 }
 
 // Function to close the menu modal
 function closeMenuModal(argument) {
     // Set the display style of the modal with the ID 'myModal' to 'none'
-    document.getElementById('myModal').style.display = 'none';
+    $("#myModal").remove();
 }
 
 // Event handler for clicking outside the modal
@@ -245,14 +258,14 @@ window.onclick = function(event) {
     // Check if the clicked element is the modal itself
     if (event.target == modal) {
         // If the clicked element is the modal, hide the modal by setting its display style to 'none'
-        modal.style.display = 'none';
+        $("#myModal").remove();
     }
 }
 
 // Attach a click event handler to elements with the class 'site_title'
 $(".site_title").on("click", function() {
     // When an element is clicked, the current page is reloaded
-    window.location.href = window.location.href;
+    window.location.href = location.href;
 });
 
 /**
@@ -428,7 +441,7 @@ displayPreviousQuestionsAndChoices_data=(dataQuestionsIndex, dataQuestions, numb
     // Append the previous questions and choices HTML to the body of the webpage
     $(SELECT.BODY).append(prevQuestions);
 
-    if (displayFirstPagination == true) {
+    if (displayFirstPagination) {
         $(SELECT.BODY).append(`
             <div class="content">
                 <div class="prev_question" id="prev_question">
@@ -446,7 +459,7 @@ displayPreviousQuestionsAndChoices_data=(dataQuestionsIndex, dataQuestions, numb
         `);
     }
 
-    if (displaySecondPagination == true) {
+    if (displaySecondPagination) {
         $(SELECT.BODY).append(`
             <div class="content">
                 <div class="prev_question" id="prev_question">
@@ -459,7 +472,7 @@ displayPreviousQuestionsAndChoices_data=(dataQuestionsIndex, dataQuestions, numb
         `);
     }
 
-    if (retakeQuiz == true) {
+    if (retakeQuiz) {
         displayDonateMeParagraphRequest();
         $(".donate_me").append(`
             <button onclick="selectedTopic(`+ selectedTopicID + `)" class="retake_quiz">Retake Quiz</button>

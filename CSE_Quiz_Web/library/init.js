@@ -613,6 +613,8 @@ function showResult(showResultTopicID) {
 }
 
 function reviewed_ans() {
+	// Scroll to top
+	window.scrollTo(0, 0);
 	// Initialize a variable to store the HTML content of previous questions
     let prevQuestions = "";
 

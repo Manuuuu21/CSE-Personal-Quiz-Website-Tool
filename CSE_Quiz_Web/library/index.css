@@ -134,6 +134,7 @@ body {
   top: 25px;
   right: 25px;
   padding: 2px 5px 2px 5px;
+  cursor: pointer;
 }
 .create_exam_btn_con:hover {
   padding: 2px 5px 2px 5px;
@@ -410,7 +411,7 @@ table, th, td {
 
 
 .menu_modal {
-  display: none;
+  display: block;
   background: none;
   position: fixed;
   top: 53%;
