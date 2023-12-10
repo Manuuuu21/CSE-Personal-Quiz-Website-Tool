@@ -16,6 +16,18 @@ $(".header").append(`
 	</div>
 `);
 
+$(".header").append(`
+	<div onclick="openSideBar()" title="Open Sidebar" class="open_sidebar_btn_con">
+		<svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+	</div>
+`);
+
+$(".side_nav").append(`
+	<div onclick="closeSideBar()" class="close_sidenav">
+		<svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35"><path fill="white" d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"></path></svg>
+    </div>
+`);
+
 // Append the side nav footer
 $(".footer").append(`
 	<div class="creator">
@@ -53,6 +65,13 @@ selectedTopic=(topicID)=> {
 
 	// Set the background color of the clicked choice
 	topicElements[topicID].style.backgroundColor = bgColorForSelectedAnswer;
+
+	if (isMobileVersion) {
+		closeSideBar();
+	}
+
+	// stop the timer and reset the timerInitiateCounter
+	stop_timer();
 
 	// Remove the class content first
 	$(SELECT.CONTENT).remove();
@@ -248,6 +267,9 @@ selectedTopicDisPlayQuestion=(IdTopicQuestion)=> {
 			}
 		break;
 	}
+
+	// Initiate timer for questions
+	initial_timer();
 }
 
 // Function to get data questions based on the topic ID
@@ -398,14 +420,29 @@ function submitAnswer() {
 	if (!isAnswerSelected) {
 	    // Display an error message if no answer is selected
 	    alertDialog("Oops!", "Please select your answer!");
-		return; // Exit the function to prevent further processing
+		
 	}
-    // Check if the question counter is greater than the total number of questions minus 2
+    else {
+    	// Move to the next Question
+    	moveToNextQuestionForTopic();
+    }
+
+    // Lets reset the isAnswerSelected
+    // Since you already submitted your answer
+	isAnswerSelected = false;
+
+}
+
+function moveToNextQuestionForTopic() {
+	// Check if the question counter is on the last items to answer
     if (questionCounter > (examanee_number_of_questions-2)) {
         // If this is the last question of the exam, calculate the score
         if (selectedAnswer == "Correct") {
             score++;
         }
+
+        // stop the timer
+        stop_timer()
 
         // Call the end of quiz function
         end_of_quiz();
@@ -416,6 +453,7 @@ function submitAnswer() {
         // Reset the selectedAnswer and selectedAnswerIndex after they have been inputted to the my_ans database
         selectedAnswer = undefined;
         selectedAnswerIndex = undefined;
+
     }
     else {
         // If this is not the last question, update the question counter
@@ -435,16 +473,16 @@ function submitAnswer() {
 
         // Display the next question
         selectedTopicDisPlayQuestion(selectedTopicID);
-    }
 
-    // Lets reset the isAnswerSelected
-    // Since you already submitted your answer
-	isAnswerSelected = false;
+    }
 }
 
 let txtButton = "";
 // Function to handle the end of the quiz
 function end_of_quiz(exam) {
+	// Clear the interval for timer
+    clearInterval(timerInterval);
+
     // Remove the content, and donate container elements
     $(SELECT.CONTENT).remove();
     $(".donate_me_con").remove();
@@ -485,6 +523,11 @@ function showResult(showResultTopicID) {
 	let analyticalRatePercentage = ((analyticalScore/numbers_exam_at_analytical_ability) * 99.99).toFixed(2);
 	let numbericalRatePercentage = ((numbericalScore/numbers_exam_at_numberical_ability) * 99.99).toFixed(2);
 	let genInfoRatePercentage = ((genInfoScore/numbers_exam_at_general_info) * 99.99).toFixed(2);
+
+	var timerDuration = Math.floor(timerCounterForGlobal);
+	var minutes = Math.floor((timerDuration % 3600) / 60); // Calculate minutes within the current hour
+	var seconds = Math.floor(timerDuration % 60);
+	var hours = Math.floor(timerDuration / 3600);
 
 	// Let topics or taking Exam?
 	let subject_for_taking = "";
@@ -571,7 +614,10 @@ function showResult(showResultTopicID) {
 					</p>
 					` + subject_per_area_score + `
 					<center>
-						<p>You got <b>` + score + `</b> point(s) out of <b>` + examanee_number_of_questions + `</b> questions.</p>
+						<p>
+							You got <b>` + score + `</b> point(s) out of <b>` + examanee_number_of_questions + `</b> questions.<br/>
+							You finished the ${isTxtExamOrQuiz} in ${hours} hour(s) and ${minutes} minute(s) and ${seconds} second(s).
+						</p>
 						` + exam_rating + `
 					</center>
 
@@ -610,6 +656,9 @@ function showResult(showResultTopicID) {
 			<button onclick="reviewed_ans()" class="review_answer">Review your Answer</button>
 		`);
 	}
+
+	// Reset the timer counter for Global
+	timerCounterForGlobal = 0;
 }
 
 function reviewed_ans() {
@@ -710,5 +759,5 @@ restartTopicQuestion=()=> {
 	uniqueRandomArrayQuestions_12 = uniqueRandomQuestion(0, (data_12.length - 1), topic_numbers_of_question);
 	uniqueRandomArrayQuestions_13 = uniqueRandomQuestion(0, (data_13.length - 1), topic_numbers_of_question);
 	uniqueRandomArrayQuestions_14 = uniqueRandomQuestion(0, (data_14.length - 1), topic_numbers_of_question);
-
 }
+

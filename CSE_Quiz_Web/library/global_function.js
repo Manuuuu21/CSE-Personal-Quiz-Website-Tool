@@ -12,7 +12,6 @@
 function log(txt, type) {
     let color;
     let messageType;
-
     // Determine the color and message type based on the value of 'type'
     if (type === 'error') {
         color = 'red';
@@ -21,7 +20,6 @@ function log(txt, type) {
         color = 'green';
         messageType = '[STATUS]';
     }
-
     // Use console.log to output the text with styling
     console.log('%c' + messageType + ': %c' + txt, 'color: ' + color, 'color: black');
 }
@@ -213,7 +211,7 @@ function gotoMyFB() {
 
 // Function to open a Facebook profile in a new tab
 function openCreateQuestionnaire() {
-    window.open('questionnaire_data_format_maker.html', '', 'width=750,height=' + window.innerHeight);
+    window.open('questionnaire_data_format_maker.html', '', 'width=750,height=680');
     // window.open("questionnaire_data_format_maker.html", "_blank");
     // Close the menu modal
     closeMenuModal();
@@ -260,6 +258,33 @@ window.onclick = function(event) {
         // If the clicked element is the modal, hide the modal by setting its display style to 'none'
         $("#myModal").remove();
     }
+}
+
+function openSideBar() {
+    $(".side_nav").show();
+}
+
+function closeSideBar() {
+    $(".side_nav").hide();
+}
+
+var isMobileVersion = false;
+var mql = window.matchMedia("(orientation: portrait)");
+// Add a listen event
+mql.addListener(handleOrientationChange);
+// Initial check
+handleOrientationChange(mql);
+function handleOrientationChange(mql) {
+  // Portrait
+  if (mql.matches) {
+     $(".side_nav").hide();
+     isMobileVersion = true;
+  } 
+  // Desktop or Landscape
+  else {
+    $(".side_nav").show();
+    isMobileVersion = false;
+  }
 }
 
 // Attach a click event handler to elements with the class 'site_title'
@@ -309,7 +334,13 @@ function displayQuestionAndChoicesForTopics(questionData) {
         `<div class="content">
             <div class="instruction_con"><b>Instruction</b>: <span id="instruction"></span></div>
                 <div class="question_con">
-                <div class="question_counter_con_and_timer"><b>Question No. <span class='question_counter' id="question_counter">` + (questionCounter + 1) + `</span> out of ` + examanee_number_of_questions + `</b></div>
+                <div class="question_counter_con_and_timer">
+                    <b>Question No. <span class='question_counter' id="question_counter">` + (questionCounter + 1) + `</span> out of ` + examanee_number_of_questions + `</b>
+                    <div title="Questionnaire Timer" class="timer">
+                        <svg style="margin: 0 0 -5.5px -3px;" xmlns="http://www.w3.org/2000/svg" height="22" viewBox="0 -960 960 960" width="22"><path d="M360-840v-80h240v80H360Zm80 440h80v-240h-80v240Zm40 320q-74 0-139.5-28.5T226-186q-49-49-77.5-114.5T120-440q0-74 28.5-139.5T226-694q49-49 114.5-77.5T480-800q62 0 119 20t107 58l56-56 56 56-56 56q38 50 58 107t20 119q0 74-28.5 139.5T734-186q-49 49-114.5 77.5T480-80Zm0-80q116 0 198-82t82-198q0-116-82-198t-198-82q-116 0-198 82t-82 198q0 116 82 198t198 82Zm0-280Z"/></svg>
+                        <span title="Minutes" id="timerMinutes">00</span> : <span title="Seconds" id="timerSeconds">00</span> 
+                    </div>
+                </div>
                 <div class="question" id="question"></div>
                 <div class="choices_con" id="choices_con"></div>
                 <div class="submit_question"><button onclick="submitAnswer()">Submit your answer</button></div>
@@ -343,6 +374,100 @@ function displayQuestionAndChoicesForTopics(questionData) {
     // Set the choices in the HTML
     document.getElementById("choices_con").innerHTML = choicesHTML;
 }
+
+
+// for updating the seekbar and current time
+var timerInterval;
+var timerCounter = 0;
+var timerCounterForGlobal = 0; // to Identifies how many minutes and seconds
+var timerInitiateCounter = 0;
+
+update_timer=()=> {
+    timerInterval = setInterval(function() {
+        timerCounter++;
+        timerCounterForGlobal++;
+
+        // get the video duration hours, minutes, seconds
+        var timerDuration = Math.floor(timerCounter);
+        var secs = Math.floor(timerDuration) % 60;
+        var secs_string = secs.toString();
+        var secs_length = secs_string.length;
+
+        var min = Math.floor(timerDuration / 60);
+        var min_string = min.toString();
+        var min_length = min_string.length;
+
+        // for time start hours, minutes, seconds variables
+        var timerMinutes = document.querySelector("#timerMinutes");
+        var timerSeconds = document.querySelector("#timerSeconds");
+
+        // for 1 numbers counting like 1-9.
+        if (secs_length == 1) {
+            timerSeconds.innerHTML = "0" + secs_string;
+        }
+        // for 2 numbers counting like 11-infinity
+        else {
+            timerSeconds.innerHTML = secs_string;
+        }
+
+        // for 1 length numbers counting like 1-9.
+        if (min_length == 1) {
+            timerMinutes.innerHTML = "0" + min_string;
+        }
+        // for 2 length numbers counting like 11-infinity
+        else {
+            timerMinutes.innerHTML = min_string;
+        }
+
+    }, 1000);
+}
+
+stop_timer=()=> {
+    clearInterval(timerInterval);
+    timerInitiateCounter = 0;
+}
+
+initial_timer=()=> {
+    // Increment the timerInitiateCounter by 1.
+    // This counter keeps track of how many times the timer has been initiated.
+    timerInitiateCounter++;
+
+    // Check if the timer has been initiated for the first time.
+    // If so, call the update_timer function.
+    if (timerInitiateCounter == 1) {
+        // Call the update_timer function to start the timer.
+        // This function is only called the first time the timer is initiated.
+        update_timer();
+    }
+
+    // Reset the counter for timerCounting
+    timerCounter = 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Checks the examinee's answer against the correct answer and provides feedback.
@@ -409,6 +534,9 @@ displayPreviousQuestionsAndChoices_data=(dataQuestionsIndex, dataQuestions, numb
 
         // Loop through the choices for this question
         let prevchoicesTxt = "";
+        let correctOrWrongChoiceTxt = "";
+        let correctOrWrongChoiceClass = "";
+
         for (let c = 0; c < 5; c++) {
             const choice = prev_choices[n][c];
             prevchoicesTxt += '<div class="prev_choices';
@@ -438,6 +566,11 @@ displayPreviousQuestionsAndChoices_data=(dataQuestionsIndex, dataQuestions, numb
         n++; // Increment 'n' by 1
     }
 
+    setTimeout(function() {
+        $(".prev_choices.correct").append("<div class='tooltip_for_prev_display correct'>Correct answer.</div>");
+        $(".prev_choices.wrong").append("<div class='tooltip_for_prev_display wrong'>Your answer.</div>");
+    }, 50);
+    
     // Append the previous questions and choices HTML to the body of the webpage
     $(SELECT.BODY).append(prevQuestions);
 

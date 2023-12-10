@@ -3,7 +3,6 @@
  * Date: Nov 27, 2023, 1:11 PM
  *
  */
-
 // Function for creating exam
 function createExam() {
     // Get all elements with class name "list"
@@ -22,6 +21,13 @@ function createExam() {
     // Close the Menu Modal
     closeMenuModal();
 
+    if (isMobileVersion) {
+        closeSideBar();
+    }
+
+    // stop the timer and reset the timerInitiateCounter
+    stop_timer();
+
     // Remove the Data Privacy content
     $(SELECT.CONTENT).remove();
 
@@ -33,7 +39,7 @@ function createExam() {
 
     // Append a questions container and instruction to the body
     $(SELECT.BODY).append(
-   	`<div class="content">
+        `<div class="content">
         <h1>YOU ARE CURRENTLY TAKING EXAM RELATED TO:</h1>
         <p><b>Topic:</b> ` + topics[15] + `</p>
         <p><b>Total No. of Questions:</b> ` + examanee_number_of_questions + ` Questions.</p>
@@ -48,8 +54,9 @@ function createExam() {
     </div>`);
 
     // Callback for the restartExamQuestion data for the exam
-	restartExamQuestion();
+    restartExamQuestion();
 }
+
 
 // Function to restart the exam question
 restartExamQuestion=()=> {
@@ -250,6 +257,9 @@ displayQuestionForExam = () => {
         // Display the Donate Request Notice
         displayDonateMeParagraphRequest();
     }
+
+    // Initiate timer for questions
+    initial_timer();
 }
 
 /**
@@ -267,7 +277,13 @@ function displayQuestionAndChoicesForExam(questionData) {
         `<div class="content">
             <div class="instruction_con"><b>Instruction</b>: <span id="instruction"></span></div>
                 <div class="question_con">
-                <div class="question_counter_con_and_timer"><b>Question No. <span class='question_counter' id="question_counter">` + (questionCounter + 1) + `</span> out of ` + examanee_number_of_questions + `</b></div>
+                <div class="question_counter_con_and_timer">
+                    <b>Question No. <span class='question_counter' id="question_counter">` + (questionCounter + 1) + `</span> out of ` + examanee_number_of_questions + `</b>
+                    <div title="Questionnaire Timer" class="timer">
+                        <svg style="margin: 0 0 -5.5px -3px;" xmlns="http://www.w3.org/2000/svg" height="22" viewBox="0 -960 960 960" width="22"><path d="M360-840v-80h240v80H360Zm80 440h80v-240h-80v240Zm40 320q-74 0-139.5-28.5T226-186q-49-49-77.5-114.5T120-440q0-74 28.5-139.5T226-694q49-49 114.5-77.5T480-800q62 0 119 20t107 58l56-56 56 56-56 56q38 50 58 107t20 119q0 74-28.5 139.5T734-186q-49 49-114.5 77.5T480-80Zm0-80q116 0 198-82t82-198q0-116-82-198t-198-82q-116 0-198 82t-82 198q0 116 82 198t198 82Zm0-280Z"/></svg>
+                        <span title="Minutes" id="timerMinutes">00</span> : <span title="Seconds" id="timerSeconds">00</span> 
+                    </div>
+                </div>
                 <div class="question" id="question"></div>
                 <div class="choices_con" id="choices_con"></div>
                 <div class="submit_question"><button onclick="submitAnswerForExam()">Submit your answer</button></div>
@@ -435,8 +451,20 @@ function submitAnswerForExam() {
     if (!isAnswerSelected) {
         // Display an error message if no answer is selected
         alertDialog("Oops!", "Please select your answer!");
-        return; // Exit the function to prevent further processing
     }
+    else {
+        // Move to the next Question
+        moveToNextQuestionForExam();
+    }
+
+    // Reset the isAnswerSelected since the answer has been submitted
+    isAnswerSelected = false;
+}
+
+/**
+ * Navigates to the next question or handles the end of the exam.
+ */
+function moveToNextQuestionForExam() {
     // Check if the question counter is greater than the total number of questions minus 2
     if (questionCounter > (examanee_number_of_questions-2)) {
         // If this is the last question of the exam, calculate the score
@@ -461,9 +489,6 @@ function submitAnswerForExam() {
     // Reset the selectedAnswer and selectedAnswerIndex after they have been inputted to the my_ans database
     selectedAnswer = undefined;
     selectedAnswerIndex = undefined;
-
-    // Reset the isAnswerSelected since the answer has been submitted
-    isAnswerSelected = false;
 }
 
 /**

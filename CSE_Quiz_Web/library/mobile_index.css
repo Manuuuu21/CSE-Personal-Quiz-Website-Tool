@@ -10,7 +10,7 @@
     margin: 6.5% 0 40% 0;
   }
   * {
-    font-size: 17px;
+    font-size: 16px;
   }
   .header {
     height: 66px;
@@ -21,10 +21,16 @@
   .side_nav {
     display: none;
   }
+  .close_sidenav {
+    display: block;
+  }
+  .open_sidebar_btn_con {
+    display: block;
+  }
   .content {
     width: auto;
     margin: 16% 0 -23% 0;
-    padding: 25px;
+    padding: 20px;
   }
   .instruction_con {
     width: auto;
@@ -43,9 +49,12 @@
   .create_exam_btn_con {
     margin-top: -2.6%;
   }
+  .open_sidebar_btn_con {
+    margin-top: -2.6%;
+  }
 
   .menu_modal {
-    right: -55%;
+    right: -59%;
   }
 
   .alertDialogCon_DonateMe {
@@ -62,11 +71,11 @@
     margin-top: -9px;
   }
   .review_answer, .retake_quiz {
-    margin-right: -174px;
+    margin-right: -171px;
     margin-top: -32px;
   }
   .modal-content {
-    width: 51%;
+    width: 65%;
   }
 
   .alertDialogCon {
@@ -81,12 +90,15 @@
   }
   .print_button_con {
     width: auto;
+    margin-top: 0px;
     margin-right: 22px;
   }
   .show_result_con {
     width: auto;
   }
-
+  .tooltip_for_prev_display {
+    display: none;
+  }
 
   .prev_question_con {
     width: auto;
