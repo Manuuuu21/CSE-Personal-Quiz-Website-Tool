@@ -22,14 +22,14 @@ const data_08 = [
     "id": 1,
     "question": "Statement: “Sarah is likely a chef. She can chop vegetables really fast.”<br/><br/>ASSUMPTIONS:",
     "choices": [
+      "Speed in chopping vegetables helps chefs prepare meals faster.",
       "Only people who can chop vegetables fast can be chefs.",
       "Chopping vegetables fast helps Sarah cook.",
-      "Speed in chopping vegetables helps chefs prepare meals faster.",
-      "Fast chopping enables chefs to handle more orders.",
-      "Chefs can usually chop vegetables fast."
+      "Chefs can usually chop vegetables fast.",
+      "Fast chopping enables chefs to handle more orders."
     ],
     "correct_ans": "Chefs can usually chop vegetables fast.",
-    "explanation": "Chefs need to be able to prepare ingredients quickly, and being able to chop vegetables fast can be an advantage in this profession. This is why the statement “Chefs can usually chop vegetables fast” is true."
+    "explanation": "The statement “Sarah is likely a chef. She can chop vegetables really fast.” does make some assumptions. Here’s how it aligns to the question:<br/><br/><b>Speed in chopping vegetables helps chefs prepare meals faster.</b> - This assumption is implied in the statement. If Sarah’s fast vegetable chopping is being used as evidence of her being a chef, it suggests that this skill is beneficial in a culinary profession.<br/><br/><b>Only people who can chop vegetables fast can be chefs.</b> - This assumption is not necessarily made in the statement. While it suggests that fast vegetable chopping is a characteristic of a chef (which Sarah possesses), it doesn’t claim that it’s a requirement or that only individuals with this skill can be chefs.<br/><br/><b>Chopping vegetables fast helps Sarah cook.</b> - This assumption seems to be implied. If Sarah’s fast chopping is being linked to her being a chef, it suggests that this skill aids in her cooking.<br/><br/><b>Chefs can usually chop vegetables fast.</b> - This assumption is made in the statement. It’s suggested that fast vegetable chopping is a typical skill of a chef.<br/><br/><b>Fast chopping enables chefs to handle more orders.</b> - This assumption is not explicitly made in the statement. While it could be inferred, the statement doesn’t directly link fast chopping to the ability to handle more orders."
   },
   {
     "id": 2,

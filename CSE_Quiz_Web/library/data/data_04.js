@@ -393,27 +393,6 @@ const data_04 = [
 	},
 	{
 	    id: 20,
-	    question: "what is 2(1/2 + 1/3) + 4(1/2 + 1/3)?",
-	    choices: [
-	        "5/6",
-	        "3",
-	        "6/5",
-	        "5",
-	        "1"
-	    ],
-	    correct_ans: "5",
-	    explanation: `
-	    	We can first simplify the expression inside the parentheses:<br/>
-			= 2(1/2+1/3) + 4(1/2+1/3) = 2(5/6) + 4(5/6)<br/><br/>
-			Then we can multiply each term:<br/>
-			= 2(5/6) + 4(5/6) = 10/6 + 20/6<br/><br/>
-			Finally, we can combine the terms:<br/>
-			= 10/6 + 20/6 = 30/6 = 5<br/><br/>
-			Therefore, the answer is 5.
-	    `
-	},
-	{
-	    id: 21,
 	    question: "Solve for 'y': 3y - 7 = 20",
 	    choices: [
 	        "y = 3",
@@ -430,7 +409,7 @@ const data_04 = [
 	    	Then, divide both sides by 3 to find y: (3y)/3 = 27/3, yielding y = 9.`
 	},
 	{
-	    id: 22,
+	    id: 21,
 	    question: "Simplify the expression: 2x + 3x - 5x",
 	    choices: [
 	        "0",
@@ -443,7 +422,7 @@ const data_04 = [
 	    explanation: "To simplify the expression, combine like terms. 2x + 3x - 5x = (2 + 3 - 5)x = 0x = 0."
 	},
 	{
-	    id: 23,
+	    id: 22,
 	    question: "Solve for 'x' in the equation: 4x - 7 = 17",
 	    choices: [
 	        "x = 6",
@@ -456,7 +435,7 @@ const data_04 = [
 	    explanation: "To isolate 'x', first, add 7 to both sides of the equation: 4x - 7 + 7 = 17 + 7, which simplifies to 4x = 24. Then, divide both sides by 4 to find x: (4x)/4 = 24/4, yielding x = 6."
 	},
 	{
-	    id: 24,
+	    id: 23,
 	    question: "Find the values of 'x' and 'y' in the system of equations:\n2x + 3y = 12\n4x - 2y = 10",
 	    choices: [
 	        "x = 2, y = 4",
@@ -469,7 +448,7 @@ const data_04 = [
 	    explanation: "Solve the system of equations using either substitution or elimination. The solution is x = 3 and y = 2."
 	},
 	{
-	    id: 25,
+	    id: 24,
 	    question: "Simplify the expression: 3(x + 2) - 2(3 - x)",
 	    choices: [
 	        "5x + 6",
@@ -482,7 +461,7 @@ const data_04 = [
 	    explanation: "To simplify the expression, distribute the numbers inside the parentheses and then combine like terms: 3(x + 2) - 2(3 - x) = 3x + 6 - 6 + 2x = (3x + 2x) + (6 - 6) = 5x + 6."
 	},
 	{
-	    id: 26,
+	    id: 25,
 	    question: "Solve for 'y' in the equation: 2y/3 + 5 = 7",
 	    choices: [
 	        "y = 3",
@@ -495,7 +474,7 @@ const data_04 = [
 	    explanation: "To solve for 'y', first, subtract 5 from both sides of the equation: 2y/3 + 5 - 5 = 7 - 5, which simplifies to 2y/3 = 2. Then, multiply both sides by 3 to find y: (2y/3) * 3 = 2 * 3, yielding y = 3."
 	},
 	{
-	    id: 27,
+	    id: 26,
 	    question: "Find the values of 'x' and 'y' in the system of equations:\n3x - 2y = 8\n2x + y = 5",
 	    choices: [
 	        "x = 2, y = 1",
