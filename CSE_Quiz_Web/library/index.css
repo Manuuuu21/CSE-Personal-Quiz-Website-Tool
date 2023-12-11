@@ -8,13 +8,20 @@
   --sideNavActiveColor: #c2e7ff;
   --btnBorderRadius: 20px;
 }
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 6.5% 0 10% 0;
   padding: 0;
 }
 * {
   font-size: 18px;
-  font-family: arial;
+  font-family: "Roboto" !important;
 }
 .side_nav::-webkit-scrollbar { 
   display: none; 
@@ -34,6 +41,7 @@ body {
   overflow-y: scroll;
 }
 .side_nav .list {
+  display: flex;
   width: 100%;
   text-align: left;
   padding: 10px;
@@ -49,6 +57,9 @@ body {
 }
 .side_nav .list:active {
   background: var(--sideNavActiveColor);
+}
+.list_description {
+  font-size: 16px;
 }
 .side_nav_title {
   background: none;
@@ -534,10 +545,11 @@ table, th, td {
   background: #ffffff;
   text-decoration: none;
   text-align: left;
-  padding: 20px;
+  padding: 16px;
   width: auto;
   border-radius: 20px;
   color: black;
+  display: flex;
 }
 
 .modal-content a:hover {
