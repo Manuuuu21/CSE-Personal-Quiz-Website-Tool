@@ -12,6 +12,7 @@ Try it out and provide feedback. :)
 
 # Screenshots
 ![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/quiz.png)
+![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/question_example.png)
 ![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/exam.png)
 ![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/result_display.png)
 ![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/review_ans.png)
