@@ -78,7 +78,7 @@ function donateMe() {
                     </table>
                 </div>
 
-                <div class="alertDialogButtonCon">
+                <div class="alertDialogButtonConForDonate">
                     <button class="reminder_btn">CLOSE</button>
                 </div>
             </div>
@@ -422,7 +422,7 @@ update_timer=()=> {
             timerMinutes.innerHTML = min_string;
         }
 
-    }, 1000);
+    }, 10);
 }
 
 stop_timer=()=> {

@@ -441,9 +441,6 @@ function moveToNextQuestionForTopic() {
             score++;
         }
 
-        // stop the timer
-        stop_timer()
-
         // Call the end of quiz function
         end_of_quiz();
 
@@ -480,8 +477,8 @@ function moveToNextQuestionForTopic() {
 let txtButton = "";
 // Function to handle the end of the quiz
 function end_of_quiz(exam) {
-	// Clear the interval for timer
-    clearInterval(timerInterval);
+	// stop the timer
+	 stop_timer();
 
     // Remove the content, and donate container elements
     $(SELECT.CONTENT).remove();
@@ -524,10 +521,13 @@ function showResult(showResultTopicID) {
 	let numbericalRatePercentage = ((numbericalScore/numbers_exam_at_numberical_ability) * 99.99).toFixed(2);
 	let genInfoRatePercentage = ((genInfoScore/numbers_exam_at_general_info) * 99.99).toFixed(2);
 
-	var timerDuration = Math.floor(timerCounterForGlobal);
-	var minutes = Math.floor((timerDuration % 3600) / 60); // Calculate minutes within the current hour
-	var seconds = Math.floor(timerDuration % 60);
-	var hours = Math.floor(timerDuration / 3600);
+	let timerDuration = Math.floor(timerCounterForGlobal);
+	let minutes = Math.floor((timerDuration % 3600) / 60); // Calculate minutes within the current hour
+	let seconds = Math.floor(timerDuration % 60);
+	let hours = Math.floor(timerDuration / 3600);
+
+	let txtHours = "";
+	let txtMinutes = "";
 
 	// Let topics or taking Exam?
 	let subject_for_taking = "";
@@ -591,6 +591,13 @@ function showResult(showResultTopicID) {
 		subject_for_taking = topics[selectedTopicID];
 	}
 
+	if (hours !== 0) {
+		txtHours = `${hours} hour(s) and`;
+	}
+	if (minutes !== 0) {
+		txtMinutes = `${minutes} minute(s) and`;
+	}
+
 	// Remove the class content first
 	$(SELECT.CONTENT).remove();
 
@@ -615,8 +622,8 @@ function showResult(showResultTopicID) {
 					` + subject_per_area_score + `
 					<center>
 						<p>
-							You got <b>` + score + `</b> point(s) out of <b>` + examanee_number_of_questions + `</b> questions.<br/>
-							You finished the ${isTxtExamOrQuiz} in ${hours} hour(s) and ${minutes} minute(s) and ${seconds} second(s).
+							You got <b>` + score + ` point(s) out of ` + examanee_number_of_questions + ` questions</b>.<br/>
+							You finished the ${isTxtExamOrQuiz} in <b>${txtHours} ${txtMinutes} ${seconds} second(s)</b>.
 						</p>
 						` + exam_rating + `
 					</center>
