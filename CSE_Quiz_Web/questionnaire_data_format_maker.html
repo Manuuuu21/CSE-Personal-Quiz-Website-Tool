@@ -164,12 +164,12 @@ Date: Nov 27, 2023, 1:11 PM
             <option value="data_13">data_13 = Verbal Ability - Paragraph organization</option>
             <option value="data_14">data_14 = Verbal Ability - Reading comprehension</option>
         </select><br><br>
-        <b>Question:</b> <textarea style="height:100px" required placeholder="Write the Question here" type="text" id="question" name="question"></textarea><br>
-        <b>Choice No. 1:</b><textarea required placeholder="Write the Choice No. 1 here." type="text" id="choices_1" name="choices_1" /></textarea><br>
-        <b>Choice No. 2:</b><textarea required placeholder="Write the Choice No. 2 here." type="text" id="choices_2" name="choices_2" /></textarea><br>
-        <b>Choice No. 3:</b><textarea required placeholder="Write the Choice No. 3 here." type="text" id="choices_3" name="choices_3" /></textarea><br>
-        <b>Choice No. 4:</b><textarea required placeholder="Write the Choice No. 4 here." type="text" id="choices_4" name="choices_4" /></textarea><br>
-        <b>Choice No. 5:</b><textarea required placeholder="Write the Choice No. 5 here." type="text" id="choices_5" name="choices_5" /></textarea><br><br>
+        <b>Question:</b> <textarea style="height:100px" placeholder="Write the Question here" type="text" id="question" name="question"></textarea><br>
+        <b>Choice No. 1:</b><textarea placeholder="Write the Choice No. 1 here." type="text" id="choices_1" name="choices_1" /></textarea><br>
+        <b>Choice No. 2:</b><textarea placeholder="Write the Choice No. 2 here." type="text" id="choices_2" name="choices_2" /></textarea><br>
+        <b>Choice No. 3:</b><textarea placeholder="Write the Choice No. 3 here." type="text" id="choices_3" name="choices_3" /></textarea><br>
+        <b>Choice No. 4:</b><textarea placeholder="Write the Choice No. 4 here." type="text" id="choices_4" name="choices_4" /></textarea><br>
+        <b>Choice No. 5:</b><textarea placeholder="Write the Choice No. 5 here." type="text" id="choices_5" name="choices_5" /></textarea><br><br>
         <b>Please select the corresponding number for the correct answer among the choices:</b><br>
         <select id="correct_ans">
             <option value="error">Please Click here the correct answer among the choices.</option>
@@ -180,7 +180,7 @@ Date: Nov 27, 2023, 1:11 PM
             <option value="5">Choice No. 5</option>
         </select>
         <br><br>
-        <b>Explanation for the Correct Answer:</b><br><textarea required style="height:100px" placeholder="Explanation for the correct answer." type="text" id="explanation" name="explanation" /></textarea><br><br>
+        <b>Explanation for the Correct Answer:</b><br><textarea style="height:100px" placeholder="Explanation for the correct answer." type="text" id="explanation" name="explanation" /></textarea><br><br>
         <input class="submit" type="submit" name="" value="SAVE" />
     </form><br>
     <button class="download disable" disabled id="downloadQuestionnaire">CLICK HERE TO DOWNLOAD THE QUESTIONS YOU'VE MADE AND SHARE THEM WITH OTHERS</button><br><br>
@@ -218,48 +218,75 @@ function format_question_to_json() {
     if (category == "error") {
         // Notifies the user
         alertDialog("Error!", "Please choose the topic.");
-        return;
     }
-    if (correct_ans == "error") {
+    else if (question == "" || question == null) {
+        // Notifies the user
+        alertDialog("Error!", "Please input your Question!");
+    }
+    else if (choices[0] == "" || choices[0] == null) {
+        // Notifies the user
+        alertDialog("Error!", "Please input your Choice No. 1!");
+    }
+    else if (choices[1] == "" || choices[1] == null) {
+        // Notifies the user
+        alertDialog("Error!", "Please input your Choice No. 2!");
+    }
+    else if (choices[2] == "" || choices[2] == null) {
+        // Notifies the user
+        alertDialog("Error!", "Please input your Choice No. 3!");
+    }
+    else if (choices[3] == "" || choices[3] == null) {
+        // Notifies the user
+        alertDialog("Error!", "Please input your Choice No. 4!");
+    }
+    else if (choices[4] == "" || choices[4] == null) {
+        // Notifies the user
+        alertDialog("Error!", "Please input your Choice No. 5!");
+    }
+    else if (correct_ans == "error") {
         // Notifies the user
         alertDialog("Error!", "Please choose the correct answer among the choices.");
-        return;
     }
+    else if (explanation == "" || explanation == null) {
+        // Notifies the user
+        alertDialog("Error!", "Please input the explanation for the correct the answer!");
+    }
+    else {
+        // Formats the question data and adds it to the questionArray
+        const formattedQuestion = formatQuestionData(
+            questionIdCounter++,
+            question.replace(/\n/g, '<br/>'),
+            choices,
+            choices[correct_ans - 1],
+            explanation.replace(/\n/g, '<br/>')
+        );
+        questionArray.push(formattedQuestion);
 
-    // Formats the question data and adds it to the questionArray
-    const formattedQuestion = formatQuestionData(
-        questionIdCounter++,
-        question.replace(/\n/g, '<br/>'),
-        choices,
-        choices[correct_ans - 1],
-        explanation.replace(/\n/g, '<br/>')
-    );
-    questionArray.push(formattedQuestion);
+        // reset all value
+        document.getElementById("question").value = "";
+        document.getElementById("choices_1").value = "";
+        document.getElementById("choices_2").value = "";
+        document.getElementById("choices_3").value = "";
+        document.getElementById("choices_4").value = "";
+        document.getElementById("choices_5").value = "";
+        document.getElementById("correct_ans").selectedIndex = 0;
+        document.getElementById("explanation").value = "";
 
-    // reset all value
-    document.getElementById("question").value = "";
-    document.getElementById("choices_1").value = "";
-    document.getElementById("choices_2").value = "";
-    document.getElementById("choices_3").value = "";
-    document.getElementById("choices_4").value = "";
-    document.getElementById("choices_5").value = "";
-    document.getElementById("correct_ans").selectedIndex = 0;
-    document.getElementById("explanation").value = "";
+        // Get the button element by its id
+        var downloadButton = document.getElementById("downloadQuestionnaire");
 
-    // Get the button element by its id
-    var downloadButton = document.getElementById("downloadQuestionnaire");
+        // Remove the disabled attribute
+        downloadButton.removeAttribute("disabled");
 
-    // Remove the disabled attribute
-    downloadButton.removeAttribute("disabled");
+        // Remove the "disable" class
+        downloadButton.classList.remove("disable");
 
-    // Remove the "disable" class
-    downloadButton.classList.remove("disable");
+        // Notifies the user that the question is saved
+        alertDialog("Success!", "The data question you've make is successfully saved.");
 
-    // Notifies the user that the question is saved
-    alertDialog("Success!", "The data question you've make is successfully saved.");
-
-    // Disabling the select tag after choosing an option
-    document.getElementById('selectCategory').disabled = true;
+        // Disabling the select tag after choosing an option
+        document.getElementById('selectCategory').disabled = true;
+    }
 }
 
 // Function to display an alert dialog with a custom message
