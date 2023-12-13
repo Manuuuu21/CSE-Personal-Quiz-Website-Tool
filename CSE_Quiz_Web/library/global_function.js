@@ -378,61 +378,79 @@ function displayQuestionAndChoicesForTopics(questionData) {
     document.getElementById("choices_con").innerHTML = choicesHTML;
 }
 
+// Global variable for managing the setInterval function
+let timerInterval;
 
-// for updating the seekbar and current time
-var timerInterval;
-var timerCounter = 0;
-var timerCounterForGlobal = 0; // to Identifies how many minutes and seconds
-var timerInitiateCounter = 0;
+// Variable for tracking the timer displayed on the website
+let timerCounter = 0;
 
+// Global variable for tracking the overall time in seconds, used for calculating hours, minutes, and seconds
+let timerCounterForGlobal = 0;
+
+// Variable for initiating the timer
+let timerInitiateCounter = 0;
+
+// The interval at which the timer increments, in seconds, for use with setInterval
+let counting_per_seconds = 1;
+
+// Conversion of the interval from seconds to milliseconds, for use with setInterval
+let convert_to_milliseconds = counting_per_seconds * 1000; 
+
+// Function to update the timer
 update_timer=()=> {
     timerInterval = setInterval(function() {
+        // Increment the timer counters
         timerCounter++;
         timerCounterForGlobal++;
 
-        // get the video duration hours, minutes, seconds
-        var timerDuration = Math.floor(timerCounter);
-        var secs = Math.floor(timerDuration) % 60;
-        var secs_string = secs.toString();
-        var secs_length = secs_string.length;
+        // Calculate the timer duration in seconds
+        let timerDuration = Math.floor(timerCounter);
 
-        var min = Math.floor(timerDuration / 60);
-        var min_string = min.toString();
-        var min_length = min_string.length;
+        // Calculate the current seconds and minutes
+        let secs = Math.floor(timerDuration) % 60;
+        let min = Math.floor(timerDuration / 60);
 
-        // for time start hours, minutes, seconds variables
-        var timerMinutes = document.querySelector("#timerMinutes");
-        var timerSeconds = document.querySelector("#timerSeconds");
+        // Convert the seconds and minutes to strings for display
+        let secs_string = secs.toString();
+        let min_string = min.toString();
 
-        // for 1 numbers counting like 1-9.
+        // Get the length of the seconds and minutes strings
+        let secs_length = secs_string.length;
+        let min_length = min_string.length;
+
+        // Get the timer display elements
+        let timerMinutes = document.querySelector("#timerMinutes");
+        let timerSeconds = document.querySelector("#timerSeconds");
+
+        // Update the seconds display, adding a leading zero for single-digit numbers
         if (secs_length == 1) {
             timerSeconds.innerHTML = "0" + secs_string;
         }
-        // for 2 numbers counting like 11-infinity
         else {
             timerSeconds.innerHTML = secs_string;
         }
 
-        // for 1 length numbers counting like 1-9.
+        // Update the minutes display, adding a leading zero for single-digit numbers
         if (min_length == 1) {
             timerMinutes.innerHTML = "0" + min_string;
         }
-        // for 2 length numbers counting like 11-infinity
         else {
             timerMinutes.innerHTML = min_string;
         }
-
-    }, 10);
+    }, convert_to_milliseconds);
 }
 
+// Function to stop the timer
 stop_timer=()=> {
+    // Stop the interval of the update timer
     clearInterval(timerInterval);
+
+    // Reset the timer for initiating counter
     timerInitiateCounter = 0;
 }
 
-initial_timer=()=> {
+initiate_timer=()=> {
     // Increment the timerInitiateCounter by 1.
-    // This counter keeps track of how many times the timer has been initiated.
     timerInitiateCounter++;
 
     // Check if the timer has been initiated for the first time.
@@ -446,31 +464,6 @@ initial_timer=()=> {
     // Reset the counter for timerCounting
     timerCounter = 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Checks the examinee's answer against the correct answer and provides feedback.
@@ -572,7 +565,7 @@ displayPreviousQuestionsAndChoices_data=(dataQuestionsIndex, dataQuestions, numb
     setTimeout(function() {
         $(".prev_choices.correct").append("<div class='tooltip_for_prev_display correct'>Correct answer.</div>");
         $(".prev_choices.wrong").append("<div class='tooltip_for_prev_display wrong'>Your answer.</div>");
-    }, 50);
+    }, 16);
     
     // Append the previous questions and choices HTML to the body of the webpage
     $(SELECT.BODY).append(prevQuestions);

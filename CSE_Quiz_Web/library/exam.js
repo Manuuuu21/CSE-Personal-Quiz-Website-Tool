@@ -10,6 +10,7 @@ function createExam() {
     // Loop through all choices and Reset background color for all topics
     for (var i = 0; i < topicElements.length; i++) {
         topicElements[i].style.backgroundColor = "";
+        topicElements[i].style.border = "";
     }
 
     // Set the flag indicating if the examanee is taking the exam to true
@@ -27,6 +28,7 @@ function createExam() {
 
     // stop the timer and reset the timerInitiateCounter
     stop_timer();
+    timerCounterForGlobal = 0;
 
     // Remove the Data Privacy content
     $(SELECT.CONTENT).remove();
@@ -259,7 +261,7 @@ displayQuestionForExam = () => {
     }
 
     // Initiate timer for questions
-    initial_timer();
+    initiate_timer();
 }
 
 /**

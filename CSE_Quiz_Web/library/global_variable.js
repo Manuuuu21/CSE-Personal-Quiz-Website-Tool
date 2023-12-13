@@ -58,6 +58,7 @@ let choices;
 let choicesHTML;
 
 let bgColorForSelectedAnswer = "#c2e7ff";
+let borderColorForSelectedAnswer = "1px solid #1a73e8";
 
 /* Store the previous questions displayed */
 let prev_questions = [];

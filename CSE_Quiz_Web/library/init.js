@@ -51,6 +51,7 @@ selectedTopic=(topicID)=> {
 	// Loop through all choices and Reset background color for all topic
 	for (var i = 0; i < topicElements.length; i++) {
 		topicElements[i].style.backgroundColor = "";
+		topicElements[i].style.border = "";
 	}
 
 	// Since we click the topics, lets set it true
@@ -65,6 +66,7 @@ selectedTopic=(topicID)=> {
 
 	// Set the background color of the clicked choice
 	topicElements[topicID].style.backgroundColor = bgColorForSelectedAnswer;
+	topicElements[topicID].style.border = borderColorForSelectedAnswer;
 
 	if (isMobileVersion) {
 		closeSideBar();
@@ -72,6 +74,7 @@ selectedTopic=(topicID)=> {
 
 	// stop the timer and reset the timerInitiateCounter
 	stop_timer();
+	timerCounterForGlobal = 0;
 
 	// Remove the class content first
 	$(SELECT.CONTENT).remove();
@@ -269,7 +272,7 @@ selectedTopicDisPlayQuestion=(IdTopicQuestion)=> {
 	}
 
 	// Initiate timer for questions
-	initial_timer();
+	initiate_timer();
 }
 
 // Function to get data questions based on the topic ID
