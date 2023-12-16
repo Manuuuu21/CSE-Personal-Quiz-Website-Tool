@@ -514,6 +514,10 @@ function showResult(showResultTopicID) {
 	let curr_month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 	let curr_day = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
+	let currentTime = new Date().toLocaleTimeString();
+	let timeParts = currentTime.split(":");
+	let amPmPart = timeParts[2].split(" ")[1];
+
 	// Calculate the percentage of examinee score with an upper limit of 99.99%
 	// This is for Topics Rate percentage calculation
 	let resultPercentage = (score/examanee_number_of_questions) * 99.99;
@@ -644,7 +648,7 @@ function showResult(showResultTopicID) {
 					</p>
 
 					<p>
-						<i>Date Generated: <b>` + curr_month[curr_date.getMonth()] + ` ` + curr_date.getDate() + `, ` + curr_date.getFullYear()  + `, ` + curr_day[curr_date.getDay()] + `</b></i>
+						<i>Date and Time Generated: <b>` + curr_month[curr_date.getMonth()] + ` ` + curr_date.getDate() + `, ` + curr_date.getFullYear()  + `, ` + curr_day[curr_date.getDay()] + `, ` + timeParts[0] + `:` + timeParts[1] + ` ` + amPmPart + `</b></i>
 					</p>
 					<center>
 						<i style="font-size:11px">Please note: This is an electronic printout. It is not intended to be used for any legal purposes.</i>

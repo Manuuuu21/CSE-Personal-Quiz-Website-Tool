@@ -556,7 +556,7 @@ displayPreviousQuestionsAndChoices_data=(dataQuestionsIndex, dataQuestions, numb
             prevchoicesTxt += '"> ' + (c + 1) + ') ' + choice + '</div>';
         }
 
-        prevQuestions += prevchoicesTxt + '<div class="question_explanation"><div><b>Explanation:</b></div><p style="font-size:17px">' + questionData.explanation + '</p></div>' + 
+        prevQuestions += prevchoicesTxt + '<div class="question_explanation"><div><b>Explanation:</b></div><p style="font-size:15px">' + questionData.explanation + '</p></div>' + 
         '</div></div>';
 
         n++; // Increment 'n' by 1

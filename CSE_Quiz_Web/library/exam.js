@@ -26,7 +26,7 @@ function createExam() {
         closeSideBar();
     }
 
-    // stop the timer and reset the timerInitiateCounter
+    // stop the timer and reset the timerCounterForGlobal
     stop_timer();
     timerCounterForGlobal = 0;
 

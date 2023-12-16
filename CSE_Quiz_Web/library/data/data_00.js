@@ -681,5 +681,109 @@ const data_00 = [
 	    ],
 	    "correct_ans": "It informs Congress and the public about the state of the nation and proposed legislative agenda.",
 	    "explanation": "Article 7 of the Philippine Constitution mandates that the President's State of the Nation Address (SONA) informs Congress and the public about the state of the nation and the President's proposed legislative agenda."
-	},	
+	},
+	{
+	    "id": 53,
+	    "question": "How can amendments or revisions be made to the Philippine Constitution?",
+	    "choices": [
+	      	"By a simple majority vote in Congress",
+	      	"By a public referendum",
+	      	"Through a constitutional convention",
+	      	"By the President",
+	      	"By the Supreme Court"
+	    ],
+	    "correct_ans": "Through a constitutional convention",
+	    "explanation": "Amending the Philippine Constitution requires a rigorous process involving a constitutional convention elected by the people. This convention drafts amendments, which then need to be ratified by the public through a nationwide vote. Unlike simpler procedures, this approach ensures broad public participation and consensus for fundamental changes to the Constitution."
+	},
+	{
+	    "id": 54,
+	    "question": "The Philippine Constitution prioritizes the utilization of natural resources for the benefit of future generations. What is this principle called?",
+	    "choices": [
+	      	"Intergenerational equity",
+	      	"Sustainable development",
+	      	"Free market economics",
+	      	"State intervention",
+	      	"Environmental protection"
+	    ],
+	    "correct_ans": "Sustainable development",
+	    "explanation": "The Philippine Constitution emphasizes the importance of utilizing resources responsibly and considering the needs of future generations. This principle is encapsulated in the concept of sustainable development, aiming to balance economic progress with environmental protection and long-term social well-being."
+	},
+	{
+	    "id": 55,
+	    "question": "The Supreme Court has the power to declare which law or government action is unconstitutional. What is this power called?",
+	    "choices": [
+	      	"Judicial review",
+	      	"Legislative oversight",
+	      	"Executive privilege",
+	      	"Administrative discretion",
+	      	"Habeas corpus"
+	    ],
+	    "correct_ans": "Judicial review",
+	    "explanation": "The Supreme Court's power to declare laws or actions unconstitutional is known as judicial review. This power ensures the Constitution's supremacy and serves as a crucial check against legislative and executive overreach."
+	},
+	{
+	    "id": 56,
+	    "question": "Which of the following is NOT a function of the Commission on Elections (COMELEC)?",
+	    "choices": [
+	      	"Registering voters and conducting elections",
+	      	"Enforcing campaign finance regulations",
+	      	"Investigating and adjudicating election-related offenses",
+	      	"Appointing government officials",
+	      	"Overseeing the judiciary"
+	    ],
+	    "correct_ans": "Appointing government officials",
+	    "explanation": "The Commission on Elections (COMELEC) focuses on ensuring fair and transparent elections, including voter registration, election conduct, campaign finance regulations, and investigating election-related offenses. However, appointing government officials falls outside their designated functions."
+	},
+	{
+	    "id": 57,
+	    "question": "What is the smallest unit of local government in the Philippines?",
+	    "choices": [
+	      	"Province",
+	      	"City",
+	      	"Municipality",
+	      	"Barangay",
+	      	"District"
+	    ],
+	    "correct_ans": "Barangay",
+	    "explanation": "While provinces, cities, and municipalities play important roles in local governance, the barangay serves as the smallest and most fundamental unit, directly connecting with communities at the grassroots level."
+	},
+	{
+	    "id": 58,
+	    "question": "What does the Philippine Constitution recognize as the \"fundamental unit of society\"?",
+	    "choices": [
+	      	"The individual",
+	      	"The community",
+	      	"The barangay",
+	      	"The family",
+	      	"The government"
+	    ],
+	    "correct_ans": "The family",
+	    "explanation": "The Philippine Constitution recognizes the family as the \"fundamental unit of society,\" highlighting its crucial role in nurturing future generations, instilling values, and contributing to social stability."
+	},
+	{
+		"id": 59,
+		"question": "Which article of the Philippine Constitution emphasizes the importance of environmental protection and sustainable development?",
+		"choices": [
+			"Article II: Declaration of Principles and State Policies",
+		    "Article VI: Legislative Department",
+		    "Article IX: Constitutional Commissions",
+		    "Article XII: National Economy and Patrimony",
+		    "Article XIV: Education, Science and Technology, Arts, Culture, and Sports"
+		],
+		"correct_ans": "Article XII: National Economy and Patrimony",
+		"explanation": "Article XII explicitly states the Philippines' commitment to 'utilize the country's natural resources and protect and conserve the environment.' It also emphasizes the principle of intergenerational equity, ensuring that the current generation uses resources responsibly for the benefit of future generations."
+	},
+	{
+	  "id": 60,
+	  "question": "The Philippine Constitution guarantees various fundamental rights to its citizens. Which of the following is NOT explicitly mentioned as a right in Article III: Bill of Rights?",
+	  "choices": [
+	    	"Freedom of speech and expression",
+	    	"Right to a speedy and impartial trial",
+	    	"Right to own property",
+	    	"Right to privacy",
+	    	"Right to marry and raise a family"
+	  ],
+	  "correct_ans": "Right to own property",
+	  "explanation": "While Article III protects numerous rights, including freedom of speech, fair trial, privacy, and marriage, the right to own property is not explicitly listed. However, the Constitution implicitly recognizes this right through provisions protecting individual liberties and private property rights."
+	}
 ]

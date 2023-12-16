@@ -533,7 +533,7 @@ table, th, td {
 .modal-content {
   position: absolute;
   right: 10px;
-  width: 20%;
+  width: 315px;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgb(0 0 0 / 23%);
@@ -646,6 +646,7 @@ table, th, td {
   text-shadow: none;
 }
 .alertDialogMessage {
+  font-size: 16px;
   color: gray;
   margin-bottom: 20px;
   text-shadow: none;
