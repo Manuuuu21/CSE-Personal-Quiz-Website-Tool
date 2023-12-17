@@ -15,6 +15,34 @@
   font-style: normal;
   font-display: fallback;
 }
+
+
+
+
+.create_exam_md {
+  display: flex;
+  border: none;
+  border-radius: 100px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 15px;
+  cursor: pointer;
+  transition: 0.3s background;
+}
+.create_exam_md:hover {
+  background: #dbdbdb;
+}
+.create_exam_md:active {
+  background: lightslategray;
+}
+.create_exam_md .description {
+  font-size: 20px;
+}
+
+
+
+
+
 body {
   margin: 6.5% 0 10% 0;
   padding: 0;
@@ -51,6 +79,7 @@ body {
   border-radius: 25px;
   cursor: pointer;
   font-size: 17px;
+  /* transition: 0.3s background; */
 }
 .side_nav .active {
   background: var(--sideNavActiveColor);

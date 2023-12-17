@@ -3,28 +3,61 @@
  * Date: Nov 27, 2023, 1:11 PM
  *
  */
+
+let createExamCounter = 0;
+function loadingToCreateExam() {
+
+    createExamCounter++;
+
+    if (createExamCounter == 1) {
+        // Get all elements with class name "list"
+        let topicElements = document.getElementsByClassName("list");
+        // Loop through all choices and Reset background color for all topics
+        for (var i = 0; i < topicElements.length; i++) {
+            topicElements[i].style.backgroundColor = "";
+            topicElements[i].style.border = "";
+        }
+
+        // Remove the Data Privacy content
+        $(SELECT.CONTENT).remove();
+
+        // Remove the creator elements
+        $(".creator").remove();
+
+        // Remove the donation container
+        $(".donate_me_con").remove();
+
+        if (isMobileVersion) {
+            closeSideBar();
+        }
+
+        let messages = ["Loading! Please wait ...", "Configuring Examination! Please be patient ..."];
+        let randomMessage = messages[Math.floor(Math.random() * messages.length)];
+
+        $(SELECT.BODY).append(`
+            <div class="content">
+                <h1>` + randomMessage + `</h1>
+            </div>
+        `);
+
+        $(".list").attr("disabled", true);
+
+        setTimeout(function() {
+            createExamCounter = 0;
+            createExam();
+            $(".list").attr("disabled", null);
+        }, 100);
+    }
+}
+
 // Function for creating exam
 function createExam() {
-    // Get all elements with class name "list"
-    let topicElements = document.getElementsByClassName("list");
-    // Loop through all choices and Reset background color for all topics
-    for (var i = 0; i < topicElements.length; i++) {
-        topicElements[i].style.backgroundColor = "";
-        topicElements[i].style.border = "";
-    }
-
+    
     // Set the flag indicating if the examanee is taking the exam to true
     isTakingExam = true;
 
     // Set the number of questions that the examanee needs to answer
     examanee_number_of_questions = exam_number_of_questions;
-
-    // Close the Menu Modal
-    closeMenuModal();
-
-    if (isMobileVersion) {
-        closeSideBar();
-    }
 
     // stop the timer and reset the timerCounterForGlobal
     stop_timer();
