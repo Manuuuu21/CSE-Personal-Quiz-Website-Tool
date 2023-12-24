@@ -419,19 +419,29 @@ function checkAnswer(selectedIndex) {
 
 // Function to submit an answer
 function submitAnswer() {
-	/* Check if an answer is selected */
-	if (!isAnswerSelected) {
-	    // Display an error message if no answer is selected
-	    alertDialog("Oops!", "Please select your answer!");
-		
-	}
-    else {
-    	// Move to the next Question
-    	moveToNextQuestionForTopic();
-    }
+	switch(disable_non_answer) {
+	// You can submit your answer anytime, even if you have not chosen an answer.
+	case true:
+		// Move to the next Question
+	    moveToNextQuestionForTopic();
+	break;
 
-    // Lets reset the isAnswerSelected
-    // Since you already submitted your answer
+	// You will see an error if no answer is submitted
+	case false:
+		/* Check if an answer is selected */
+		if (!isAnswerSelected) {
+		    // Display an error message if no answer is selected
+		    alertDialog("Oops!", "Please select your answer!");
+			
+		}
+	    else {
+	    	// Move to the next Question
+	    	moveToNextQuestionForTopic();
+	    }
+	break;
+	}
+	
+    // Reset the isAnswerSelected since the answer has been submitted
 	isAnswerSelected = false;
 
 }
@@ -481,7 +491,7 @@ let txtButton = "";
 // Function to handle the end of the quiz
 function end_of_quiz(exam) {
 	// stop the timer
-	 stop_timer();
+	stop_timer();
 
     // Remove the content, and donate container elements
     $(SELECT.CONTENT).remove();
@@ -510,6 +520,7 @@ function end_of_quiz(exam) {
 
 
 function showResult(showResultTopicID) {
+	window.scrollTo(0, 0);
 	let curr_date = new Date();
 	let curr_month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 	let curr_day = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
@@ -670,9 +681,6 @@ function showResult(showResultTopicID) {
 			<button onclick="reviewed_ans()" class="review_answer">Review your Answer</button>
 		`);
 	}
-
-	// Reset the timer counter for Global
-	timerCounterForGlobal = 0;
 }
 
 function reviewed_ans() {

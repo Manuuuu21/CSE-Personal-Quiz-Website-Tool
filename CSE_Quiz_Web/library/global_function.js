@@ -351,7 +351,7 @@ function displayQuestionAndChoicesForTopics(questionData) {
                 </div>
                 <div class="question" id="question"></div>
                 <div class="choices_con" id="choices_con"></div>
-                <div class="submit_question"><button onclick="submitAnswer()">Submit your answer</button></div>
+                <div class="submit_question"><button class="ripple-btn" onclick="submitAnswer()">Submit your answer</button></div>
             </div>
         </div>`
     );
@@ -376,7 +376,7 @@ function displayQuestionAndChoicesForTopics(questionData) {
     // Generate HTML for the shuffled choices and add click event listeners
     choicesHTML = "";
     for (let i = 0; i < choices.length; i++) {
-        choicesHTML += "<div class='choices' onclick='checkAnswer(" + i + ")'>" + (i + 1) + ") " + choices[i] + "</div>";
+        choicesHTML += "<div class='choices ripple-btn' onclick='checkAnswer(" + i + ")'>" + (i + 1) + ") " + choices[i] + "</div>";
     }
 
     // Set the choices in the HTML
@@ -591,6 +591,9 @@ displayPreviousQuestionsAndChoices_data=(dataQuestionsIndex, dataQuestions, numb
         $(".donate_me").append(`
             <button onclick="createExam()" class="retake_quiz retake_exam">Retake Exam</button>
         `);
+        $(".donate_me").append(`
+            <button onclick="showResult()" class="back_to_result_btn">Return to Result Page</button>
+        `);
     }
 
     if (displaySecondPagination) {
@@ -611,5 +614,51 @@ displayPreviousQuestionsAndChoices_data=(dataQuestionsIndex, dataQuestions, numb
         $(".donate_me").append(`
             <button onclick="selectedTopic(`+ selectedTopicID + `)" class="retake_quiz">Retake Quiz</button>
         `);
+        $(".donate_me").append(`
+            <button onclick="showResult()" class="back_to_result_btn">Return to Result Page</button>
+        `);
     }
 }
+
+/* Ripple effect for button */
+function initializeRippleEffect() {
+    // Attach the click event listener to a parent element
+    document.body.addEventListener('click', function (event) {
+        // Find the closest ancestor with the 'ripple-btn' class
+        const rippleBtn = event.target.closest('.ripple-btn');
+        
+        if (rippleBtn) {
+            createRipple(event, rippleBtn);
+        }
+    });
+}
+
+function createRipple(event, element) {
+    // Create a ripple element
+    const ripple = document.createElement('span');
+    ripple.classList.add('ripple');
+
+    // Calculate the position of the ripple
+    const rect = element.getBoundingClientRect();
+    const size = Math.max(rect.width, rect.height);
+    const x = event.clientX - rect.left - size / 2;
+    const y = event.clientY - rect.top - size / 2;
+
+    // Apply position and size to the ripple
+    ripple.style.width = ripple.style.height = `${size}px`;
+    ripple.style.left = `${x}px`;
+    ripple.style.top = `${y}px`;
+
+    // Append the ripple to the element
+    element.appendChild(ripple);
+
+    // Remove the ripple element after the animation completes
+    ripple.addEventListener('animationend', () => {
+        ripple.remove();
+    });
+}
+
+// Initialize the ripple effect when the page is fully loaded
+document.addEventListener('DOMContentLoaded', function () {
+    initializeRippleEffect();
+});

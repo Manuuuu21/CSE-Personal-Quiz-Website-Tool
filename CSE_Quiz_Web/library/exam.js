@@ -7,6 +7,9 @@
 let createExamCounter = 0;
 function loadingToCreateExam() {
 
+    stop_timer();
+    timerCounterForGlobal = 0;
+
     createExamCounter++;
 
     if (createExamCounter == 1) {
@@ -31,7 +34,7 @@ function loadingToCreateExam() {
             closeSideBar();
         }
 
-        let messages = ["Loading! Please wait ...", "Configuring Examination! Please be patient ..."];
+        let messages = ["Loading! Please wait . . .", "Configuring Examination! Please be patient . . ."];
         let randomMessage = messages[Math.floor(Math.random() * messages.length)];
 
         $(SELECT.BODY).append(`
@@ -46,7 +49,7 @@ function loadingToCreateExam() {
             createExamCounter = 0;
             createExam();
             $(".list").attr("disabled", null);
-        }, 100);
+        }, 500);
     }
 }
 
@@ -321,7 +324,7 @@ function displayQuestionAndChoicesForExam(questionData) {
                 </div>
                 <div class="question" id="question"></div>
                 <div class="choices_con" id="choices_con"></div>
-                <div class="submit_question"><button onclick="submitAnswerForExam()">Submit your answer</button></div>
+                <div class="submit_question"><button class="ripple-btn" onclick="submitAnswerForExam()">Submit your answer</button></div>
             </div>
         </div>`
     );
@@ -346,7 +349,7 @@ function displayQuestionAndChoicesForExam(questionData) {
     // Generate HTML for the shuffled choices and add click event listeners
     choicesHTML = "";
     for (let i = 0; i < choices.length; i++) {
-        choicesHTML += "<div class='choices' onclick='checkAnswerExam(" + i + ")'>" + (i + 1) + ") " + choices[i] + "</div>";
+        choicesHTML += "<div class='choices ripple-btn' onclick='checkAnswerExam(" + i + ")'>" + (i + 1) + ") " + choices[i] + "</div>";
     }
 
     // Set the choices in the HTML
@@ -482,16 +485,27 @@ function checkExamaneeAnswerForExam(answerData) {
  * and updates the question counter. If it's the last question, it ends the quiz.
  */
 function submitAnswerForExam() {
-    // Check if an answer is selected
-    if (!isAnswerSelected) {
-        // Display an error message if no answer is selected
-        alertDialog("Oops!", "Please select your answer!");
-    }
-    else {
-        // Move to the next Question
-        moveToNextQuestionForExam();
-    }
+    switch(disable_non_answer) {
+        // You can submit your answer anytime, even if you have not chosen an answer.
+        case true:
+            // Move to the next Question
+            moveToNextQuestionForExam();
+        break;
 
+        // You will see an error if no answer is submitted
+        case false:
+             // Check if an answer is selected
+            if (!isAnswerSelected) {
+                // Display an error message if no answer is selected
+                alertDialog("Oops!", "Please select your answer!");
+            }
+            else {
+                // Move to the next Question
+                moveToNextQuestionForExam();
+            }
+        break;
+    }
+   
     // Reset the isAnswerSelected since the answer has been submitted
     isAnswerSelected = false;
 }

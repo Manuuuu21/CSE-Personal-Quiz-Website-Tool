@@ -75,6 +75,9 @@ let analyticalScore = 0;
 let numbericalScore = 0;
 let genInfoScore = 0;
 
+/* This variable controls the non-answer submission. If set to true, non-answer submissions are disabled. If set to false, non-answer submissions are enabled (You will see an error if no answer is submitted). */
+let disable_non_answer = false;
+
 /* 
  * Numbers of questions you need to answers or completed for Exam. Note: Do not change anything here. unless you know it.
  */
