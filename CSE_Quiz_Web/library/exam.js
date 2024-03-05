@@ -81,7 +81,7 @@ function createExam() {
         <h1>YOU ARE CURRENTLY TAKING EXAM RELATED TO:</h1>
         <p><b>Topic:</b> ` + topics[15] + `</p>
         <p><b>Total No. of Questions:</b> ` + examanee_number_of_questions + ` Questions.</p>
-        <p><b>Passing Grade:</b> ` + passing_grade + `%.</p>
+        <p><b>Passing Grade:</b> ` + passing_grade + `% and above.</p>
         <p>Numbers of Questions per major topics:</p>
         <div>General Information: ` + numbers_exam_at_general_info + ` Questions</div>
         <div>Numerical Ability: ` + numbers_exam_at_numberical_ability + ` Questions</div>
@@ -120,6 +120,9 @@ restartExamQuestion=()=> {
     // Resetting the user's answer
     my_answer = [];
 
+    // reset the answered time
+    answer_time = [];
+
 	// Resetting the General Information set of Questions
 	// The Overall set of Question for Gen Info is 20 Questions.
 	// The topics include: Philippine Constitution, Code of Conduct, Environmental Management, and Peace and Human Rights concepts and issues.
@@ -131,33 +134,33 @@ restartExamQuestion=()=> {
 	data_03_QuestionsArray = uniqueRandomQuestion(0, (data_03.length - 1), 5); // Topic 3
 
     // Resetting the Numerical Ability set of Questions
-    // The Overall set of Question for Numerical Ability is 50 Questions.
+    // The Overall set of Question for Numerical Ability is 43 Questions.
     // The topics include: Basic Operation, Identify Sequence, Word Problems
-    // We need to divide the 50 Questions into 3 sets of topics.
+    // We need to divide the 43 Questions into 3 sets of topics.
     // Generate unique random questions for each topic
-    data_04_QuestionsArray = uniqueRandomQuestion(0, (data_04.length - 1), 18); // Topic 4
-    data_05_QuestionsArray = uniqueRandomQuestion(0, (data_05.length - 1), 16); // Topic 5
-    data_06_QuestionsArray = uniqueRandomQuestion(0, (data_06.length - 1), 16); // Topic 6
+    data_04_QuestionsArray = uniqueRandomQuestion(0, (data_04.length - 1), 15); // Topic 4
+    data_05_QuestionsArray = uniqueRandomQuestion(0, (data_05.length - 1), 14); // Topic 5
+    data_06_QuestionsArray = uniqueRandomQuestion(0, (data_06.length - 1), 14); // Topic 6
 
     // Resetting the Analytical Ability set of Questions
-    // The Overall set of Question for Numerical Ability is 50 Questions.
+    // The Overall set of Question for Numerical Ability is 43 Questions.
     // The topics include: Word Association, Identifying assumption and conclusion, logical reasoning, and Data Interpretation and analysis
-    // We need to divide the 50 Questions into 4 sets of topics.
+    // We need to divide the 43 Questions into 4 sets of topics.
     // Generate unique random questions for each topic
-    data_07_QuestionsArray = uniqueRandomQuestion(0, (data_07.length - 1), 14); // Topic 7
-    data_08_QuestionsArray = uniqueRandomQuestion(0, (data_08.length - 1), 12); // Topic 8
-    data_09_QuestionsArray = uniqueRandomQuestion(0, (data_09.length - 1), 12); // Topic 9
-    data_10_QuestionsArray = uniqueRandomQuestion(0, (data_10.length - 1), 12); // Topic 10
+    data_07_QuestionsArray = uniqueRandomQuestion(0, (data_07.length - 1), 11); // Topic 7
+    data_08_QuestionsArray = uniqueRandomQuestion(0, (data_08.length - 1), 11); // Topic 8
+    data_09_QuestionsArray = uniqueRandomQuestion(0, (data_09.length - 1), 11); // Topic 9
+    data_10_QuestionsArray = uniqueRandomQuestion(0, (data_10.length - 1), 10); // Topic 10
     
     // Resetting the Verbal Ability set of Questions
-    // The Overall set of Question for Numerical Ability is 50 Questions.
+    // The Overall set of Question for Numerical Ability is 44 Questions.
     // The topics include: Grammar and correct usage, Vocabulary, Paragraph Organization, and Reading Comprehension
-    // We need to divide the 50 Questions into 4 sets of topics.
+    // We need to divide the 44 Questions into 4 sets of topics.
     // Generate unique random questions for each topic
-    data_11_QuestionsArray = uniqueRandomQuestion(0, (data_11.length - 1), 14); // Topic 11
-    data_12_QuestionsArray = uniqueRandomQuestion(0, (data_12.length - 1), 12); // Topic 12
-    data_13_QuestionsArray = uniqueRandomQuestion(0, (data_13.length - 1), 12); // Topic 13
-    data_14_QuestionsArray = uniqueRandomQuestion(0, (data_14.length - 1), 12); // Topic 14
+    data_11_QuestionsArray = uniqueRandomQuestion(0, (data_11.length - 1), 11); // Topic 11
+    data_12_QuestionsArray = uniqueRandomQuestion(0, (data_12.length - 1), 11); // Topic 12
+    data_13_QuestionsArray = uniqueRandomQuestion(0, (data_13.length - 1), 11); // Topic 13
+    data_14_QuestionsArray = uniqueRandomQuestion(0, (data_14.length - 1), 11); // Topic 14
 }
 
 displayQuestionForExam = () => {
@@ -209,53 +212,53 @@ displayQuestionForExam = () => {
             $(SELECT.INSTRUCTION).html(SELECT.INSTRUCTION_EXAM_00);
         }
 
-        else if (questionCounter < 38) {
+        else if (questionCounter < 35) {
             currentTopic = data_04;
             questionIndex = data_04_QuestionsArray[questionCounter - 20]; // Start index=0 but the counting for questionCounter start from 20
             // Fetch and display the questions and choices for the selected topic.
             displayQuestionAndChoicesForExam(currentTopic[questionIndex]);
             $(SELECT.INSTRUCTION).html(SELECT.INSTRUCTION_EXAM_01);
         }
-        else if (questionCounter < 54) {
+        else if (questionCounter < 49) {
             currentTopic = data_05;
-            questionIndex = data_05_QuestionsArray[questionCounter - 38];
+            questionIndex = data_05_QuestionsArray[questionCounter - 35];
             // Fetch and display the questions and choices for the selected topic.
             displayQuestionAndChoicesForExam(currentTopic[questionIndex]);
             $(SELECT.INSTRUCTION).html(SELECT.INSTRUCTION_EXAM_01);
         }
-        else if (questionCounter < 70) {
+        else if (questionCounter < 63) {
             currentTopic = data_06;
-            questionIndex = data_06_QuestionsArray[questionCounter - 54];
+            questionIndex = data_06_QuestionsArray[questionCounter - 49];
             // Fetch and display the questions and choices for the selected topic.
             displayQuestionAndChoicesForExam(currentTopic[questionIndex]);
             $(SELECT.INSTRUCTION).html(SELECT.INSTRUCTION_EXAM_01);
         }
 
         // For Analytical
-        else if (questionCounter < 84) {
+        else if (questionCounter < 74) {
             currentTopic = data_07;
-            questionIndex = data_07_QuestionsArray[questionCounter - 70];
+            questionIndex = data_07_QuestionsArray[questionCounter - 63];
+            // Fetch and display the questions and choices for the selected topic.
+            displayQuestionAndChoicesForExam(currentTopic[questionIndex]);
+            $(SELECT.INSTRUCTION).html(SELECT.INSTRUCTION_EXAM_02);
+        }
+        else if (questionCounter < 85) {
+            currentTopic = data_08;
+            questionIndex = data_08_QuestionsArray[questionCounter - 74];
             // Fetch and display the questions and choices for the selected topic.
             displayQuestionAndChoicesForExam(currentTopic[questionIndex]);
             $(SELECT.INSTRUCTION).html(SELECT.INSTRUCTION_EXAM_02);
         }
         else if (questionCounter < 96) {
-            currentTopic = data_08;
-            questionIndex = data_08_QuestionsArray[questionCounter - 84];
-            // Fetch and display the questions and choices for the selected topic.
-            displayQuestionAndChoicesForExam(currentTopic[questionIndex]);
-            $(SELECT.INSTRUCTION).html(SELECT.INSTRUCTION_EXAM_02);
-        }
-        else if (questionCounter < 108) {
             currentTopic = data_09;
-            questionIndex = data_09_QuestionsArray[questionCounter - 96];
+            questionIndex = data_09_QuestionsArray[questionCounter - 85];
             // Fetch and display the questions and choices for the selected topic.
             displayQuestionAndChoicesForExam(currentTopic[questionIndex]);
             $(SELECT.INSTRUCTION).html(SELECT.INSTRUCTION_EXAM_02);
         }
-        else if (questionCounter < 120) {
+        else if (questionCounter < 106) {
             currentTopic = data_10;
-            questionIndex = data_10_QuestionsArray[questionCounter - 108];
+            questionIndex = data_10_QuestionsArray[questionCounter - 96];
             // Fetch and display the questions and choices for the selected topic.
             displayQuestionAndChoicesForExam(currentTopic[questionIndex]);
             $(SELECT.INSTRUCTION).html(SELECT.INSTRUCTION_EXAM_02);
@@ -263,30 +266,30 @@ displayQuestionForExam = () => {
         
         
         // For Verbal
-        else if (questionCounter < 134) {
+        else if (questionCounter < 117) {
             currentTopic = data_11;
-            questionIndex = data_11_QuestionsArray[questionCounter - 120];
+            questionIndex = data_11_QuestionsArray[questionCounter - 106];
             // Fetch and display the questions and choices for the selected topic.
             displayQuestionAndChoicesForExam(currentTopic[questionIndex]);
             $(SELECT.INSTRUCTION).html(SELECT.INSTRUCTION_EXAM_03);
         }
-        else if (questionCounter < 146) {
+        else if (questionCounter < 128) {
             currentTopic = data_12;
-            questionIndex = data_12_QuestionsArray[questionCounter - 134];
+            questionIndex = data_12_QuestionsArray[questionCounter - 117];
             // Fetch and display the questions and choices for the selected topic.
             displayQuestionAndChoicesForExam(currentTopic[questionIndex]);
             $(SELECT.INSTRUCTION).html(SELECT.INSTRUCTION_EXAM_03);
         }
-        else if (questionCounter < 158) {
+        else if (questionCounter < 139) {
             currentTopic = data_13;
-            questionIndex = data_13_QuestionsArray[questionCounter - 146];
+            questionIndex = data_13_QuestionsArray[questionCounter - 128];
             // Fetch and display the questions and choices for the selected topic.
             displayQuestionAndChoicesForExam(currentTopic[questionIndex]);
             $(SELECT.INSTRUCTION).html(SELECT.INSTRUCTION_EXAM_03);
         }
-        else if (questionCounter < 170) {
+        else if (questionCounter < 150) {
             currentTopic = data_14;
-            questionIndex = data_14_QuestionsArray[questionCounter - 158];
+            questionIndex = data_14_QuestionsArray[questionCounter - 139];
             // Fetch and display the questions and choices for the selected topic.
             displayQuestionAndChoicesForExam(currentTopic[questionIndex]);
             $(SELECT.INSTRUCTION).html(SELECT.INSTRUCTION_EXAM_03);
@@ -391,53 +394,53 @@ checkAnswerExam=(selectedIndexExam)=> {
     }
 
     // For Numerical Subject Checking of Answer of the selectedIndex if it is correct or wrong
-    else if (questionCounter < 38) {
+    else if (questionCounter < 35) {
         currentTopic = data_04;
         questionIndex = data_04_QuestionsArray[questionCounter - 20];
     }
-    else if (questionCounter < 54) {
+    else if (questionCounter < 49) {
         currentTopic = data_05;
-        questionIndex = data_05_QuestionsArray[questionCounter - 38];
+        questionIndex = data_05_QuestionsArray[questionCounter - 35];
     }
-    else if (questionCounter < 70) {
+    else if (questionCounter < 63) {
         currentTopic = data_06;
-        questionIndex = data_06_QuestionsArray[questionCounter - 54];
+        questionIndex = data_06_QuestionsArray[questionCounter - 49];
     }
 
     // For Analytical Subject Checking of Answer of the selectedIndex if it is correct or wrong
-    else if (questionCounter < 84) {
+    else if (questionCounter < 74) {
     currentTopic = data_07;
-    questionIndex = data_07_QuestionsArray[questionCounter - 70];
+    questionIndex = data_07_QuestionsArray[questionCounter - 63];
+    }
+    else if (questionCounter < 85) {
+        currentTopic = data_08;
+        questionIndex = data_08_QuestionsArray[questionCounter - 74];
     }
     else if (questionCounter < 96) {
-        currentTopic = data_08;
-        questionIndex = data_08_QuestionsArray[questionCounter - 84];
-    }
-    else if (questionCounter < 108) {
         currentTopic = data_09;
-        questionIndex = data_09_QuestionsArray[questionCounter - 96];
+        questionIndex = data_09_QuestionsArray[questionCounter - 85];
     }
-    else if (questionCounter < 120) {
+    else if (questionCounter < 106) {
         currentTopic = data_10;
-        questionIndex = data_10_QuestionsArray[questionCounter - 108];
+        questionIndex = data_10_QuestionsArray[questionCounter - 96];
     }
 
     // For Verbal Subject Subject Checking of Answer of the selectedIndex if it is correct or wrong
-    else if (questionCounter < 134) {
+    else if (questionCounter < 117) {
         currentTopic = data_11;
-        questionIndex = data_11_QuestionsArray[questionCounter - 120];
+        questionIndex = data_11_QuestionsArray[questionCounter - 106];
     }
-    else if (questionCounter < 146) {
+    else if (questionCounter < 128) {
         currentTopic = data_12;
-        questionIndex = data_12_QuestionsArray[questionCounter - 134];
+        questionIndex = data_12_QuestionsArray[questionCounter - 117];
     }
-    else if (questionCounter < 158) {
+    else if (questionCounter < 139) {
         currentTopic = data_13;
-        questionIndex = data_13_QuestionsArray[questionCounter - 146];
+        questionIndex = data_13_QuestionsArray[questionCounter - 128];
     }
-    else if (questionCounter < 170) {
+    else if (questionCounter < 150) {
         currentTopic = data_14;
-        questionIndex = data_14_QuestionsArray[questionCounter - 158];
+        questionIndex = data_14_QuestionsArray[questionCounter - 139];
     }
 
     // Check the examinee's answer for the exam
@@ -485,7 +488,7 @@ function checkExamaneeAnswerForExam(answerData) {
  * and updates the question counter. If it's the last question, it ends the quiz.
  */
 function submitAnswerForExam() {
-    switch(disable_non_answer) {
+    switch(disable_non_answer_alert) {
         // You can submit your answer anytime, even if you have not chosen an answer.
         case true:
             // Move to the next Question
@@ -514,6 +517,21 @@ function submitAnswerForExam() {
  * Navigates to the next question or handles the end of the exam.
  */
 function moveToNextQuestionForExam() {
+    let timerDuration = Math.floor(timerCounter);
+    let minutes = Math.floor((timerDuration % 3600) / 60); // Calculate minutes within the current hour
+    let seconds = Math.floor(timerDuration % 60);
+    let hours = Math.floor(timerDuration / 3600);
+
+    let txtHours = "";
+    let txtMinutes = "";
+
+    if (hours !== 0) {
+        txtHours = `${hours} hour(s) and`;
+    }
+    if (minutes !== 0) {
+        txtMinutes = `${minutes} minute(s) and`;
+    }
+
     // Check if the question counter is greater than the total number of questions minus 2
     if (questionCounter > (examanee_number_of_questions-2)) {
         // If this is the last question of the exam, calculate the score
@@ -521,6 +539,11 @@ function moveToNextQuestionForExam() {
 
         // Call the end of quiz function
         end_of_quiz();
+
+        // Push the selected answer to the array database
+        my_answer.push(selectedAnswerIndex);
+        answer_time.push(`You finished to answer this question in <b>${txtHours} ${txtMinutes} ${seconds} second(s)</b>.`);
+
     } else {
         // If this is not the last question, update the question counter
         questionCounter++;
@@ -528,16 +551,20 @@ function moveToNextQuestionForExam() {
         // Calculate the score
         calculateScore();
 
+        // Push the selected answer to the array database
+        my_answer.push(selectedAnswerIndex);
+        answer_time.push(`You finished to answer this question in <b>${txtHours} ${txtMinutes} ${seconds} second(s)</b>.`);
+
         // Display the next question
         displayQuestionForExam();
     }
 
-    // Push the selected answer to the array database
-    my_answer.push(selectedAnswerIndex);
-
     // Reset the selectedAnswer and selectedAnswerIndex after they have been inputted to the my_ans database
     selectedAnswer = undefined;
     selectedAnswerIndex = undefined;
+
+    // Reset the counter for timerCounter
+    timerCounter = 0;
 }
 
 /**
@@ -585,15 +612,17 @@ reviewed_ans_for_exam=()=> {
     window.scrollTo(0, 0);
     // Remove the class content first
     $(SELECT.CONTENT).remove();
+    // Reset the tooltip counter
+    tooltip_counter = 0;
 
     displayPreviousQuestionsAndChoices_data(data_00_QuestionsArray, data_00, 0, false, false, false);
     displayPreviousQuestionsAndChoices_data(data_01_QuestionsArray, data_01, 5, false, false, false);
     displayPreviousQuestionsAndChoices_data(data_02_QuestionsArray, data_02, 10, false, false, false);
     displayPreviousQuestionsAndChoices_data(data_03_QuestionsArray, data_03, 15, false, false, false);
     displayPreviousQuestionsAndChoices_data(data_04_QuestionsArray, data_04, 20, false, false, false);
-    displayPreviousQuestionsAndChoices_data(data_05_QuestionsArray, data_05, 38, false, false, false);
-    displayPreviousQuestionsAndChoices_data(data_06_QuestionsArray, data_06, 54, false, false, false);
-    displayPreviousQuestionsAndChoices_data(data_07_QuestionsArray, data_07, 70, true, false, false);
+    displayPreviousQuestionsAndChoices_data(data_05_QuestionsArray, data_05, 35, false, false, false);
+    displayPreviousQuestionsAndChoices_data(data_06_QuestionsArray, data_06, 49, false, false, false);
+    displayPreviousQuestionsAndChoices_data(data_07_QuestionsArray, data_07, 63, true, false, false);
 }
 
 /**
@@ -607,11 +636,13 @@ next_display_review_result=()=> {
     $(SELECT.CONTENT).remove();
     window.scrollTo(0, 0);
 
-    displayPreviousQuestionsAndChoices_data(data_08_QuestionsArray, data_08, 84, false, false, false);
-    displayPreviousQuestionsAndChoices_data(data_09_QuestionsArray, data_09, 96, false, false, false);
-    displayPreviousQuestionsAndChoices_data(data_10_QuestionsArray, data_10, 108, false, false, false);
-    displayPreviousQuestionsAndChoices_data(data_11_QuestionsArray, data_11, 120, false, false, false);
-    displayPreviousQuestionsAndChoices_data(data_12_QuestionsArray, data_12, 134, false, false, false);
-    displayPreviousQuestionsAndChoices_data(data_13_QuestionsArray, data_13, 146, false, false, false);
-    displayPreviousQuestionsAndChoices_data(data_14_QuestionsArray, data_14, 158, false, true, false);
+    tooltip_counter = 0;
+
+    displayPreviousQuestionsAndChoices_data(data_08_QuestionsArray, data_08, 74, false, false, false);
+    displayPreviousQuestionsAndChoices_data(data_09_QuestionsArray, data_09, 85, false, false, false);
+    displayPreviousQuestionsAndChoices_data(data_10_QuestionsArray, data_10, 96, false, false, false);
+    displayPreviousQuestionsAndChoices_data(data_11_QuestionsArray, data_11, 106, false, false, false);
+    displayPreviousQuestionsAndChoices_data(data_12_QuestionsArray, data_12, 117, false, false, false);
+    displayPreviousQuestionsAndChoices_data(data_13_QuestionsArray, data_13, 128, false, false, false);
+    displayPreviousQuestionsAndChoices_data(data_14_QuestionsArray, data_14, 139, false, true, false);
 }

@@ -602,4 +602,17 @@ const data_06 = [
 			The student can exchange his Php 10,000 for 200.00 Dollar because Php 10,000 divided by Php 50.12 per dollar is equal to 200.00 Dollar.
 	    `
 	},
+	{
+	    "id": 41,
+	    "question": "Manuel is selling a 250-square-meter lot for Php 1,250,000.00. If I buy 1 hectare, how much does it cost?",
+	    "choices": [
+	      "Php 40,000,000.00",
+	      "Php 50,000,000.00",
+	      "Php 45,000,000.00",
+	      "Php 48,000,000.00",
+	      "Php 44,000,000.00"
+	    ],
+	    "correct_ans": "Php 50,000,000.00",
+	    "explanation": "Given that 250 square meters cost Php 1,250,000.00, the cost per square meter is Php 1,250,000.00 / 250 = Php 5,000.00.<br/><br/>1 hectare is equivalent to 10,000 square meters. So, if you buy 1 hectare, the cost would be 10,000 * Php 5,000.00 = Php 50,000,000.00.<br/><br/>Therefore, if you buy 1 hectare, it will cost you Php 50,000,000.00."
+	}
 ];

@@ -225,5 +225,44 @@ const data_13 = [
     ],
     "correct_ans": "B-C-E-D-A",
     "explanation": "The correct answer is (B-C-E-D-A) because it logically organizes the sentences to form a coherent paragraph about social inequality in the Philippines.<br/><br/>Sentence B introduces the topic (social inequality in the Philippines).<br/>Sentence C describes the situation (the gap between the rich and the poor).<br/>Sentence E provides more detail about the effects of this situation (lack of access to basic services and opportunities).<br/>Sentence D mentions the government’s response to these challenges.<br/>Finally, sentence A describes the result of these challenges (social injustice and increased crime rates)."
+  },
+  {
+    "id": 17,
+    "question": "A. Because of pollution, the ecosystem is disturbed; in some areas, even thrown out balance.<br/>B. One of the things that come to mind when we talk about the environment is pollution<br/>C. With these poisons on land, air, and water, food is getting scarcer.<br/>D. It is easy now to imagine that without clean food and air, humankind will surely perish.<br/>E. Many living creatures die because of this abrupt change.",
+    "choices": [
+      "B-C-D-A-E",
+      "B-A-E-C-D",
+      "B-E-A-D-C",
+      "B-D-A-E-C",
+      "B-D-A-C-E"
+    ],
+    "correct_ans": "B-A-E-C-D",
+    "explanation": "The sentences provided seem to form a coherent paragraph when arranged in the following order: B, A, E, C, D.<br/><br/>B. One of the things that come to mind when we talk about the environment is pollution.<br/>A. Because of pollution, the ecosystem is disturbed; in some areas, even thrown out balance.<br/>E. Many living creatures die because of this abrupt change.<br/>C. With these poisons on land, air, and water, food is getting scarcer.<br/>D. It is easy now to imagine that without clean food and air, humankind will surely perish.<br/><br/>This arrangement starts with a general statement about pollution (B), then discusses its effects on the ecosystem (A) and living creatures (E), followed by the impact on food availability ©, and ends with a dire prediction for humankind (D). It forms a logical progression from the cause (pollution) to the potential ultimate effect (the perishing of humankind)."
+  },
+  {
+    "id": 18,
+    "question": "A. Both of them came from affluent and distinguished families <br/>B. As presidents, the two were both dynamic conservationist and reformist <br/>C. The two Roosevelt's became popular governors who were known for their intellectual pursuits. <br/>D. Thus, historians agree that these two men intensified and reshaped the power of the presidency. <br/>E. Theodore Roosevelt and Franklin Delano Roosevelt  had many things in common  aside from their names.",
+    "choices": [
+      "E-B-A-C-D",
+      "E-A-C-B-D",
+      "C-B-A-D-E",
+      "C-A-B-D-E",
+      "B-E-A-C-D"
+    ],
+    "correct_ans": "E-A-C-B-D",
+    "explanation": "The sentences provided seem to form a coherent paragraph when arranged in the following order: E, A, C, B, D.<br/><br/>E. Theodore Roosevelt and Franklin Delano Roosevelt had many things in common aside from their names.<br/>A. Both of them came from affluent and distinguished families.<br/>C. The two Roosevelts became popular governors who were known for their intellectual pursuits.<br/>B. As presidents, the two were both dynamic conservationists and reformists.<br/>D. Thus, historians agree that these two men intensified and reshaped the power of the presidency.<br/><br/>This arrangement starts with a general statement about the Roosevelts’ similarities (E), then discusses their family backgrounds (A) and political careers as governors (C), followed by their presidencies (B), and ends with a conclusion about their impact on the presidency (D). It forms a logical progression from their personal backgrounds to their political careers and contributions."
+  },
+  {
+    "id": 19,
+    "question": "A. It is imperative that government and non-government organizations should tap the potentialities of these people to uplift  their economic status.   <br/>B. The opportunity for options in life distinguishes the rich from the poor.   <br/>C. Through better motivation, the upper levels of the poor could be tempted to grab the options track.   <br/>D. For sure, these are the people who are likely to get a food on the option ladder.   <br/>E. It requires vital measures to motivate such people close to breakthrough level income.",
+    "choices": [
+      "C-E-A-D-B",
+      "B-E-C-A-D",
+      "B-C-E-A-D",
+      "A-E-B-D-C",
+      "A-D-C-E-B"
+    ],
+    "correct_ans": "B-C-E-A-D",
+    "explanation": "To form a coherent paragraph when arranged in the following order: B, C, E, A, D.<br/><br/>B. The opportunity for options in life distinguishes the rich from the poor.<br/>C. Through better motivation, the upper levels of the poor could be tempted to grab the options track.<br/>E. It requires vital measures to motivate such people close to breakthrough level income.<br/>A. It is imperative that government and non-government organizations should tap the potentialities of these people to uplift their economic status.<br/>D. For sure, these are the people who are likely to get a foot on the option ladder.<br/><br/>This arrangement starts with a general statement about the difference between the rich and the poor (B), then discusses the potential for the poor to improve their situation through motivation (C) and necessary measures (E), followed by the role of organizations in uplifting their economic status (A), and ends with a conclusion about their potential to climb the economic ladder (D). It forms a logical progression from the current state of affairs to the potential for improvement."
   }
 ];

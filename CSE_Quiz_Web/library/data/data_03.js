@@ -292,6 +292,19 @@ const data_03 = [
     ],
     correct_ans: "Establishing wildlife reserves",
     explanation: "Recent environmental news in the Philippines has highlighted the establishment of wildlife reserves and conservation efforts to protect endangered species and their habitats."
+  },
+  {
+    "id": 22,
+    "question": "Excessive use of force by policemen is popularly referred to as:",
+    "choices": [
+      "Survival tactics",
+      "Police enforcement elective",
+      "Police bodily harm",
+      "Police Brutality",
+      "Law enforcement overreach"
+    ],
+    "correct_ans": "Police Brutality",
+    "explanation": "Excessive use of force by policemen is popularly referred to as “Police Brutality”. This term is used to describe instances when law enforcement officers exercise more force than necessary in the line of duty. It’s a serious issue that is often discussed in the context of human rights and law enforcement ethics."
   }
 
 

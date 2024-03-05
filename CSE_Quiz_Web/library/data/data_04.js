@@ -485,6 +485,84 @@ const data_04 = [
 	    ],
 	    correct_ans: "x = 2, y = 1",
 	    explanation: "Solve the system of equations either by substitution or elimination. The solution is x = 2 and y = 1."
+	},
+	{
+	    "id": 27,
+	    "question": "Solve for x: 3x + 5 = 17",
+	    "choices": [
+	      "x = 4",
+	      "x = 5",
+	      "x = 6",
+	      "x = 7",
+	      "x = 8"
+	    ],
+	    "correct_ans": "x = 4",
+	    "explanation": "Given equation: 3x + 5 = 17<br/><br/>Step 1: Subtract 5 from both sides: <br/>3x+5-5 = 17-5<br/><br/>This simplifies into this:<br/>3x = 12<br/><br/>Step 2: Divide both sides by 3 to get the answer:<br/>3x/3 = 12/3<br/><br/>So, the answer is x = 4."
+	},
+	{
+	    "id": 28,
+	    "question": "If a rectangular room measures 12 feet by 16 feet, what is the area of the room?",
+	    "choices": [
+	      "192 square feet",
+	      "208 square feet",
+	      "224 square feet",
+	      "240 square feet",
+	      "256 square feet"
+	    ],
+	    "correct_ans": "192 square feet",
+	    "explanation": "Solution:<br/>Area = Length × Width<br/>Area = 12 feet × 16 feet = 192 square feet<br/><br/>Therefore, the correct answer is 192 square feet."
+	},
+	{
+	    "id": 29,
+	    "question": "A store is having a sale where all items are 20% off. If a shirt originally costs $25, what is the sale price of the shirt?",
+	    "choices": [
+	      "$15",
+	      "$18",
+	      "$20",
+	      "$22",
+	      "$24"
+	    ],
+	    "correct_ans": "$20",
+	    "explanation": "Solution:<br/>Sale Price = Original Price - (Original Price × Discount Percentage)<br/>Sale Price = $25 - ($25 × 0.20)<br/>Sale Price = $25 - $5 = $20<br/><br/>Therefore, the correct answer is $20."
+	},
+	{
+	    "id": 30,
+	    "question": "If a recipe calls for 2 cups of flour to make 12 cookies, how many cups of flour are needed to make 36 cookies?",
+	    "choices": [
+	      "4 cups",
+	      "6 cups",
+	      "8 cups",
+	      "10 cups",
+	      "12 cups"
+	    ],
+	    "correct_ans": "6 cups",
+	    "explanation": "Solution:<br/>The ratio of cups of flour to cookies is constant. Therefore, if 2 cups of flour make 12 cookies, then to make 36 cookies:<br/>Cups of flour = (2 cups / 12 cookies) × 36 cookies = 6 cups<br/><br/>Therefore, the correct answer is 6 cups."
+	},
+	{
+	    "id": 31,
+	    "question": "What is the perimeter of a square with sides measuring 8 inches each?",
+	    "choices": [
+	      "16 inches",
+	      "24 inches",
+	      "32 inches",
+	      "40 inches",
+	      "48 inches"
+	    ],
+	    "correct_ans": "32 inches",
+	    "explanation": "Solution:<br/>Perimeter of a square = 4 × side length<br/>Perimeter = 4 × 8 inches = 32 inches<br/><br/>Therefore, the correct answer is 32 inches."
+	},
+	{
+	    "id": 32,
+	    "question": "Solve the equation: 2(x + 3) = 14",
+	    "choices": [
+	      "x = 2",
+	      "x = 4",
+	      "x = 6",
+	      "x = 8",
+	      "x = 10"
+	    ],
+	    "correct_ans": "x = 4",
+	    "explanation": "Given the equation:<br/>2(x + 3) = 14<br/><br/>Distribute the 2 on the left side by multiplying, which results in:<br/>2x + 6 = 14<br/><br/>Subtract 6 from both sides:<br/>2x + 6 - 6 = 14 - 6<br/><br/>This results in:<br/>2x = 14 - 6<br/>2x = 8<br/><br/>Divide both sides by 2:<br/>2x/2 = 8/2<br/>x = 8/2<br/><br/>we get x = 4"
 	}
 
 

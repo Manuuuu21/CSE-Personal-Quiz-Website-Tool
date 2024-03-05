@@ -10,4 +10,4 @@
  *
  * As of now, 10 Question only
  */
-let topic_numbers_of_question = 5;
+let topic_numbers_of_question = 10;

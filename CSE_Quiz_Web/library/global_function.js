@@ -133,40 +133,37 @@ function databaseStatus() {
  * @returns {string} The number in words.
  */
 function numberToWord(num) {
-    // Arrays to hold word equivalents of numbers.
-    let units = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine'];
+    let units = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten'];
     let teens = ['Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eighteen', 'Nineteen'];
-    let tens = ['Ten', 'Twenty', 'Thirty', 'Forty', 'Fifty', 'Sixty', 'Seventy', 'Eighty', 'Ninety'];
+    let tens = ['Twenty', 'Thirty', 'Forty', 'Fifty', 'Sixty', 'Seventy', 'Eighty', 'Ninety'];
 
-    // Split the number into integer and decimal parts.
     let integerPart = Math.floor(num);
     let decimalPart = Math.round((num - integerPart) * 100);
 
-    // Initialize the words string.
     let words = "";
 
-    // Convert the integer part into words.
-    if (integerPart === 0) {
-        words += units[0];
-    } else if (integerPart >= 10 && integerPart < 20) {
+    if (integerPart <= 10) {
+        words += units[integerPart];
+    } else if (integerPart < 20) {
         words += teens[integerPart - 11];
     } else {
         if (Math.floor(integerPart / 10) > 0) {
-            words += tens[Math.floor(integerPart / 10) - 1];
+            words += tens[Math.floor(integerPart / 10) - 2];
         }
         if (integerPart % 10 > 0) {
             words += " " + units[integerPart % 10];
         }
     }
 
-    // Convert the decimal part into words.
     if (decimalPart > 0) {
         words += " point";
-        if (decimalPart >= 10 && decimalPart < 20) {
+        if (decimalPart < 10) {
+            words += " " + units[decimalPart];
+        } else if (decimalPart < 20) {
             words += " " + teens[decimalPart - 11];
         } else {
             if (Math.floor(decimalPart / 10) > 0) {
-                words += " " + tens[Math.floor(decimalPart / 10) - 1];
+                words += " " + tens[Math.floor(decimalPart / 10) - 2];
             }
             if (decimalPart % 10 > 0) {
                 words += " " + units[decimalPart % 10];
@@ -174,9 +171,9 @@ function numberToWord(num) {
         }
     }
 
-    // Return the final words string.
     return words;
 }
+
 
 /**
  * Prints the contents of a specified HTML element.
@@ -232,6 +229,10 @@ function openMenuModal() {
                     <div class="modal_content_icon"><svg style="margin: 0 5px -6px 0;" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/></svg></div>
                     <div class="modal_content_description">Create Your Own Questions</div>
                 </a>
+                <a href="javascript:void(0)" onclick="downloadTheWebsite()">
+                    <div class="modal_content_icon"><svg style="margin: 0 5px -6px 0;" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg></div>
+                    <div class="modal_content_description">Download the Website</div>
+                </a>
                 <a href="javascript:void(0)" onclick="donateMe()">
                     <div class="modal_content_icon"><svg style="margin: 0 5.5px -6px 0;" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M640-440 474-602q-31-30-52.5-66.5T400-748q0-55 38.5-93.5T532-880q32 0 60 13.5t48 36.5q20-23 48-36.5t60-13.5q55 0 93.5 38.5T880-748q0 43-21 79.5T807-602L640-440Zm0-112 109-107q19-19 35-40.5t16-48.5q0-22-15-37t-37-15q-14 0-26.5 5.5T700-778l-60 72-60-72q-9-11-21.5-16.5T532-800q-22 0-37 15t-15 37q0 27 16 48.5t35 40.5l109 107ZM280-220l278 76 238-74q-5-9-14.5-15.5T760-240H558q-27 0-43-2t-33-8l-93-31 22-78 81 27q17 5 40 8t68 4q0-11-6.5-21T578-354l-234-86h-64v220ZM40-80v-440h304q7 0 14 1.5t13 3.5l235 87q33 12 53.5 42t20.5 66h80q50 0 85 33t35 87v40L560-60l-280-78v58H40Zm80-80h80v-280h-80v280Zm520-546Z"/></svg></div>
                     <div class="modal_content_description">Please Help me via Donation</div>
@@ -249,6 +250,24 @@ function openMenuModal() {
     </a> 
     */
 }
+
+function downloadTheWebsite() {
+    const downloadLink = document.createElement("a");
+    downloadLink.setAttribute("download", "");
+    downloadLink.href = "CSE_Quiz_Web.zip";
+
+    // Append the link to the document
+    document.body.appendChild(downloadLink);
+
+    // Simulate a click on the link
+    downloadLink.click();
+
+    // Remove the link from the document
+    document.body.removeChild(downloadLink);
+
+    closeMenuModal();
+}
+
 
 // Function to close the menu modal
 function closeMenuModal(argument) {
@@ -505,6 +524,7 @@ function checkExamaneeAnswer(answerData) {
     }
 }
 
+let tooltip_counter = 0;
 /**
  * This function is used to display previous questions and choices for an exam.
  *
@@ -516,6 +536,7 @@ function checkExamaneeAnswer(answerData) {
  * @param {boolean} retakeQuiz - A flag indicating whether to display the retakeQuiz button? Note: This is only intended for quiz not for exam.
  */
 displayPreviousQuestionsAndChoices_data=(dataQuestionsIndex, dataQuestions, numberStart, displayFirstPagination, displaySecondPagination, retakeQuiz)=> {
+
     let prevQuestions = "";
     let questionIndex;
     let questionData;
@@ -529,7 +550,7 @@ displayPreviousQuestionsAndChoices_data=(dataQuestionsIndex, dataQuestions, numb
         // Build HTML for the entire question and its choices
         prevQuestions +=
         '<div class="content"><div class="prev_question_con" id="prev_question_con' + (i + numberStart) + '">' +
-            '<div class="prev_question" id="prev_question">' +
+            '<div class="prev_question" id="prev_question"><div class="answered_time">' + answer_time[n] + '</div>' + // BUG HERE
                 '<span class="question_counter" id="question_counter">' + (i + numberStart + 1) + '. ) </span>' + questionData.question +
         '</div>';
 
@@ -561,17 +582,20 @@ displayPreviousQuestionsAndChoices_data=(dataQuestionsIndex, dataQuestions, numb
             prevchoicesTxt += '"> ' + (c + 1) + ') ' + choice + '</div>';
         }
 
-        prevQuestions += prevchoicesTxt + '<div class="question_explanation"><div><b>Explanation:</b></div><p style="font-size:15px">' + questionData.explanation + '</p></div>' + 
+        prevQuestions += prevchoicesTxt + '<div class="question_explanation"><div><b>Correct Explanation:</b></div><p style="font-size:15px">' + questionData.explanation + '</p></div>' + 
         '</div></div>';
 
         n++; // Increment 'n' by 1
     }
 
-    setTimeout(function() {
-        $(".prev_choices.correct").append("<div class='tooltip_for_prev_display correct'>Correct answer.</div>");
-        $(".prev_choices.wrong").append("<div class='tooltip_for_prev_display wrong'>Your answer.</div>");
-    }, 16);
-    
+    tooltip_counter++;
+    if (tooltip_counter == 1) {
+        setTimeout(function() {
+            $(".prev_choices.correct").append("<div class='tooltip_for_prev_display correct'>Correct answer.</div>");
+            $(".prev_choices.wrong").append("<div class='tooltip_for_prev_display wrong'>Your answer.</div>");
+        }, 16);
+    }
+
     // Append the previous questions and choices HTML to the body of the webpage
     $(SELECT.BODY).append(prevQuestions);
 
@@ -580,8 +604,8 @@ displayPreviousQuestionsAndChoices_data=(dataQuestionsIndex, dataQuestions, numb
             <div class="content">
                 <div class="prev_question" id="prev_question">
                     <center>
-                        <button disabled class="prev_display_review_result_btn" onclick="prev_display_review_result()">Previous Page</button>
-                        <button class="next_display_review_result_btn" onclick="next_display_review_result()">Next Page</button>
+                        <button disabled class="prev_display_review_result_btn" onclick="prev_display_review_result()">< Previous Page</button>
+                        <button class="next_display_review_result_btn" onclick="next_display_review_result()">Next Page ></button>
                     </center>
                 </div>
             </div>
@@ -601,8 +625,8 @@ displayPreviousQuestionsAndChoices_data=(dataQuestionsIndex, dataQuestions, numb
             <div class="content">
                 <div class="prev_question" id="prev_question">
                     <center>
-                        <button class="prev_display_review_result_btn" onclick="prev_display_review_result()">Previous Page</button>
-                        <button disabled class="next_display_review_result_btn" onclick="next_display_review_result()">Next Page</button>
+                        <button class="prev_display_review_result_btn" onclick="prev_display_review_result()">< Previous Page</button>
+                        <button disabled class="next_display_review_result_btn" onclick="next_display_review_result()">Next Page ></button>
                     </center>
                 </div>
             </div>
@@ -662,3 +686,20 @@ function createRipple(event, element) {
 document.addEventListener('DOMContentLoaded', function () {
     initializeRippleEffect();
 });
+
+// This is just for Debugging purpose
+let submittedAnswer;
+function startAutoSubmit() {
+    disable_non_answer_alert = true;
+
+    if (isTakingExam) {
+        submittedAnswer = setInterval(function() {submitAnswerForExam()}, 50);
+    }
+    else {
+        submittedAnswer = setInterval(function() {submitAnswer()}, 50);
+    }
+}
+
+function stopAutoSubmit() {
+    clearInterval(submittedAnswer);
+}

@@ -44,19 +44,23 @@ let selectedAnswerIndex;
 /* store your answer here */
 let my_answer = [];
 
+/* Store the time you answered the question */
+let answer_time = [];
+
 // Define a variable to store the check the answer ("Correct" or "Wrong")
 let correctAnswer;
 
 /* Set of Questions */
 let all_array_of_question = [];
 
-/* Passing Grade 80%
- */
+/* Passing Grade 80% */
 let passing_grade = 80;
 
+/* Variable for handling choices of the questions */
 let choices;
 let choicesHTML;
 
+/* This is for BG and border color of the selected topic */
 let bgColorForSelectedAnswer = "#c2e7ff";
 let borderColorForSelectedAnswer = "1px solid #1a73e8";
 
@@ -67,7 +71,7 @@ let prev_choices = [];
 /* Array of unique random of Question */
 let uniqueRandomArrayQuestions = [];
 
-// Exam no. of questions that you need to answer
+/* Exam no. of questions that you need to answer */
 let examanee_number_of_questions;
 
 let verbalScore = 0;
@@ -75,15 +79,15 @@ let analyticalScore = 0;
 let numbericalScore = 0;
 let genInfoScore = 0;
 
-/* This variable controls the non-answer submission. If set to true, non-answer submissions are disabled. If set to false, non-answer submissions are enabled (You will see an error if no answer is submitted). */
-let disable_non_answer = false;
+/* This variable controls the non-answer submission ALERT. 
+ * If set to true, non-answer submissions Alert are disabled. 
+ * If set to false, non-answer submissions Alert are enabled (You will see an error (reminding you) if no answer is submitted). */
+let disable_non_answer_alert = false;
 
-/* 
- * Numbers of questions you need to answers or completed for Exam. Note: Do not change anything here. unless you know it.
- */
-let numbers_exam_at_verbal_ability = 50; 		// fix at 50 questions
-let numbers_exam_at_analytical_ability = 50; 	// fix at 50 questions
-let numbers_exam_at_numberical_ability = 50; 	// fix at 50 questions
+/* Numbers of questions you need to answers or completed for Exam. Note: Do not change anything here. unless you know how to refactor the code in exam.js */
+let numbers_exam_at_verbal_ability = 44; 		// fix at 44 questions
+let numbers_exam_at_analytical_ability = 43; 	// fix at 43 questions
+let numbers_exam_at_numberical_ability = 43; 	// fix at 43 questions
 let numbers_exam_at_general_info = 20; 			// fix at 20 questions
 let exam_number_of_questions = numbers_exam_at_verbal_ability + numbers_exam_at_analytical_ability + numbers_exam_at_numberical_ability + numbers_exam_at_general_info;
 
@@ -127,7 +131,7 @@ let SELECT = {
 	CREATOR_ANNOUNCEMENT: 	`<h1>IMPORTANT NOTE FROM THE CREATOR OF THIS WEBSITE</h1>
 							<p>Dear Learners,</p>
 							<p>I wanted to share an important note regarding the content on this website. I have developed this mock quiz/exam website tool to support education, specifically for individuals preparing for the Civil Service Exam. These data of questions were picked carefully from publicly available information on the internet, with the primary goal of making learning more accessible.</p>
-							<p>It's important to highlight that I am fully committed to follow the data privacy regulations, with a particular emphasis on compliance with the Data Privacy Act (Republic Act No. 10173), especially in relation to copyright.</p>
+							<p>It's important to highlight that I am fully committed to follow the copyright regulations, with a particular emphasis on compliance with the Intellectual Property Code of the Philippines (Republic Act No. 8293).</p>
 							<p>I want to make it clear that my intention is not to break rule upon copyright laws. I have provided full credit to the original creators of these questions to ensure proper recognition and acknowledgment.</p>
 							<p>If you have any questions or concerns about the usage of these materials or suggestions to improve this quiz website, please don't hesitate to reach out to me. Your feedback is highly valued, and I have taken every measure to ensure that my practices align with ethical and legal standards.</p>
 							<p>Thank you for your understanding.</p>

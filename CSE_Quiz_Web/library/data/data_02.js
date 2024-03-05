@@ -329,5 +329,18 @@ const data_02 = [
 	    ],
 	    correct_ans: "Plastic pollution",
 	    explanation: "Plastic pollution refers to the extensive presence of plastic waste in oceans, leading to harm to marine life and ecosystems."
+	},
+	{
+	    "id": 25,
+	    "question": "It is the most common form of unregulated commercial fishing.",
+	    "choices": [
+		    "Dynamite Fishing",
+		    "Using Powerful Lights",
+		    "Using Nets that having big holes",
+		    "Overfishing",
+		    "Using Electric Fishing Rods"
+	    ],
+	    "correct_ans": "Overfishing",
+	    "explanation": "Overfishing refers to the practice of catching fish from a body of water at a rate that the species cannot replenish, leading to those species becoming underpopulated in that area. It’s a serious issue that threatens the balance of marine ecosystems and the livelihoods of communities that depend on fishing. It’s considered unregulated because it often happens in violation of laws and regulations intended to maintain sustainable fish populations. Please note that all forms of unregulated fishing are harmful and illegal, and they can have devastating effects on marine life and ecosystems. It’s important to promote and practice sustainable fishing methods to protect our oceans."
 	}
 ];

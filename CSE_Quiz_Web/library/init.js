@@ -3,6 +3,10 @@
  * Date: Nov 27, 2023, 1:11 PM
  *
  */
+/* stop the drag event */
+window.addEventListener("dragstart", function(e) {
+	e.preventDefault();
+});
 
 // Display the note of the creater
 $(SELECT.CONTENT).html("<i style='text-align: justify;'>" + SELECT.CREATOR_ANNOUNCEMENT + "</i>");
@@ -76,6 +80,9 @@ selectedTopic=(topicID)=> {
 	stop_timer();
 	timerCounterForGlobal = 0;
 
+	// Reset the tooltip counter
+	tooltip_counter = 0;
+
 	// Remove the class content first
 	$(SELECT.CONTENT).remove();
 	// Remove the class donate container first
@@ -89,7 +96,7 @@ selectedTopic=(topicID)=> {
 		<h1>YOU ARE CURRENTLY STUDYING TOPICS RELATED TO:</h1>
 		<p><b>Topic:</b> ` + topics[selectedTopicID] + `</p>
 		<p><b>Total No. of Questions:</b> ` + examanee_number_of_questions + ` Questions.</p>
-		<p><b>Passing Grade:</b> ` + passing_grade + `%.</p>
+		<p><b>Passing Grade:</b> ` + passing_grade + `% and above.</p>
 		<button class="start_topic" onclick="selectedTopicDisPlayQuestion(`+ selectedTopicID + `)" class="">Click to Start Quiz</button>
 	</div>`);
 
@@ -419,7 +426,7 @@ function checkAnswer(selectedIndex) {
 
 // Function to submit an answer
 function submitAnswer() {
-	switch(disable_non_answer) {
+	switch(disable_non_answer_alert) {
 	// You can submit your answer anytime, even if you have not chosen an answer.
 	case true:
 		// Move to the next Question
@@ -447,6 +454,21 @@ function submitAnswer() {
 }
 
 function moveToNextQuestionForTopic() {
+	let timerDuration = Math.floor(timerCounter);
+	let minutes = Math.floor((timerDuration % 3600) / 60); // Calculate minutes within the current hour
+	let seconds = Math.floor(timerDuration % 60);
+	let hours = Math.floor(timerDuration / 3600);
+
+	let txtHours = "";
+	let txtMinutes = "";
+
+	if (hours !== 0) {
+		txtHours = `${hours} hour(s) and`;
+	}
+	if (minutes !== 0) {
+		txtMinutes = `${minutes} minute(s) and`;
+	}
+
 	// Check if the question counter is on the last items to answer
     if (questionCounter > (examanee_number_of_questions-2)) {
         // If this is the last question of the exam, calculate the score
@@ -459,6 +481,7 @@ function moveToNextQuestionForTopic() {
 
         // Push the selected answer to the array database
         my_answer.push(selectedAnswerIndex);
+        answer_time.push(`You finished to answer this question in <b>${txtHours} ${txtMinutes} ${seconds} second(s)</b>.`);
 
         // Reset the selectedAnswer and selectedAnswerIndex after they have been inputted to the my_ans database
         selectedAnswer = undefined;
@@ -476,6 +499,7 @@ function moveToNextQuestionForTopic() {
 
         // Push the selected answer to the array database
         my_answer.push(selectedAnswerIndex);
+        answer_time.push(`You finished to answer this question in <b>${txtHours} ${txtMinutes} ${seconds} second(s)</b>.`);
 
         // Reset the selectedAnswer and selectedAnswerIndex after they have been inputted to the my_ans database
         selectedAnswer = undefined;
@@ -485,6 +509,9 @@ function moveToNextQuestionForTopic() {
         selectedTopicDisPlayQuestion(selectedTopicID);
 
     }
+
+    // Reset the counter for timerCounter
+    timerCounter = 0;
 }
 
 let txtButton = "";
@@ -550,6 +577,8 @@ function showResult(showResultTopicID) {
 	// Let topics or taking Exam?
 	let subject_for_taking = "";
 
+	let overAllText = "";
+
 	// Rating variable (Pass or Failed)
 	let rating = "";
 
@@ -598,12 +627,14 @@ function showResult(showResultTopicID) {
 		`<p>
 			You got the following points per subject area:
 			<p>
-				<div>General Information: ` + genInfoScore + ` point(s)</div>
-		        <div>Numerical Ability: ` + numbericalScore + ` point(s)</div>
-		        <div>Analytical Ability: ` + analyticalScore + ` point(s)</div>
-		        <div>Verbal Ability: ` + verbalScore + ` point(s)</div>
+				<div>General Information: <b>` + genInfoScore + ` point(s)</b> out of ${numbers_exam_at_general_info} questions.</div>
+		        <div>Numerical Ability: <b>` + numbericalScore + ` point(s)</b> out of ${numbers_exam_at_numberical_ability} questions.</div>
+		        <div>Analytical Ability: <b>` + analyticalScore + ` point(s)</b> out of ${numbers_exam_at_analytical_ability} questions.</div>
+		        <div>Verbal Ability: <b>` + verbalScore + ` point(s)</b> out of ${numbers_exam_at_verbal_ability} questions.</div>
 			</p>
 		</p>`;
+
+		overAllText = `Overall, `;
 	}
 	else {
 		subject_for_taking = topics[selectedTopicID];
@@ -640,7 +671,7 @@ function showResult(showResultTopicID) {
 					` + subject_per_area_score + `
 					<center>
 						<p>
-							You got <b>` + score + ` point(s) out of ` + examanee_number_of_questions + ` questions</b>.<br/>
+							${overAllText}You got <b>` + score + ` point(s) out of ` + examanee_number_of_questions + ` questions</b>.<br/>
 							You finished the ${isTxtExamOrQuiz} in <b>${txtHours} ${txtMinutes} ${seconds} second(s)</b>.
 						</p>
 						` + exam_rating + `
@@ -688,6 +719,9 @@ function reviewed_ans() {
 	window.scrollTo(0, 0);
 	// Initialize a variable to store the HTML content of previous questions
     let prevQuestions = "";
+
+    // Reset the tooltip counter
+    tooltip_counter = 0;
 
     // Remove the class content first
 	$(SELECT.CONTENT).remove();
@@ -761,6 +795,9 @@ restartTopicQuestion=()=> {
 
 	// reset my_answer
 	my_answer = [];
+
+	// reset the answered time
+	answer_time = [];
 
 	// generate random and unique ID questions, make not repetitive question displayed to examinee
 	uniqueRandomArrayQuestions_00 = uniqueRandomQuestion(0, (data_00.length - 1), topic_numbers_of_question);

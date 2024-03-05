@@ -212,5 +212,18 @@ const data_11 = [
     ],
     "correct_ans": "C",
     "explanation": "The correct answer is C because the word “who” should be replaced with “which” when referring to inanimate objects or industries. Therefore, the correct sentence should be \"The halal industry in the Philippines, which is calling for legislation, is facing gaps in regulation."
+  },
+  {
+    "id": 16,
+    "question": "A. The team of scientists,<br/>B. who are conducting the research, <br/>C. have published their findings,<br/>D. in a renowned scientific journal. <br/>E. NO ERROR",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correct_ans": "C",
+    "explanation": "The answer is C. have published their findings. <br/><br/>The subject “The team of scientists” is singular, so the verb should be “has” instead of “have.” However, the pronoun “their” is plural, which does not agree with the singular subject. <br/><br/>The corrected sentence should read: <br/>The team of scientists, who are conducting the research, has published its findings in a renowned scientific journal."
   }
 ];

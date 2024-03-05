@@ -10,7 +10,7 @@
 }
 @font-face {
   font-family: 'Roboto';
-  src: url('Roboto/Roboto-Regular.ttf') format('truetype');
+  src: url('Roboto/GoogleSans-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: fallback;
@@ -38,6 +38,11 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 * {
+  /* to stop dragstart or highlighted the text inside the web
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none; */
   font-size: 18px;
   font-family: Roboto !important;
 }
@@ -298,8 +303,9 @@ body::-webkit-scrollbar-thumb:hover {
   clear: right;
   float: right;
   border: 1px solid lightgray;
-  padding: 3px 8px 5px 8px;
+  padding: 3px 8px 5px 10px;
   border-radius: var(--btnBorderRadius);
+  width: 78px;
 }
 #timerMinutes, #timerSeconds {
   font-size: 15px;
@@ -566,7 +572,7 @@ table, th, td {
   margin-top:-45px;
 }
 .back_to_result_btn:hover {
-  background: lightgray;
+  background: gray;
 }
 
 .menu_modal {
@@ -763,4 +769,9 @@ table, th, td {
         transform: scale(4);
         opacity: 0;
     }
+}
+.answered_time {
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid silver;
 }
