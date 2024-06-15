@@ -14,6 +14,8 @@ $(SELECT.CONTENT).html("<i style='text-align: justify;'>" + SELECT.CREATOR_ANNOU
 // Get the current year using the Date object
 var currentYear = new Date().getFullYear();
 
+// Append this at header if you wanted to upload this project in live server
+// <div class="online_user">Online user: <span id="online_users">0</span> person</div>
 $(".header").append(`
 	<div onclick="openMenuModal()" title="More options" class="create_exam_btn_con">
 		<svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 0 24 24" width="35" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>
@@ -52,10 +54,15 @@ selectedTopic=(topicID)=> {
 	selectedTopicID = topicID;
 
 	let topicElements = document.getElementsByClassName("list");
+	let listIcon = document.getElementsByClassName("list_icon");
+
 	// Loop through all choices and Reset background color for all topic
 	for (var i = 0; i < topicElements.length; i++) {
 		topicElements[i].style.backgroundColor = "";
 		topicElements[i].style.border = "";
+		listIcon[i+1].innerHTML = `
+			<svg style="margin: 0 5px -6.5px 0;" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M200-120v-640q0-33 23.5-56.5T280-840h400q33 0 56.5 23.5T760-760v640L480-240 200-120Zm80-122 200-86 200 86v-518H280v518Zm0-518h400-400Z"/></svg>
+		`;
 	}
 
 	// Since we click the topics, lets set it true
@@ -71,6 +78,9 @@ selectedTopic=(topicID)=> {
 	// Set the background color of the clicked choice
 	topicElements[topicID].style.backgroundColor = bgColorForSelectedAnswer;
 	topicElements[topicID].style.border = borderColorForSelectedAnswer;
+	listIcon[topicID+1].innerHTML = `
+		<svg style="margin: 0 5px -6.5px 0;" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M200-120v-640q0-33 23.5-56.5T280-840h400q33 0 56.5 23.5T760-760v640L480-240 200-120Z"/></svg>
+	`;
 
 	if (isMobileVersion) {
 		closeSideBar();
@@ -474,14 +484,20 @@ function moveToNextQuestionForTopic() {
         // If this is the last question of the exam, calculate the score
         if (selectedAnswer == "Correct") {
             score++;
+            correct_wrong_logo.push(correct_logo);
+        }
+        else {
+        	// If not correct
+        	correct_wrong_logo.push(wrong_logo);
         }
 
         // Call the end of quiz function
         end_of_quiz();
+        stopAutoSubmit();
 
         // Push the selected answer to the array database
         my_answer.push(selectedAnswerIndex);
-        answer_time.push(`You finished to answer this question in <b>${txtHours} ${txtMinutes} ${seconds} second(s)</b>.`);
+        answer_time.push(`You answered this question in <b>${txtHours} ${txtMinutes} ${seconds} second(s)</b>.`);
 
         // Reset the selectedAnswer and selectedAnswerIndex after they have been inputted to the my_ans database
         selectedAnswer = undefined;
@@ -495,11 +511,17 @@ function moveToNextQuestionForTopic() {
         // Calculate the score
         if (selectedAnswer == "Correct") {
             score++;
+            correct_wrong_logo.push(correct_logo);
         }
+        else {
+        	// If not correct
+        	correct_wrong_logo.push(wrong_logo);
+        }
+        
 
         // Push the selected answer to the array database
         my_answer.push(selectedAnswerIndex);
-        answer_time.push(`You finished to answer this question in <b>${txtHours} ${txtMinutes} ${seconds} second(s)</b>.`);
+        answer_time.push(`You answered this question in <b>${txtHours} ${txtMinutes} ${seconds} second(s)</b>.`);
 
         // Reset the selectedAnswer and selectedAnswerIndex after they have been inputted to the my_ans database
         selectedAnswer = undefined;
@@ -799,6 +821,8 @@ restartTopicQuestion=()=> {
 	// reset the answered time
 	answer_time = [];
 
+	correct_wrong_logo = [];
+
 	// generate random and unique ID questions, make not repetitive question displayed to examinee
 	uniqueRandomArrayQuestions_00 = uniqueRandomQuestion(0, (data_00.length - 1), topic_numbers_of_question);
 	uniqueRandomArrayQuestions_01 = uniqueRandomQuestion(0, (data_01.length - 1), topic_numbers_of_question);
@@ -820,3 +844,11 @@ restartTopicQuestion=()=> {
 	uniqueRandomArrayQuestions_14 = uniqueRandomQuestion(0, (data_14.length - 1), topic_numbers_of_question);
 }
 
+/* ENABLED THIS IF YOU WANTED TO UPLOAD IN LIVE SERVER
+// Track online user
+setInterval(function() {
+    $.get('online_users.php', function(data) {
+        $('#online_users').text(data);
+    });
+}, 5000); // 5 seconds
+*/

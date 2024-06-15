@@ -7,6 +7,8 @@
 :root {
   --sideNavActiveColor: #c2e7ff;
   --btnBorderRadius: 20px;
+  --btnColor: #6060be;
+  --btnColorActive: #3c3c76;
 }
 @font-face {
   font-family: 'Roboto';
@@ -276,7 +278,7 @@ body::-webkit-scrollbar-thumb:hover {
     padding: 10px 0 0 0;
 }
 .submit_question button {
-  background: #00a700;
+  background: var(--btnColor);
   color: white;
   padding: 10px;
   border: none;
@@ -284,7 +286,7 @@ body::-webkit-scrollbar-thumb:hover {
   cursor: pointer;
 }
 .submit_question button:active {
-  background: #034f03;
+  background: var(--btnColorActive);
   color: white;
   padding: 10px;
 }
@@ -349,20 +351,20 @@ body::-webkit-scrollbar-thumb:hover {
   margin: 5px;
 }
 .prev_choices.correct {
-    background: #00a700;
-    color: white;
+    background: #a3ffa3; /* #00a700 */
+    color: green; /* white */
 }
 .prev_choices.wrong {
     background-color: #ff4f4f;
     color: white;
 }
 .correct {
-    background: #00a700 !important;
-    color: white;
+    background: #a3ffa3 !important; /* #00a700 */
+    color: green !important; /* white */
 }
 .wrong {
-    background-color: #ff4f4f !important;
-    color: white;
+    background-color: #ffbaba !important; /* ff4f4f */
+    color: red !important; /* white */
 }
 .check_my_answers_btn {
   border: 1px solid gray;
@@ -385,6 +387,9 @@ body::-webkit-scrollbar-thumb:hover {
   border: 1px solid silver;
   border-radius: var(--btnBorderRadius);
   cursor: pointer;
+}
+.prev_display_review_result_btn[disabled] svg, .next_display_review_result_btn[disabled] svg {
+  fill: #a7a7a7;
 }
 .prev_display_review_result_btn:active, .next_display_review_result_btn:active {
   background: lightgray;
@@ -415,7 +420,7 @@ body::-webkit-scrollbar-thumb:hover {
     top: 50%;
     box-sizing: border-box;
     border: 0.5em solid black;
-    border-color: transparent transparent #ff4f4f #ff4f4f;
+    border-color: transparent transparent #ffbaba #ffbaba; /* ff4f4f */
     transform-origin: 50% 50%;
     transform: rotate(-135deg);
     box-shadow: -5px 5px 10px 0 rgba(0, 0, 0, 0.1);
@@ -431,7 +436,7 @@ body::-webkit-scrollbar-thumb:hover {
     top: 50%;
     box-sizing: border-box;
     border: 0.5em solid black;
-    border-color: transparent transparent #00a700 #00a700;
+    border-color: transparent transparent #a3ffa3 #a3ffa3; /* #00a700 */
     transform-origin: 50% 50%;
     transform: rotate(-135deg);
     box-shadow: -5px 5px 10px 0 rgba(0, 0, 0, 0.1);
@@ -548,7 +553,7 @@ table, th, td {
   float: right;
   margin-right: -41px;
   margin-top: -30px;
-  background: #00a700;
+  background: var(--btnColor);
   color: white;
   padding: 10px;
   border: none;
@@ -556,7 +561,7 @@ table, th, td {
   cursor: pointer;
 }
 .review_answer:active, .retake_quiz:active {
-  background: #034f03;
+  background: var(--btnColorActive);
   color: white;
 }
 .back_to_result_btn {
@@ -618,7 +623,7 @@ table, th, td {
 }
 
 .start_topic {
-  background: #00a700;
+  background: var(--btnColor);
   color: white;
   padding: 10px;
   border: none;
@@ -626,7 +631,7 @@ table, th, td {
   cursor: pointer;
 }
 .start_topic:active {
-  background: #034f03;
+  background: var(--btnColorActive);
   color: white;
   padding: 10px;
 }
@@ -771,7 +776,69 @@ table, th, td {
     }
 }
 .answered_time {
+  font-size: 15px;
   padding-bottom: 10px;
   margin-bottom: 15px;
   border-bottom: 1px solid silver;
+}
+.answered_time b {
+  font-size: 15px;
+}
+
+.c_a_n {
+  text-align: right;
+  height: 0px;
+  position: relative;
+}
+.wrong_design_notif {
+  width: 212px;
+  padding: 7px;
+  position: relative;
+  top: -55px;
+  right: -472px;
+  border: 1px solid red;
+  color: red;
+  font-size: 13px;
+  font-weight: bolder;
+  border-radius: 10px;
+  text-align: center;
+  background: none; /* #ffbaba */
+}
+.correct_design_notif {
+  width: 212px;
+  padding: 7px;
+  position: relative;
+  top: -55px;
+  right: -472px;
+  border: 1px solid green;
+  color: green;
+  font-size: 13px;
+  font-weight: bolder;
+  border-radius: 10px;
+  text-align: center;
+  background: none; /* #a3ffa3 */
+}
+
+.online_user {
+  position: relative;
+  top: 42%;
+  left: 25%;
+  width: 250px;
+  font-size: 12px;
+  padding: 0 0 0 20px;
+}
+.online_user span {
+  font-size: 12px;
+}
+.question_data_poster_name {
+  font-size: 10px;
+  margin-top: -41px;
+  padding: 10px;
+}
+.poster_name_for_prev_question {
+  border-top: 1px solid silver;
+  font-size: 10px;
+  padding: 10px 10px 0 10px;
+  text-align: right;
+  margin-top: 15px;
 }

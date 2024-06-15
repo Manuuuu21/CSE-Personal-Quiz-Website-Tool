@@ -15,10 +15,15 @@ function loadingToCreateExam() {
     if (createExamCounter == 1) {
         // Get all elements with class name "list"
         let topicElements = document.getElementsByClassName("list");
+        let listIcon = document.getElementsByClassName("list_icon");
+        
         // Loop through all choices and Reset background color for all topics
         for (var i = 0; i < topicElements.length; i++) {
             topicElements[i].style.backgroundColor = "";
             topicElements[i].style.border = "";
+            listIcon[i+1].innerHTML = `
+                <svg style="margin: 0 5px -6.5px 0;" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M200-120v-640q0-33 23.5-56.5T280-840h400q33 0 56.5 23.5T760-760v640L480-240 200-120Zm80-122 200-86 200 86v-518H280v518Zm0-518h400-400Z"/></svg>
+            `;
         }
 
         // Remove the Data Privacy content
@@ -83,10 +88,10 @@ function createExam() {
         <p><b>Total No. of Questions:</b> ` + examanee_number_of_questions + ` Questions.</p>
         <p><b>Passing Grade:</b> ` + passing_grade + `% and above.</p>
         <p>Numbers of Questions per major topics:</p>
-        <div>General Information: ` + numbers_exam_at_general_info + ` Questions</div>
-        <div>Numerical Ability: ` + numbers_exam_at_numberical_ability + ` Questions</div>
-        <div>Analytical Ability: ` + numbers_exam_at_analytical_ability + ` Questions</div>
-        <div>Verbal Ability: ` + numbers_exam_at_verbal_ability + ` Questions</div>
+        <div>General Information: ` + numbers_exam_at_general_info + ` Questions (${((numbers_exam_at_general_info/150) * 100).toFixed(2)}%)</div>
+        <div>Numerical Ability: ` + numbers_exam_at_numberical_ability + ` Questions (${((numbers_exam_at_numberical_ability/150) * 100).toFixed(2)}%)</div>
+        <div>Analytical Ability: ` + numbers_exam_at_analytical_ability + ` Questions (${((numbers_exam_at_analytical_ability/150) * 100).toFixed(2)}%)</div>
+        <div>Verbal Ability: ` + numbers_exam_at_verbal_ability + ` Questions (${((numbers_exam_at_verbal_ability/150) * 100).toFixed(2)}%)</div>
         <br>
         <button class="start_topic" onclick="displayQuestionForExam()" class="">Click to Start Examination</button>
     </div>`);
@@ -122,6 +127,9 @@ restartExamQuestion=()=> {
 
     // reset the answered time
     answer_time = [];
+
+    // reset the correct or wrong logo
+    correct_wrong_logo = [];
 
 	// Resetting the General Information set of Questions
 	// The Overall set of Question for Gen Info is 20 Questions.
@@ -328,6 +336,7 @@ function displayQuestionAndChoicesForExam(questionData) {
                 <div class="question" id="question"></div>
                 <div class="choices_con" id="choices_con"></div>
                 <div class="submit_question"><button class="ripple-btn" onclick="submitAnswerForExam()">Submit your answer</button></div>
+                <div class="question_data_poster_name">This data question is submitted by ${questionData.poster_name}</div>
             </div>
         </div>`
     );
@@ -539,10 +548,11 @@ function moveToNextQuestionForExam() {
 
         // Call the end of quiz function
         end_of_quiz();
+        stopAutoSubmit()
 
         // Push the selected answer to the array database
         my_answer.push(selectedAnswerIndex);
-        answer_time.push(`You finished to answer this question in <b>${txtHours} ${txtMinutes} ${seconds} second(s)</b>.`);
+        answer_time.push(`You answered this question in <b>${txtHours} ${txtMinutes} ${seconds} second(s)</b>.`);
 
     } else {
         // If this is not the last question, update the question counter
@@ -553,7 +563,7 @@ function moveToNextQuestionForExam() {
 
         // Push the selected answer to the array database
         my_answer.push(selectedAnswerIndex);
-        answer_time.push(`You finished to answer this question in <b>${txtHours} ${txtMinutes} ${seconds} second(s)</b>.`);
+        answer_time.push(`You answered this question in <b>${txtHours} ${txtMinutes} ${seconds} second(s)</b>.`);
 
         // Display the next question
         displayQuestionForExam();
@@ -574,23 +584,28 @@ function moveToNextQuestionForExam() {
 function calculateScore() {
     if (selectedAnswer == "Correct") {
         score++;
+        correct_wrong_logo.push(correct_logo);
 
         // For Gen Info Score, need to retrieve the score up 1 to 20 questions
         if (questionCounter < 20)   {
             genInfoScore++;
         }
-        // For Numerical Score, need to retrieve the score up 21 to 70 questions
-        else if (questionCounter < 70) {
+        // For Numerical Score, need to retrieve the score up 21 to 63 questions
+        else if (questionCounter < 63) {
             numbericalScore++;
         }
-        // For Analytical Score, need to retrieve the score up 71 to 120 questions
-        else if (questionCounter < 120) {
+        // For Analytical Score, need to retrieve the score up 64 to 106 questions
+        else if (questionCounter < 106) {
             analyticalScore++;
         }
-        // For Verbal Score, need to retrieve the score up 121 to 170 questions
-        else if (questionCounter < 170) {
+        // For Verbal Score, need to retrieve the score up 107 to 150 questions
+        else if (questionCounter < 150) {
             verbalScore++;
         }
+    }
+    else {
+        // If not correct
+        correct_wrong_logo.push(wrong_logo);
     }
 }
 
@@ -612,6 +627,7 @@ reviewed_ans_for_exam=()=> {
     window.scrollTo(0, 0);
     // Remove the class content first
     $(SELECT.CONTENT).remove();
+
     // Reset the tooltip counter
     tooltip_counter = 0;
 
@@ -636,6 +652,7 @@ next_display_review_result=()=> {
     $(SELECT.CONTENT).remove();
     window.scrollTo(0, 0);
 
+    // Reset the tooltip counter
     tooltip_counter = 0;
 
     displayPreviousQuestionsAndChoices_data(data_08_QuestionsArray, data_08, 74, false, false, false);

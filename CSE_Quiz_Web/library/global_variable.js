@@ -47,6 +47,11 @@ let my_answer = [];
 /* Store the time you answered the question */
 let answer_time = [];
 
+/* Correct or wrong logo notif for the user */
+let correct_wrong_logo = [];
+let correct_logo = `<div class="correct_design_notif">YOU GOT THE CORRECT ANSWER!!</div>`; // <img style='width:210px;margin-top:-55px;' src='img/correct_notif_2.png' />
+let wrong_logo = `<div class="wrong_design_notif">YOU GOT A WRONG ANSWER!!</div>`; // <img style='width:210px;margin-top:-55px;transform: rotate(20deg);' src='img/wrong_notif_3.png' />
+
 // Define a variable to store the check the answer ("Correct" or "Wrong")
 let correctAnswer;
 
@@ -133,7 +138,8 @@ let SELECT = {
 							<p>I wanted to share an important note regarding the content on this website. I have developed this mock quiz/exam website tool to support education, specifically for individuals preparing for the Civil Service Exam. These data of questions were picked carefully from publicly available information on the internet, with the primary goal of making learning more accessible.</p>
 							<p>It's important to highlight that I am fully committed to follow the copyright regulations, with a particular emphasis on compliance with the Intellectual Property Code of the Philippines (Republic Act No. 8293).</p>
 							<p>I want to make it clear that my intention is not to break rule upon copyright laws. I have provided full credit to the original creators of these questions to ensure proper recognition and acknowledgment.</p>
-							<p>If you have any questions or concerns about the usage of these materials or suggestions to improve this quiz website, please don't hesitate to reach out to me. Your feedback is highly valued, and I have taken every measure to ensure that my practices align with ethical and legal standards.</p>
+							<p>If you have any questions or concerns about the usage of these materials or suggestions to improve this website, please don't hesitate to reach out to me. Your feedback is highly valued, and I have taken every measure to ensure that my practices align with ethical and legal standards.</p>
+							<p>You can send your data questions to me via email, and I will post them here.</p>
 							<p>Thank you for your understanding.</p>
 							<p>Sincerely,</p>
 							<p>Manuel G. Sintos</p>`,
@@ -168,4 +174,9 @@ let SELECT = {
 	CONTENT: 				`.content`,
 	FOOTER: 				`.footer`,
 	INSTRUCTION: 			`#instruction`,
+};
+
+let icon = {
+	next: `<svg id="icon_next" style="margin-bottom:-7px;" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>`,
+	prev: `<svg id="icon_prev" style="margin-bottom:-7px;" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z"/></svg>`,
 };

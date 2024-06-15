@@ -73,7 +73,7 @@ function donateMe() {
                 <div class="alertDialogMessage">
                     <p>Any amount is greatly appreciated. Thank you for your kindness and generosity.</p>
                     <table style="border:none;border-collapse:collapse;width:100%">
-                        <th style="border:none;border-collapse:collapse"><img style="border-radius:20px;width:300px;height:430px" src="img/gcash_qr.jpg" /></th>
+                        <th style="border:none;border-collapse:collapse"><img style="border-radius:20px;width:300px;height:430px" src="img/gcash_qr_2.png" /></th>
                         <th style="border:none;border-collapse:collapse"><img style="border-radius:20px;width:300px;height:430px" src="img/maya_qr.jpg" /></th>
                     </table>
                 </div>
@@ -106,25 +106,15 @@ function displayDonateMeParagraphRequest() {
 }
 
 /**
- * This function logs the overall data lengths for different data arrays (data_00 to data_13).
+ * This function logs the overall data lengths for different data arrays (data_00 to data_14).
  * It provides information about the size of each data array, which can be useful for monitoring data storage.
  */
 function databaseStatus() {
-    log("Overall data at data_00: " + data_00.length);
-    log("Overall data at data_01: " + data_01.length);
-    log("Overall data at data_02: " + data_02.length);
-    log("Overall data at data_03: " + data_03.length);
-    log("Overall data at data_04: " + data_04.length);
-    log("Overall data at data_05: " + data_05.length);
-    log("Overall data at data_06: " + data_06.length);
-    log("Overall data at data_07: " + data_07.length);
-    log("Overall data at data_08: " + data_08.length);
-    log("Overall data at data_09: " + data_09.length);
-    log("Overall data at data_10: " + data_10.length);
-    log("Overall data at data_11: " + data_11.length);
-    log("Overall data at data_12: " + data_12.length);
-    log("Overall data at data_13: " + data_13.length);
-    log("Overall data at data_14: " + data_14.length);
+    for (let i = 0; i <= 14; i++) {
+        let dataName = "data_" + ("0" + i).slice(-2);
+        let data = eval(dataName);
+        console.log(`%c[STATUS]:%c ${dataName} - Total Number of data questions at ${topics[i]}: %c${data.length} Questions`, "color:green;", "", "font-weight:bold;");
+    }
 }
 
 /**
@@ -208,8 +198,9 @@ function gotoMyFB() {
 
 // Function to open a Facebook profile in a new tab
 function openCreateQuestionnaire() {
-    window.open('questionnaire_data_format_maker.html', '', 'width=750,height=680');
-    // window.open("questionnaire_data_format_maker.html", "_blank");
+    window.open("library/questionnaire_data_format_maker.html", "_blank");
+    // window.open('library/questionnaire_data_format_maker.html', '', 'width=850,height=680');
+    // window.open("library/questionnaire_data_format_maker.html", "_blank");
     // Close the menu modal
     closeMenuModal();
 }
@@ -252,18 +243,24 @@ function openMenuModal() {
 }
 
 function downloadTheWebsite() {
-    const downloadLink = document.createElement("a");
-    downloadLink.setAttribute("download", "");
-    downloadLink.href = "CSE_Quiz_Web.zip";
+    /* 
+        const downloadLink = document.createElement("a");
+        downloadLink.setAttribute("download", "");
 
-    // Append the link to the document
-    document.body.appendChild(downloadLink);
+        // Para ma-track mo yung data numbers ng mga na-download. Gamit ng ka ng mediafire links. upload mo yung file into your mediafire account.
+        downloadLink.href = "CSE_Quiz_Web.zip";
 
-    // Simulate a click on the link
-    downloadLink.click();
+        // Append the link to the document
+        document.body.appendChild(downloadLink);
 
-    // Remove the link from the document
-    document.body.removeChild(downloadLink);
+        // Simulate a click on the link
+        downloadLink.click();
+
+        // Remove the link from the document
+        document.body.removeChild(downloadLink); 
+    */
+
+    window.open("https://www.mediafire.com/file/g6zae1abwxeav6o/CSE_Quiz_Web.zip/file", "_blank");
 
     closeMenuModal();
 }
@@ -371,6 +368,7 @@ function displayQuestionAndChoicesForTopics(questionData) {
                 <div class="question" id="question"></div>
                 <div class="choices_con" id="choices_con"></div>
                 <div class="submit_question"><button class="ripple-btn" onclick="submitAnswer()">Submit your answer</button></div>
+                <div class="question_data_poster_name">This data question is submitted by ${questionData.poster_name}</div>
             </div>
         </div>`
     );
@@ -505,11 +503,13 @@ function checkExamaneeAnswer(answerData) {
     for (var i = 0; i < choiceElements.length; i++) {
         // Reset background color for all choices
         choiceElements[i].style.backgroundColor = "";
+        choiceElements[i].style.border = "";
         choiceElements[i].style.color = "";
     }
 
     // Set the background color of the clicked choice to green
     choiceElements[selectedAnswerIndex].style.backgroundColor = bgColorForSelectedAnswer;
+    choiceElements[selectedAnswerIndex].style.border = borderColorForSelectedAnswer;
     choiceElements[selectedAnswerIndex].style.color = "";
 
     // Get the correct answer index from your data structure (e.g., an array or object) of data
@@ -550,7 +550,8 @@ displayPreviousQuestionsAndChoices_data=(dataQuestionsIndex, dataQuestions, numb
         // Build HTML for the entire question and its choices
         prevQuestions +=
         '<div class="content"><div class="prev_question_con" id="prev_question_con' + (i + numberStart) + '">' +
-            '<div class="prev_question" id="prev_question"><div class="answered_time">' + answer_time[n] + '</div>' + // BUG HERE
+            '<div class="prev_question" id="prev_question"><div class="answered_time">' + answer_time[n] + '</div>' +
+                '<div id="wrong_correct_answered_notif" class="c_a_n">' + correct_wrong_logo[n] + '</div>' +
                 '<span class="question_counter" id="question_counter">' + (i + numberStart + 1) + '. ) </span>' + questionData.question +
         '</div>';
 
@@ -561,6 +562,7 @@ displayPreviousQuestionsAndChoices_data=(dataQuestionsIndex, dataQuestions, numb
 
         for (let c = 0; c < 5; c++) {
             const choice = prev_choices[n][c];
+
             prevchoicesTxt += '<div class="prev_choices';
 
             // Check if the current choice matches the correct answer
@@ -582,7 +584,8 @@ displayPreviousQuestionsAndChoices_data=(dataQuestionsIndex, dataQuestions, numb
             prevchoicesTxt += '"> ' + (c + 1) + ') ' + choice + '</div>';
         }
 
-        prevQuestions += prevchoicesTxt + '<div class="question_explanation"><div><b>Correct Explanation:</b></div><p style="font-size:15px">' + questionData.explanation + '</p></div>' + 
+        prevQuestions += prevchoicesTxt + '<div class="question_explanation"><div><b>Correct Explanation:</b></div><p style="font-size:15px">' + questionData.explanation + '</p></div>' +
+        '<div class="poster_name_for_prev_question">This data question is submitted by ' + questionData.poster_name + '</div>' + 
         '</div></div>';
 
         n++; // Increment 'n' by 1
@@ -604,8 +607,8 @@ displayPreviousQuestionsAndChoices_data=(dataQuestionsIndex, dataQuestions, numb
             <div class="content">
                 <div class="prev_question" id="prev_question">
                     <center>
-                        <button disabled class="prev_display_review_result_btn" onclick="prev_display_review_result()">< Previous Page</button>
-                        <button class="next_display_review_result_btn" onclick="next_display_review_result()">Next Page ></button>
+                        <button disabled class="prev_display_review_result_btn" onclick="prev_display_review_result()">${icon.prev} Previous Page</button>
+                        <button class="next_display_review_result_btn" onclick="next_display_review_result()">Next Page ${icon.next}</button>
                     </center>
                 </div>
             </div>
@@ -625,8 +628,8 @@ displayPreviousQuestionsAndChoices_data=(dataQuestionsIndex, dataQuestions, numb
             <div class="content">
                 <div class="prev_question" id="prev_question">
                     <center>
-                        <button class="prev_display_review_result_btn" onclick="prev_display_review_result()">< Previous Page</button>
-                        <button disabled class="next_display_review_result_btn" onclick="next_display_review_result()">Next Page ></button>
+                        <button class="prev_display_review_result_btn" onclick="prev_display_review_result()">${icon.prev} Previous Page</button>
+                        <button disabled class="next_display_review_result_btn" onclick="next_display_review_result()">Next Page ${icon.next}</button>
                     </center>
                 </div>
             </div>
@@ -689,17 +692,26 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // This is just for Debugging purpose
 let submittedAnswer;
-function startAutoSubmit() {
-    disable_non_answer_alert = true;
+function startAutoSubmitWithAnswer() {
+     disable_non_answer_alert = true;
 
-    if (isTakingExam) {
-        submittedAnswer = setInterval(function() {submitAnswerForExam()}, 50);
+     if (isTakingExam) {
+        submittedAnswer = setInterval(function() {
+            checkAnswerExam(Math.floor(Math.random() * 5));
+            submitAnswerForExam();
+        }, 50);
     }
+    // Taking quiz (the short one)
     else {
-        submittedAnswer = setInterval(function() {submitAnswer()}, 50);
+        submittedAnswer = setInterval(function() {
+            checkAnswer(Math.floor(Math.random() * 5));
+            submitAnswer()
+        }, 50);
     }
 }
 
 function stopAutoSubmit() {
+    disable_non_answer_alert = false;
     clearInterval(submittedAnswer);
 }
+
