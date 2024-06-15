@@ -99,7 +99,8 @@ const data_10 = [
       "25,750,000"
     ],
     "correct_ans": "24,750,000",
-    "explanation": "To find the number of students who enrolled in the school year 2022-2023, we need to increase the number of students in 2021-2022 by 10%. This can be calculated as follows:<br/><br/>22,500,000 (number of students in 2021-2022) * 10% (increase) = 2,250,000 (increase in students)<br/><br/>Then, add this increase to the original number of students:<br/><br/>22,500,000 (original number of students) + 2,250,000 (increase) = 24,750,000<br/><br/>Therefore, the number of students who enrolled in the school year 2022-2023 is 24,750,000. So, the correct answer is 24,750,000."
+    "explanation": "To find the number of students who enrolled in the school year 2022-2023, we need to increase the number of students in 2021-2022 by 10%. This can be calculated as follows:<br/><br/>22,500,000 (number of students in 2021-2022) * 10% (increase) = 2,250,000 (increase in students)<br/><br/>Then, add this increase to the original number of students:<br/><br/>22,500,000 (original number of students) + 2,250,000 (increase) = 24,750,000<br/><br/>Therefore, the number of students who enrolled in the school year 2022-2023 is 24,750,000. So, the correct answer is 24,750,000.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 1,
@@ -112,7 +113,8 @@ const data_10 = [
       "116,000,000"
     ],
     "correct_ans": "114,739,000",
-    "explanation": "To find the population in 2023, we need to increase the population in 2022 by 1.63%. This can be calculated as follows:<br/><br/>113,000,000 (population in 2022) * 1.63% (increase) = 1,739,000 (increase in population)<br/><br/>Then, add this increase to the original population:<br/><br/>113,000,000 (original population) + 1,739,000 (increase) = 114,739,000<br/><br/>Therefore, the population in 2023 was 114,739,000. So, the correct answer is 114,739,000."
+    "explanation": "To find the population in 2023, we need to increase the population in 2022 by 1.63%. This can be calculated as follows:<br/><br/>113,000,000 (population in 2022) * 1.63% (increase) = 1,739,000 (increase in population)<br/><br/>Then, add this increase to the original population:<br/><br/>113,000,000 (original population) + 1,739,000 (increase) = 114,739,000<br/><br/>Therefore, the population in 2023 was 114,739,000. So, the correct answer is 114,739,000.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 2,
@@ -125,7 +127,8 @@ const data_10 = [
       "47,500"
     ],
     "correct_ans": "42,500",
-    "explanation": "To find the number of cases in February, we need to decrease the number of cases in January by 15%. This can be calculated as follows:<br/><br/>50,000 (cases in January) * 15% (decrease) = 7,500 (decrease in cases)<br/><br/>Then, subtract this decrease from the original number of cases:<br/><br/>50,000 (original number of cases) - 7,500 (decrease) = 42,500<br/><br/>Therefore, the number of cases in February was 42,500. So, the correct answer is 42,500."
+    "explanation": "To find the number of cases in February, we need to decrease the number of cases in January by 15%. This can be calculated as follows:<br/><br/>50,000 (cases in January) * 15% (decrease) = 7,500 (decrease in cases)<br/><br/>Then, subtract this decrease from the original number of cases:<br/><br/>50,000 (original number of cases) - 7,500 (decrease) = 42,500<br/><br/>Therefore, the number of cases in February was 42,500. So, the correct answer is 42,500.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 3,
@@ -138,7 +141,8 @@ const data_10 = [
       "7,500,000"
     ],
     "correct_ans": "6,000,000",
-    "explanation": "To find the number of foreign tourists in 2023, we need to increase the number of foreign tourists in 2022 by 20%. This can be calculated as follows:<br/><br/>5,000,000 (foreign tourists in 2022) * 20% (increase) = 1,000,000 (increase in foreign tourists)<br/><br/>Then, add this increase to the original number of foreign tourists:<br/><br/>5,000,000 (original number of foreign tourists) + 1,000,000 (increase) = 6,000,000<br/><br/>Therefore, the number of foreign tourists in 2023 was 6,000,000. So, the correct answer is 6,000,000."
+    "explanation": "To find the number of foreign tourists in 2023, we need to increase the number of foreign tourists in 2022 by 20%. This can be calculated as follows:<br/><br/>5,000,000 (foreign tourists in 2022) * 20% (increase) = 1,000,000 (increase in foreign tourists)<br/><br/>Then, add this increase to the original number of foreign tourists:<br/><br/>5,000,000 (original number of foreign tourists) + 1,000,000 (increase) = 6,000,000<br/><br/>Therefore, the number of foreign tourists in 2023 was 6,000,000. So, the correct answer is 6,000,000.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 4,
@@ -151,7 +155,8 @@ const data_10 = [
       "21,000,000"
     ],
     "correct_ans": "19,500,000",
-    "explanation": "To find the rice production in 2023, we need to decrease the rice production in 2022 by 5%. This can be calculated as follows:<br/><br/>20,000,000 (rice production in 2022) * 5% (decrease) = 1,000,000 (decrease in rice production)<br/><br/>Then, subtract this decrease from the original rice production:<br/><br/>20,000,000 (original rice production) - 1,000,000 (decrease) = 19,500,000<br/><br/>Therefore, the rice production in 2023 was 19,500,000. So, the correct answer is 19,500,000."
+    "explanation": "To find the rice production in 2023, we need to decrease the rice production in 2022 by 5%. This can be calculated as follows:<br/><br/>20,000,000 (rice production in 2022) * 5% (decrease) = 1,000,000 (decrease in rice production)<br/><br/>Then, subtract this decrease from the original rice production:<br/><br/>20,000,000 (original rice production) - 1,000,000 (decrease) = 19,500,000<br/><br/>Therefore, the rice production in 2023 was 19,500,000. So, the correct answer is 19,500,000.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 5,
@@ -164,7 +169,8 @@ const data_10 = [
       "8,000,000"
     ],
     "correct_ans": "7,140,000",
-    "explanation": "To find the forest cover in 2023, we need to increase the forest cover in 2022 by 2%. This can be calculated as follows:<br/><br/>7,000,000 (forest cover in 2022) * 2% (increase) = 140,000 (increase in forest cover)<br/><br/>Then, add this increase to the original forest cover:<br/><br/>7,000,000 (original forest cover) + 140,000 (increase) = 7,140,000<br/><br/>Therefore, the forest cover in 2023 was 7,140,000. So, the correct answer is 7,140,000."
+    "explanation": "To find the forest cover in 2023, we need to increase the forest cover in 2022 by 2%. This can be calculated as follows:<br/><br/>7,000,000 (forest cover in 2022) * 2% (increase) = 140,000 (increase in forest cover)<br/><br/>Then, add this increase to the original forest cover:<br/><br/>7,000,000 (original forest cover) + 140,000 (increase) = 7,140,000<br/><br/>Therefore, the forest cover in 2023 was 7,140,000. So, the correct answer is 7,140,000.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 6,
@@ -179,7 +185,8 @@ const data_10 = [
       "3,000"
     ],
     "correct_ans": "1,500",
-    "explanation": "To find the number of respondents not in the labor force, we subtract the percentage of those employed and unemployed from 100%:<br/><br/>100% (total) - 60% (employed) - 25% (unemployed) = 15% (not in the labor force)<br/><br/>Then, we calculate 15% of the total number of respondents:<br/><br/>10,000 (total respondents) * 15% = 1,500<br/><br/>Therefore, 1,500 respondents were not in the labor force. So, the correct answer is 1,500."
+    "explanation": "To find the number of respondents not in the labor force, we subtract the percentage of those employed and unemployed from 100%:<br/><br/>100% (total) - 60% (employed) - 25% (unemployed) = 15% (not in the labor force)<br/><br/>Then, we calculate 15% of the total number of respondents:<br/><br/>10,000 (total respondents) * 15% = 1,500<br/><br/>Therefore, 1,500 respondents were not in the labor force. So, the correct answer is 1,500.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 7,
@@ -194,7 +201,8 @@ const data_10 = [
       "5:1"
     ],
     "correct_ans": "3:1",
-    "explanation": "To find the ratio of employed to unemployed respondents, we calculate the number of employed and unemployed respondents and then form a ratio:<br/><br/>Employed = 10,000 * 60% = 6,000 Unemployed = 10,000 * 25% = 2,500 Ratio = 6,000 : 2,500 = 3 : 1<br/><br/>Therefore, the ratio of employed to unemployed respondents was 3:1. So, the correct answer is 3:1."
+    "explanation": "To find the ratio of employed to unemployed respondents, we calculate the number of employed and unemployed respondents and then form a ratio:<br/><br/>Employed = 10,000 * 60% = 6,000 Unemployed = 10,000 * 25% = 2,500 Ratio = 6,000 : 2,500 = 3 : 1<br/><br/>Therefore, the ratio of employed to unemployed respondents was 3:1. So, the correct answer is 3:1.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 8,
@@ -207,7 +215,8 @@ const data_10 = [
       "4,000"
     ],
     "correct_ans": "3,500",
-    "explanation": "To find the difference between the number of employed and unemployed respondents, we calculate the number of employed and unemployed respondents and then subtract the smaller number from the larger number:<br/><br/>Employed = 10,000 * 60% = 6,000 Unemployed = 10,000 * 25% = 2,500 Difference = 6,000 - 2,500 = 3,500<br/><br/>Therefore, the difference between the number of employed and unemployed respondents was 3,500. So, the correct answer is 3,500."
+    "explanation": "To find the difference between the number of employed and unemployed respondents, we calculate the number of employed and unemployed respondents and then subtract the smaller number from the larger number:<br/><br/>Employed = 10,000 * 60% = 6,000 Unemployed = 10,000 * 25% = 2,500 Difference = 6,000 - 2,500 = 3,500<br/><br/>Therefore, the difference between the number of employed and unemployed respondents was 3,500. So, the correct answer is 3,500.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 9,
@@ -220,7 +229,8 @@ const data_10 = [
       "7,000,000"
     ],
     "correct_ans": "6,500,000",
-    "explanation": "To find the number of students in senior high school, we subtract the percentage of those in elementary and high school from 100%:<br/><br/>100% (total) - 45% (elementary) - 35% (high school) = 20% (senior high school)<br/><br/>Then, we calculate 20% of the total number of students:<br/><br/>24,750,000 (total students) * 20% = 4,950,000<br/><br/>Therefore, 4,950,000 students were in senior high school. So, the correct answer is 4,950,000."
+    "explanation": "To find the number of students in senior high school, we subtract the percentage of those in elementary and high school from 100%:<br/><br/>100% (total) - 45% (elementary) - 35% (high school) = 20% (senior high school)<br/><br/>Then, we calculate 20% of the total number of students:<br/><br/>24,750,000 (total students) * 20% = 4,950,000<br/><br/>Therefore, 4,950,000 students were in senior high school. So, the correct answer is 4,950,000.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
 	    id: 10,
@@ -237,7 +247,8 @@ const data_10 = [
 	    correct_ans: "Peter",
 	    explanation: `
 			To find the student with the lowest grade in English, we need to compare the English grades of all the students. Based on the data in the table, Peter had the lowest English grade with a score of 85. Therefore, the correct answer is Peter.
-	    `
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 11,
@@ -254,7 +265,8 @@ const data_10 = [
 	    correct_ans: "John",
 	    explanation: `
 			To find the student with the lowest average grade, we need to calculate the average grade for each student by adding up their grades in all subjects and dividing by the number of subjects. Based on the data in the table, John had the lowest average grade with an average of 90 ((85+90+88+92+95)/5 = 90). Therefore, the correct answer is John.
-	    `
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 12,
@@ -271,7 +283,8 @@ const data_10 = [
 	    correct_ans: "Susan",
 	    explanation: `
 			To find the student with the second highest average grade, we need to calculate the average grade for each student by adding up their grades in all subjects and dividing by the number of subjects. Based on the data in the table, Susan had the second highest average grade with an average of 89.4 ((92+88+90+85+92)/5 = 89.4).
-	    `
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 13,
@@ -290,7 +303,8 @@ const data_10 = [
 				The total number of active cases is calculated by subtracting the total number of deaths and recoveries from the total cases.<br/>
         Therefore, Active Cases = Total Cases - (Total Deaths + Total Recovered)<br/>
         Active Cases = 100,000 - (2,000 + 97,000) = 1,000.
-	    `
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 14,
@@ -309,7 +323,8 @@ const data_10 = [
 	        The percentage of total cases that have recovered is calculated by dividing the total recovered by the total cases and then multiplying by 100.<br/>
 	        Recovery Percentage = (Total Recovered / Total Cases) * 100<br/>
 	        Recovery Percentage = (97,000 / 100,000) * 100 = 97%<br/>
-	    `
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 ];
 

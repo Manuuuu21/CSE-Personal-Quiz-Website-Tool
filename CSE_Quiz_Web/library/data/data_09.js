@@ -16,7 +16,8 @@ const data_09 = [
 	        "Ribbit"
 	    ],
 	    correct_ans: "Bark",
-	    explanation: "Cats make the sound 'meow,' while dogs make the sound 'bark.'"
+	    explanation: "Cats make the sound 'meow,' while dogs make the sound 'bark.'",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 1,
@@ -29,7 +30,8 @@ const data_09 = [
 	        "Color"
 	    ],
 	    correct_ans: "Write",
-	    explanation: "The relationship between 'book' and 'read' is that a book is something you read. Similarly, a pen is something you use to write."
+	    explanation: "The relationship between 'book' and 'read' is that a book is something you read. Similarly, a pen is something you use to write.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 2,
@@ -42,7 +44,8 @@ const data_09 = [
 	        "Healthy"
 	    ],
 	    correct_ans: "Vegetable",
-	    explanation: "The relationship between 'apple' and 'fruit' is that an apple is a type of fruit. Similarly, a carrot is a type of vegetable."
+	    explanation: "The relationship between 'apple' and 'fruit' is that an apple is a type of fruit. Similarly, a carrot is a type of vegetable.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
     	id: 3,
@@ -55,7 +58,8 @@ const data_09 = [
 	        "Sky"
 	    ],
 	    correct_ans: "Trees",
-	    explanation: "The analogy here is that an ocean is made up of water, just as a forest is made up of trees."
+	    explanation: "The analogy here is that an ocean is made up of water, just as a forest is made up of trees.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 4,
@@ -68,7 +72,8 @@ const data_09 = [
 	        "Sound"
 	    ],
 	    correct_ans: "Art",
-	    explanation: "A guitar is an instrument used to make music, while a paintbrush is a tool used in the creation of art."
+	    explanation: "A guitar is an instrument used to make music, while a paintbrush is a tool used in the creation of art.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 5,
@@ -81,7 +86,8 @@ const data_09 = [
 	        "Rain"
 	    ],
 	    correct_ans: "Cold",
-	    explanation: "The relationship between 'summer' and 'hot' is that summer is associated with hot weather. Similarly, winter is associated with cold weather."
+	    explanation: "The relationship between 'summer' and 'hot' is that summer is associated with hot weather. Similarly, winter is associated with cold weather.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 6,
@@ -94,7 +100,8 @@ const data_09 = [
 	        "Wing"
 	    ],
 	    correct_ans: "Egg",
-	    explanation: "A butterfly transforms from a cocoon, just as a bird hatches from an egg."
+	    explanation: "A butterfly transforms from a cocoon, just as a bird hatches from an egg.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 7,
@@ -107,7 +114,8 @@ const data_09 = [
 	        "All black animals are mammals."
 	    ],
 	    correct_ans: "Some cats are black.",
-	    explanation: "From the given information, we can only conclude that there are cats that are black. We cannot infer that all cats are black or that all black animals are cats."
+	    explanation: "From the given information, we can only conclude that there are cats that are black. We cannot infer that all cats are black or that all black animals are cats.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 8,
@@ -120,7 +128,8 @@ const data_09 = [
 	        "Squares can have any number of sides."
 	    ],
 	    correct_ans: "Yes, every square is a shape.",
-	    explanation: "Since squares have four sides and a shape with four sides is a square by definition, every square is indeed a shape."
+	    explanation: "Since squares have four sides and a shape with four sides is a square by definition, every square is indeed a shape.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
     	id: 9,
@@ -133,7 +142,8 @@ const data_09 = [
 	        "Only some cats have tails."
 	    ],
 	    correct_ans: "Yes, Fluffy has a tail.",
-	    explanation: "Given that all cats have tails and Fluffy is a cat, it logically follows that Fluffy also has a tail."
+	    explanation: "Given that all cats have tails and Fluffy is a cat, it logically follows that Fluffy also has a tail.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 10,
@@ -146,7 +156,8 @@ const data_09 = [
 	        "All fruits are red."
 	    ],
 	    correct_ans: "No, not all apples are red.",
-	    explanation: "The statement only mentions that some fruits are red, which does not imply that all apples are red."
+	    explanation: "The statement only mentions that some fruits are red, which does not imply that all apples are red.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 11,
@@ -159,7 +170,8 @@ const data_09 = [
 	        "5 sides"
 	    ],
 	    correct_ans: "4 sides",
-	    explanation: "A square is not a type of triangle; it is a separate geometric shape with four sides."
+	    explanation: "A square is not a type of triangle; it is a separate geometric shape with four sides.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 12,
@@ -172,7 +184,8 @@ const data_09 = [
 	        "Pictures cannot be in books."
 	    ],
 	    correct_ans: "No, not all books have pictures.",
-	    explanation: "While all books have pages, not all pages in books necessarily have pictures. Some books may contain no pictures."
+	    explanation: "While all books have pages, not all pages in books necessarily have pictures. Some books may contain no pictures.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 13,
@@ -185,7 +198,8 @@ const data_09 = [
 	        "Men cannot be mortal."
 	    ],
 	    correct_ans: "Yes, John is mortal.",
-	    explanation: "Given that all men are mortal and John is a man, it logically follows that John is also mortal."
+	    explanation: "Given that all men are mortal and John is a man, it logically follows that John is also mortal.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 14,
@@ -198,7 +212,8 @@ const data_09 = [
 	        "Purple"
 	    ],
 	    "correct_ans": "Orange",
-	    "explanation": "Since Maria's favorite color is blue, and Sarah's favorite color is neither green nor yellow, the only option left for Sarah is orange."
+	    "explanation": "Since Maria's favorite color is blue, and Sarah's favorite color is neither green nor yellow, the only option left for Sarah is orange.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 15,
@@ -211,7 +226,8 @@ const data_09 = [
 	        "It contains mixed fruits."
 	    ],
 	    "correct_ans": "It contains only apples.",
-	    "explanation": "Since the box labeled 'Bananas' contains only bananas and the box labeled 'Mixed Fruits' contains both apples and bananas, it logically follows that the 'Apples' box contains only apples."
+	    "explanation": "Since the box labeled 'Bananas' contains only bananas and the box labeled 'Mixed Fruits' contains both apples and bananas, it logically follows that the 'Apples' box contains only apples.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 16,
@@ -224,7 +240,8 @@ const data_09 = [
 	        "It cannot be determined."
 	    ],
 	    "correct_ans": "It cannot be determined.",
-	    "explanation": "The information provided does not specify the height of Carol and Dave relative to Alice and Bob. Without additional information, we cannot determine who is the tallest among the four."
+	    "explanation": "The information provided does not specify the height of Carol and Dave relative to Alice and Bob. Without additional information, we cannot determine who is the tallest among the four.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 17,
@@ -237,7 +254,8 @@ const data_09 = [
 	        "Insufficient information to determine."
 	    ],
 	    "correct_ans": "Dave",
-	    "explanation": "Since Ben claims he was with Dave at the time of the crime, if Ben is telling the truth, Dave could be the culprit. Alex's innocence further supports this possibility."
+	    "explanation": "Since Ben claims he was with Dave at the time of the crime, if Ben is telling the truth, Dave could be the culprit. Alex's innocence further supports this possibility.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 18,
@@ -250,7 +268,8 @@ const data_09 = [
 	        "It cannot be determined."
 	    ],
 	    "correct_ans": "Manuel",
-	    "explanation": "The given information establishes a clear order of finish: Alice, Bob, Carol, and Manuel. Therefore, Manuel finishes in the last position."
+	    "explanation": "The given information establishes a clear order of finish: Alice, Bob, Carol, and Manuel. Therefore, Manuel finishes in the last position.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 19,
@@ -263,7 +282,8 @@ const data_09 = [
 	        "Eve"
 	    ],
 	    "correct_ans": "Carol",
-	    "explanation": "Since Alice is older than Carol but younger than Dave, Dave must be the oldest. Among the remaining family members, Carol is the youngest."
+	    "explanation": "Since Alice is older than Carol but younger than Dave, Dave must be the oldest. Among the remaining family members, Carol is the youngest.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 20,
@@ -276,7 +296,8 @@ const data_09 = [
 	        "It cannot be determined."
 	    ],
 	    "correct_ans": "Noah",
-	    "explanation": "Since Emma is driving the car, Liam is sitting in the front seat next to Emma, and Olivia is sitting behind Emma, the only friend left to sit in the back seat behind Liam is Noah."
+	    "explanation": "Since Emma is driving the car, Liam is sitting in the front seat next to Emma, and Olivia is sitting behind Emma, the only friend left to sit in the back seat behind Liam is Noah.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 21,
@@ -289,7 +310,8 @@ const data_09 = [
 	        "Mr. Evans"
 	    ],
 	    "correct_ans": "Ms. Davis",
-	    "explanation": "Ms. Davis may be a crucial witness as she claims to have seen Mr. Evans near the scene of the incident. This information could provide valuable insights into the investigation."
+	    "explanation": "Ms. Davis may be a crucial witness as she claims to have seen Mr. Evans near the scene of the incident. This information could provide valuable insights into the investigation.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 22,
@@ -302,7 +324,8 @@ const data_09 = [
 	        "It cannot be determined."
 	    ],
 	    "correct_ans": "Jose",
-	    "explanation": "Since the festival organizer decides to showcase Pandanggo first, Jose, who typically performs Pandanggo, is likely to take the stage."
+	    "explanation": "Since the festival organizer decides to showcase Pandanggo first, Jose, who typically performs Pandanggo, is likely to take the stage.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 23,
@@ -315,7 +338,8 @@ const data_09 = [
 	        "It cannot be determined."
 	    ],
 	    "correct_ans": "Grace",
-	    "explanation": "Since the friends decide to start their culinary adventure with Adobo Delights, Grace, who prefers Adobo, is most likely to order first from that stall."
+	    "explanation": "Since the friends decide to start their culinary adventure with Adobo Delights, Grace, who prefers Adobo, is most likely to order first from that stall.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 24,
@@ -328,7 +352,8 @@ const data_09 = [
 	        "It cannot be determined."
 	    ],
 	    "correct_ans": "Miguel",
-	    "explanation": "Since the History round is announced to be the last, Miguel, who is typically strong in History, is likely to be preparing for the final round of the competition."
+	    "explanation": "Since the History round is announced to be the last, Miguel, who is typically strong in History, is likely to be preparing for the final round of the competition.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 25,
@@ -341,7 +366,8 @@ const data_09 = [
 	        "It cannot be determined."
 	    ],
 	    "correct_ans": "Next to Gadget Galaxy",
-	    "explanation": "Sarah should go to the location between Gadget Galaxy and Book Nook to find Fashion Haven, which means she should go next to Gadget Galaxy."
+	    "explanation": "Sarah should go to the location between Gadget Galaxy and Book Nook to find Fashion Haven, which means she should go next to Gadget Galaxy.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 26,
@@ -354,7 +380,8 @@ const data_09 = [
 	        "It cannot be determined."
 	    ],
 	    "correct_ans": "Second Floor",
-	    "explanation": "Emily should go to the Second Floor to find the store 'Tech World,' as indicated in the mall directory."
+	    "explanation": "Emily should go to the Second Floor to find the store 'Tech World,' as indicated in the mall directory.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 27,
@@ -367,6 +394,7 @@ const data_09 = [
 	        "It cannot be determined."
 	    ],
 	    "correct_ans": "Electronics Hub",
-	    "explanation": "Mark should head to the Electronics Hub section of the mall to find the store 'Gadget Grotto,' as indicated by the security guard."
+	    "explanation": "Mark should head to the Electronics Hub section of the mall to find the store 'Gadget Grotto,' as indicated by the security guard.",
+    	"poster_name": "Manuel G. Sintos"
 	}
 ];

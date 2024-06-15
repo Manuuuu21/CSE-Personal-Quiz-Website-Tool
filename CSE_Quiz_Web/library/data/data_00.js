@@ -16,7 +16,8 @@ const data_00 = [
 	      "Year 1986"
 	    ],
 	    "correct_ans": "Year 1987",
-	    "explanation": "The current Constitution of the Philippines, also known as the 1987 Constitution, was ratified on February 2, 1987."
+	    "explanation": "The current Constitution of the Philippines, also known as the 1987 Constitution, was ratified on February 2, 1987.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 1,
@@ -29,7 +30,8 @@ const data_00 = [
 	      "Fidel V. Ramos"
 	    ],
 	    "correct_ans": "Cecilia Muñoz-Palma",
-	    "explanation": "The the main contributor to the creation of the 1987 Philippine Constitution is often attributed to the Constitutional Commission chaired by Cecilia Muñoz-Palma, while President Corazon \"Cory Aquino\" played a significant role in its adoption as the head of state during the transition period."
+	    "explanation": "The the main contributor to the creation of the 1987 Philippine Constitution is often attributed to the Constitutional Commission chaired by Cecilia Muñoz-Palma, while President Corazon \"Cory Aquino\" played a significant role in its adoption as the head of state during the transition period.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 2,
@@ -42,7 +44,8 @@ const data_00 = [
 	      "20 Articles"
 	    ],
 	    "correct_ans": "18 Articles",
-	    "explanation": "The 1987 Philippine Constitution has a total of 18 articles."
+	    "explanation": "The 1987 Philippine Constitution has a total of 18 articles.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 3,
@@ -55,7 +58,8 @@ const data_00 = [
 	      "It restricts the establishment of religious institutions."
 	    ],
 	    "correct_ans": "It guarantees freedom of religion.",
-	    "explanation": "In Article III, Section 5, guarantees freedom of religion. It ensures the separation of church and state, prohibiting the establishment of a state religion and protecting the right of individuals to practice their chosen religion freely."
+	    "explanation": "In Article III, Section 5, guarantees freedom of religion. It ensures the separation of church and state, prohibiting the establishment of a state religion and protecting the right of individuals to practice their chosen religion freely.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 4,
@@ -68,7 +72,8 @@ const data_00 = [
 	      "No term limit"
 	    ],
 	    "correct_ans": "One term",
-	    "explanation": "According to the Philippine Constitution, a President can serve for a <b>1 term</b> of six years, and re-election is not allowed."
+	    "explanation": "According to the Philippine Constitution, a President can serve for a <b>1 term</b> of six years, and re-election is not allowed.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 5,
@@ -81,7 +86,8 @@ const data_00 = [
 	      "No age limit"
 	    ],
 	    "correct_ans": "No age limit",
-	    "explanation": "There is no maximum age limit stipulated in the Constitution for someone to be eligible for the position of a senator."
+	    "explanation": "There is no maximum age limit stipulated in the Constitution for someone to be eligible for the position of a senator.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 6,
@@ -94,7 +100,8 @@ const data_00 = [
 	        "350 members"
 	    ],
 	    "correct_ans": "250 members",
-	    "explanation": "According to the 1987 Constitution of the Republic of the Philippines, Article VI, Section 5(1), the House of Representatives shall be composed of not more than two hundred and fifty (250) members, unless otherwise fixed by law."
+	    "explanation": "According to the 1987 Constitution of the Republic of the Philippines, Article VI, Section 5(1), the House of Representatives shall be composed of not more than two hundred and fifty (250) members, unless otherwise fixed by law.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 7,
@@ -107,8 +114,8 @@ const data_00 = [
 	        "The Supreme Court"
 	    ],
 	    "correct_ans": "The President",
-	    "explanation": `The 1987 Constitution empowers the President of the Republic to declare 
-	    			martial law for a period not exceeding 60 days in cases of rebellion and invasion, when public safety requires it.`
+	    "explanation": `The 1987 Constitution empowers the President of the Republic to declare martial law for a period not exceeding 60 days in cases of rebellion and invasion, when public safety requires it.`,
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 8,
@@ -121,7 +128,8 @@ const data_00 = [
 	        "10 years"
 	    ],
 	    "correct_ans": "6 years",
-	   	"explanation": `A Philippine senator's term length, as specified in the Constitution, is six years.`
+	   	"explanation": `A Philippine senator's term length, as specified in the Constitution, is six years.`,
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 9,
@@ -134,7 +142,8 @@ const data_00 = [
 	        "7 years"
 	    ],
 	    "correct_ans": "3 years",
-	    "explanation": "The term length for a member of the Philippine House of Representatives is three years as defined in the 1987 Philippine Constitution."
+	    "explanation": "The term length for a member of the Philippine House of Representatives is three years as defined in the 1987 Philippine Constitution.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 10,
@@ -147,7 +156,8 @@ const data_00 = [
 	      "Article IV Citizenship"
 	    ],
 	    "correct_ans": "Preamble",
-		'explanation': 'This phrase is part of \'Preamble\' in The Constitution Of The Republic Of The Philippines.'
+		'explanation': 'This phrase is part of \'Preamble\' in The Constitution Of The Republic Of The Philippines.',
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 11,
@@ -160,7 +170,8 @@ const data_00 = [
 	      "The duty of the Government"
 	    ],
 	    "correct_ans": "The ideals and aspirations of the Filipino people",
-	    "explanation": "The Preamble of the Philippines Constitution embodies the ideals and aspirations of the Filipino people."
+	    "explanation": "The Preamble of the Philippines Constitution embodies the ideals and aspirations of the Filipino people.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 12,
@@ -173,7 +184,8 @@ const data_00 = [
 	      "No law shall be made respecting an establishment of religion, or prohibiting the free exercise thereof"
 	    ],
 	    "correct_ans": "No person shall be deprived of life, liberty, or property without due process of law, nor shall any person be denied the equal protection of the laws",
-	    "explanation": "Section 1 of Article III in the Philippines Constitution states that no person shall be deprived of life, liberty, or property without due process of law, nor shall any person be denied the equal protection of the laws."
+	    "explanation": "Section 1 of Article III in the Philippines Constitution states that no person shall be deprived of life, liberty, or property without due process of law, nor shall any person be denied the equal protection of the laws.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 13,
@@ -186,7 +198,8 @@ const data_00 = [
 	      "The privacy of communication and correspondence can be violated when public safety or order requires otherwise"
 	    ],
 	    "correct_ans": "The privacy of communication and correspondence shall be inviolable except upon lawful order of the court, or when public safety or order requires otherwise, as prescribed by law",
-	    "explanation": 'Section 3 states that: The privacy of communication and correspondence shall be inviolable except upon lawful order of the court.'
+	    "explanation": 'Section 3 states that: The privacy of communication and correspondence shall be inviolable except upon lawful order of the court.',
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    'id': 14,
@@ -199,7 +212,8 @@ const data_00 = [
 	        'No law'
 	    ],
 	    'correct_ans': 'No law shall be passed abridging the freedom speech',
-	    'explanation': 'Section 4 states that: No law shall be passed abridging the freedom speech.'
+	    'explanation': 'Section 4 states that: No law shall be passed abridging the freedom speech.',
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 15,
@@ -212,7 +226,8 @@ const data_00 = [
 	      "The liberty of abode can be impaired for any reason"
 	    ],
 	    "correct_ans": "The liberty of abode and of changing the same within the limits prescribed by law shall not be impaired except upon lawful order of the court",
-	    "explanation": "Section 6 of Article III in the Philippines Constitution states that the liberty of abode and of changing the same within the limits prescribed by law shall not be impaired except upon lawful order of the court."
+	    "explanation": "Section 6 of Article III in the Philippines Constitution states that the liberty of abode and of changing the same within the limits prescribed by law shall not be impaired except upon lawful order of the court.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 16,
@@ -225,7 +240,8 @@ const data_00 = [
 	      "The right of the people to information on matters of public concern is limited"
 	    ],
 	    "correct_ans": "The right of the people to information on matters of public concern shall be recognized",
-	    "explanation": 'Section 7 states that: The right of the people to information on matters of public concern shall be recognized.'
+	    "explanation": 'Section 7 states that: The right of the people to information on matters of public concern shall be recognized.',
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    'id': 17,
@@ -238,7 +254,8 @@ const data_00 = [
 	        'The right to form unions is unrestricted'
 	    ],
 	    'correct_ans': 'The right to form unions is recognized',
-	    'explanation': 'Section 8 states that: The right to form unions is recognized.'
+	    'explanation': 'Section 8 states that: The right to form unions is recognized.',
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    'id': 18,
@@ -251,7 +268,8 @@ const data_00 = [
 	        'Private property can always be taken for public use'
 	    ],
 	    'correct_ans': 'Private property cannot be taken for public use without just compensation',
-	    'explanation': 'Section 9 states that: Private property cannot be taken for public use without just compensation.'
+	    'explanation': 'Section 9 states that: Private property cannot be taken for public use without just compensation.',
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    'id': 19,
@@ -264,7 +282,8 @@ const data_00 = [
 	        'No law impairing contracts must be passed'
 	    ],
 	    'correct_ans': 'No law impairing contracts shall be passed',
-	    'explanation': 'Section 10 states that: No law impairing contracts shall be passed.'
+	    'explanation': 'Section 10 states that: No law impairing contracts shall be passed.',
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 20,
@@ -277,7 +296,8 @@ const data_00 = [
 	      "Free access to courts is unrestricted"
 	    ],
 	    "correct_ans": "Free access to courts is recognized",
-	    "explanation": "Section 11 of Article III in the Philippines Constitution states that free access to courts and quasi-judicial bodies and adequate legal assistance shall not be denied to any person by reason of poverty."
+	    "explanation": "Section 11 of Article III in the Philippines Constitution states that free access to courts and quasi-judicial bodies and adequate legal assistance shall not be denied to any person by reason of poverty.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 21,
@@ -290,7 +310,8 @@ const data_00 = [
 	      "Rights of persons under investigation are unrestricted"
 	    ],
 	    "correct_ans": "Rights of persons under investigation are recognized",
-	    "explanation": 'Section 12(1) states that: Any person under investigation for the commission of an offense shall have the right to be informed of his right to remain silent and to have competent and independent counsel preferably of his own choice.'
+	    "explanation": 'Section 12(1) states that: Any person under investigation for the commission of an offense shall have the right to be informed of his right to remain silent and to have competent and independent counsel preferably of his own choice.',
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    'id': 22,
@@ -303,7 +324,8 @@ const data_00 = [
 	        'All persons shall, before conviction, be bailable by sufficient sureties'
 	    ],
 	    'correct_ans': 'All persons, except those charged with offenses punishable by reclusion perpetua when evidence of guilt is strong, shall, before conviction, be bailable by sufficient sureties',
-	    'explanation': 'Section 13 states that: All persons, except those charged with offenses punishable by reclusion perpetua when evidence of guilt is strong, shall, before conviction, be bailable by sufficient sureties.'
+	    'explanation': 'Section 13 states that: All persons, except those charged with offenses punishable by reclusion perpetua when evidence of guilt is strong, shall, before conviction, be bailable by sufficient sureties.',
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    'id': 23,
@@ -316,7 +338,8 @@ const data_00 = [
 	        'In all criminal prosecutions, the accused shall not be presumed guilty until the contrary is proved'
 	    ],
 	    'correct_ans': 'In all criminal prosecutions, the accused shall be presumed innocent until the contrary is proved',
-	    'explanation': 'Section 14(2) states that: In all criminal prosecutions, the accused shall be presumed innocent until the contrary is proved.'
+	    'explanation': 'Section 14(2) states that: In all criminal prosecutions, the accused shall be presumed innocent until the contrary is proved.',
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    'id': 24,
@@ -329,7 +352,8 @@ const data_00 = [
 	        'The privilege of the writ of habeas corpus can only be suspended when public safety requires it'
 	    ],
 	    'correct_ans': 'The privilege of the writ of habeas corpus shall not be suspended except in cases of invasion or rebellion when the public safety requires it',
-	    'explanation': 'Section 15 states that: The privilege of the writ of habeas corpus shall not be suspended except in cases of invasion or rebellion when the public safety requires it.'
+	    'explanation': 'Section 15 states that: The privilege of the writ of habeas corpus shall not be suspended except in cases of invasion or rebellion when the public safety requires it.',
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 25,
@@ -342,7 +366,8 @@ const data_00 = [
 	      "All persons shall have the right to a speedy disposition of their cases only before administrative bodies"
 	    ],
 	    "correct_ans": "All persons shall have the right to a speedy disposition of their cases before all judicial, quasi-judicial, or administrative bodies",
-	    "explanation": 'Section 16 states that: All persons shall have the right to a speedy disposition of their cases before all judicial, quasi-judicial, or administrative bodies.'
+	    "explanation": 'Section 16 states that: All persons shall have the right to a speedy disposition of their cases before all judicial, quasi-judicial, or administrative bodies.',
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    'id': 26,
@@ -355,7 +380,8 @@ const data_00 = [
 	        'No person shall be compelled to be a witness'
 	    ],
 	    'correct_ans': 'No person shall be compelled to be a witness against himself',
-	    'explanation': 'Section 17 states that: No person shall be compelled to be a witness against himself.'
+	    'explanation': 'Section 17 states that: No person shall be compelled to be a witness against himself.',
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    'id': 27,
@@ -368,7 +394,8 @@ const data_00 = [
 	        'In all criminal prosecutions, the accused can refuse to be subject to trial by military commission'
 	    ],
 	    'correct_ans': 'In all criminal prosecutions, the accused shall not be subject to trial by military commission',
-	    'explanation': 'Section 18(1) states that: In all criminal prosecutions, the accused shall not be subject to trial by military commission.'
+	    'explanation': 'Section 18(1) states that: In all criminal prosecutions, the accused shall not be subject to trial by military commission.',
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	  	"id": 28,
@@ -381,7 +408,8 @@ const data_00 = [
 	    	"To promote tourism"
 	  	],
 	  	"correct_ans": "To serve and protect the people",
-	  	"explanation": "According to Section 4 of Article II, the prime duty of the Government is to serve and protect the people. This means that all actions and policies of the Government should be directed towards this goal."
+	  	"explanation": "According to Section 4 of Article II, the prime duty of the Government is to serve and protect the people. This means that all actions and policies of the Government should be directed towards this goal.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	  	"id": 29,
@@ -394,7 +422,8 @@ const data_00 = [
 	    	"The Philippines is an autocracy"
 	  	],
 	  	"correct_ans": "The Philippines is a democratic and republican State",
-	  	"explanation": "Section 1 of Article II states that the Philippines is a democratic and republican State. Sovereignty resides in the people and all government authority emanates from them."
+	  	"explanation": "Section 1 of Article II states that the Philippines is a democratic and republican State. Sovereignty resides in the people and all government authority emanates from them.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	  	"id": 30,
@@ -407,7 +436,8 @@ const data_00 = [
 	    	"The Philippines supports war if it benefits the economy"
 	  	],
 	  	"correct_ans": "The Philippines renounces war as an instrument of national policy",
-	  	"explanation": "Section 2 of Article II states that the Philippines renounces war as an instrument of national policy, adopts the generally accepted principles of international law as part of the law of the land and adheres to the policy of peace, equality, justice, freedom, cooperation, and amity with all nations."
+	  	"explanation": "Section 2 of Article II states that the Philippines renounces war as an instrument of national policy, adopts the generally accepted principles of international law as part of the law of the land and adheres to the policy of peace, equality, justice, freedom, cooperation, and amity with all nations.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	  	"id": 31,
@@ -420,7 +450,8 @@ const data_00 = [
 	    	"Military authority is supreme over civilian authority only during wartime"
 	  	],
 	  	"correct_ans": "Civilian authority is, at all times, supreme over the military",
-	  	"explanation": "Section 3 of Article II states that civilian authority is, at all times, supreme over the military. The Armed Forces of the Philippines is the protector of the people and the State. Its goal is to secure the sovereignty of the State and the integrity of the national territory."
+	  	"explanation": "Section 3 of Article II states that civilian authority is, at all times, supreme over the military. The Armed Forces of the Philippines is the protector of the people and the State. Its goal is to secure the sovereignty of the State and the integrity of the national territory.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	  	"id": 32,
@@ -433,7 +464,8 @@ const data_00 = [
 	    	"The prime duty of the Government is to serve and protect the people"
 	  	],
 	  	"correct_ans": "The prime duty of the Government is to serve and protect the people",
-	  	"explanation": "Section 4 of Article II states that the prime duty of the Government is to serve and protect the people. The Government may call upon the people to defend the State and, in fulfillment thereof, all citizens may be required, under conditions provided by law, to render personal military or civil service."
+	  	"explanation": "Section 4 of Article II states that the prime duty of the Government is to serve and protect the people. The Government may call upon the people to defend the State and, in fulfillment thereof, all citizens may be required, under conditions provided by law, to render personal military or civil service.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	  	"id": 33,
@@ -446,7 +478,8 @@ const data_00 = [
 	    	"The Church and State shall be one"
 	  	],
 	  	"correct_ans": "The separation of Church and State shall be inviolable",
-	  	"explanation": "Section 6 of Article II states that the separation of Church and State shall be inviolable. This means that there should be a clear distinction between the government and religious institutions, and neither should interfere with the affairs of the other."
+	  	"explanation": "Section 6 of Article II states that the separation of Church and State shall be inviolable. This means that there should be a clear distinction between the government and religious institutions, and neither should interfere with the affairs of the other.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 		"id": 34,
@@ -459,7 +492,8 @@ const data_00 = [
 	        "All citizens of the Philippines who have resided in the Philippines for at least two years"
 	    ],
 	    "correct_ans": "All citizens of the Philippines who are at least 18 years old",
-	    "explanation": "According to Article V of the 1987 Constitution of the Republic of the Philippines, suffrage may be exercised by all citizens of the Philippines not otherwise disqualified by law, who are at least eighteen years of age."
+	    "explanation": "According to Article V of the 1987 Constitution of the Republic of the Philippines, suffrage may be exercised by all citizens of the Philippines not otherwise disqualified by law, who are at least eighteen years of age.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 		"id": 35,
@@ -472,7 +506,8 @@ const data_00 = [
             "Article V"
         ],
         "correct_ans": "Article V",
-        "explanation": "\"Article V\" in The Constitution of the Republic of the Philippines discusses suffrage."
+        "explanation": "\"Article V\" in The Constitution of the Republic of the Philippines discusses suffrage.",
+	    "poster_name": "Manuel G. Sintos"
     },
     {
       	"id": 36,
@@ -485,7 +520,8 @@ const data_00 = [
         	"Department of Justice"
       	],
       	"correct_ans": "Commission on Human Rights",
-      	"explanation": "The Commission on Human Rights is the government agency in the Philippines primarily responsible for promoting and protecting human rights in the country."
+      	"explanation": "The Commission on Human Rights is the government agency in the Philippines primarily responsible for promoting and protecting human rights in the country.",
+	    "poster_name": "Manuel G. Sintos"
     },
     {
 	    "id": 37,
@@ -498,7 +534,8 @@ const data_00 = [
 	      "Article VI - Legislative Department"
 	    ],
 	    "correct_ans": "Article II - Declaration of Principles and State Policies",
-	    "explanation": "Article II - Declaration of Principles and State Policies. This article serves as the guiding framework for the government and establishes the fundamental principles that should govern the country. It encompasses a wide range of principles, including the promotion of social justice, equality, and respect for human rights. The Declaration of Principles and State Policies sets the tone for the governance and direction of the nation. Articles III to VI address specific rights, citizenship, suffrage, and the legislative department, respectively, but Article II provides the overarching principles that shape the Philippine government's actions and decisions."
+	    "explanation": "Article II - Declaration of Principles and State Policies. This article serves as the guiding framework for the government and establishes the fundamental principles that should govern the country. It encompasses a wide range of principles, including the promotion of social justice, equality, and respect for human rights. The Declaration of Principles and State Policies sets the tone for the governance and direction of the nation. Articles III to VI address specific rights, citizenship, suffrage, and the legislative department, respectively, but Article II provides the overarching principles that shape the Philippine government's actions and decisions.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 38,
@@ -511,7 +548,8 @@ const data_00 = [
 	        "Local Government Units"
 	    ],
 	    "correct_ans": "Legislative Branch",
-	    "explanation": "The Legislative Branch of the Philippine government, which includes the Senate and the House of Representatives, is responsible for making and enacting laws. The Executive Branch enforces the laws, and the Judicial Branch interprets them."
+	    "explanation": "The Legislative Branch of the Philippine government, which includes the Senate and the House of Representatives, is responsible for making and enacting laws. The Executive Branch enforces the laws, and the Judicial Branch interprets them.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 39,
@@ -524,7 +562,8 @@ const data_00 = [
 	        "Local Government"
 	    ],
 	    "correct_ans": "The Legislative Department",
-	    "explanation": "Article 6 of the Philippine Constitution deals with the Legislative Department, outlining the structure, powers, and functions of the Philippine Congress, which is composed of the Senate and the House of Representatives. It defines the roles and responsibilities of legislators in the Philippine government."
+	    "explanation": "Article 6 of the Philippine Constitution deals with the Legislative Department, outlining the structure, powers, and functions of the Philippine Congress, which is composed of the Senate and the House of Representatives. It defines the roles and responsibilities of legislators in the Philippine government.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 40,
@@ -537,7 +576,8 @@ const data_00 = [
 	        "Article 6"
 	    ],
 	    "correct_ans": "Article 3",
-	    "explanation": "Article 3 of the 1987 Philippine Constitution is known as the Bill of Rights. It addresses the protection of human rights and guarantees individual liberties."
+	    "explanation": "Article 3 of the 1987 Philippine Constitution is known as the Bill of Rights. It addresses the protection of human rights and guarantees individual liberties.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 41,
@@ -550,7 +590,8 @@ const data_00 = [
 	        "The Family"
 	    ],
 	    "correct_ans": "Citizenship",
-	    "explanation": "Article 4 of the 1987 Philippine Constitution primarily focuses on the concept of citizenship, including the acquisition and loss of Philippine citizenship."
+	    "explanation": "Article 4 of the 1987 Philippine Constitution primarily focuses on the concept of citizenship, including the acquisition and loss of Philippine citizenship.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 42,
@@ -563,7 +604,8 @@ const data_00 = [
 	        "Article 16"
 	    ],
 	    "correct_ans": "Article 14",
-	    "explanation": "Article 14 of the 1987 Philippine Constitution establishes the principles and policies governing education, science, technology, arts, culture, and sports in the Philippines."
+	    "explanation": "Article 14 of the 1987 Philippine Constitution establishes the principles and policies governing education, science, technology, arts, culture, and sports in the Philippines.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 43,
@@ -576,7 +618,8 @@ const data_00 = [
 	        "Article 21"
 	    ],
 	    "correct_ans": "Article 17",
-	    "explanation": "Article 17 of the 1987 Philippine Constitution outlines the process for amending or revising the Constitution, ensuring that such changes are made through a deliberate and structured procedure."
+	    "explanation": "Article 17 of the 1987 Philippine Constitution outlines the process for amending or revising the Constitution, ensuring that such changes are made through a deliberate and structured procedure.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
     	"id": 44,
@@ -589,7 +632,8 @@ const data_00 = [
 	        "Local government administration"
 	    ],
 	    "correct_ans": "Chief executive and commander-in-chief",
-	    "explanation": "Article 7 of the 1987 Philippine Constitution designates the President as the chief executive and commander-in-chief of the armed forces, responsible for enforcing laws and ensuring the country's security."
+	    "explanation": "Article 7 of the 1987 Philippine Constitution designates the President as the chief executive and commander-in-chief of the armed forces, responsible for enforcing laws and ensuring the country's security.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 45,
@@ -602,7 +646,8 @@ const data_00 = [
 	        "The Secretary of Foreign Affairs"
 	    ],
 	    "correct_ans": "The Vice President",
-	    "explanation": "Article 7 of the 1987 Philippine Constitution stipulates that in case of a vacancy in the Office of the President, the Vice President succeeds to the presidency."
+	    "explanation": "Article 7 of the 1987 Philippine Constitution stipulates that in case of a vacancy in the Office of the President, the Vice President succeeds to the presidency.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 47,
@@ -615,7 +660,8 @@ const data_00 = [
 	        "A military strategy plan"
 	    ],
 	    "correct_ans": "A State of the Nation Address (SONA)",
-	    "explanation": "Article 7 of the 1987 Philippine Constitution mandates that the President shall address Congress at the opening of its regular session, delivering a State of the Nation Address (SONA)."
+	    "explanation": "Article 7 of the 1987 Philippine Constitution mandates that the President shall address Congress at the opening of its regular session, delivering a State of the Nation Address (SONA).",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 48,
@@ -628,7 +674,8 @@ const data_00 = [
 	        "45 years old"
 	    ],
 	    "correct_ans": "40 years old",
-	    "explanation": "Article 7 of the 1987 Philippine Constitution states that a candidate for the Office of the President must be at least 40 years old on the day of the election."
+	    "explanation": "Article 7 of the 1987 Philippine Constitution states that a candidate for the Office of the President must be at least 40 years old on the day of the election.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 49,
@@ -641,7 +688,8 @@ const data_00 = [
 	        "To enforce the laws independently"
 	    ],
 	    "correct_ans": "To provide advice and assistance to the President",
-	    "explanation": "Article 7 of the Philippine Constitution stipulates that the President's Cabinet members are responsible for providing advice and assistance to the President in the execution of their duties."
+	    "explanation": "Article 7 of the Philippine Constitution stipulates that the President's Cabinet members are responsible for providing advice and assistance to the President in the execution of their duties.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 50,
@@ -654,7 +702,8 @@ const data_00 = [
 	        "Congress can only seek approval from the Supreme Court."
 	    ],
 	    "correct_ans": "Congress can revoke the declaration by a majority vote.",
-	    "explanation": "Article 7 of the 1987 Philippine Constitution grants Congress the authority to revoke a Presidential declaration of martial law by a majority vote."
+	    "explanation": "Article 7 of the 1987 Philippine Constitution grants Congress the authority to revoke a Presidential declaration of martial law by a majority vote.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 51,
@@ -667,7 +716,8 @@ const data_00 = [
 	        "The President's Cabinet"
 	    ],
 	    "correct_ans": "The House of Representatives",
-	    "explanation": "Article 7 of the Philippine Constitution specifies that the House of Representatives has the authority to initiate impeachment proceedings against the President, which may lead to removal from office."
+	    "explanation": "Article 7 of the Philippine Constitution specifies that the House of Representatives has the authority to initiate impeachment proceedings against the President, which may lead to removal from office.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 52,
@@ -680,7 +730,8 @@ const data_00 = [
 	        "It appoints new cabinet members."
 	    ],
 	    "correct_ans": "It informs Congress and the public about the state of the nation and proposed legislative agenda.",
-	    "explanation": "Article 7 of the Philippine Constitution mandates that the President's State of the Nation Address (SONA) informs Congress and the public about the state of the nation and the President's proposed legislative agenda."
+	    "explanation": "Article 7 of the Philippine Constitution mandates that the President's State of the Nation Address (SONA) informs Congress and the public about the state of the nation and the President's proposed legislative agenda.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 53,
@@ -693,7 +744,8 @@ const data_00 = [
 	      	"By the Supreme Court"
 	    ],
 	    "correct_ans": "Through a constitutional convention",
-	    "explanation": "Amending the Philippine Constitution requires a rigorous process involving a constitutional convention elected by the people. This convention drafts amendments, which then need to be ratified by the public through a nationwide vote. Unlike simpler procedures, this approach ensures broad public participation and consensus for fundamental changes to the Constitution."
+	    "explanation": "Amending the Philippine Constitution requires a rigorous process involving a constitutional convention elected by the people. This convention drafts amendments, which then need to be ratified by the public through a nationwide vote. Unlike simpler procedures, this approach ensures broad public participation and consensus for fundamental changes to the Constitution.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 54,
@@ -706,7 +758,8 @@ const data_00 = [
 	      	"Environmental protection"
 	    ],
 	    "correct_ans": "Sustainable development",
-	    "explanation": "The Philippine Constitution emphasizes the importance of utilizing resources responsibly and considering the needs of future generations. This principle is encapsulated in the concept of sustainable development, aiming to balance economic progress with environmental protection and long-term social well-being."
+	    "explanation": "The Philippine Constitution emphasizes the importance of utilizing resources responsibly and considering the needs of future generations. This principle is encapsulated in the concept of sustainable development, aiming to balance economic progress with environmental protection and long-term social well-being.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 55,
@@ -719,7 +772,8 @@ const data_00 = [
 	      	"Habeas corpus"
 	    ],
 	    "correct_ans": "Judicial review",
-	    "explanation": "The Supreme Court's power to declare laws or actions unconstitutional is known as judicial review. This power ensures the Constitution's supremacy and serves as a crucial check against legislative and executive overreach."
+	    "explanation": "The Supreme Court's power to declare laws or actions unconstitutional is known as judicial review. This power ensures the Constitution's supremacy and serves as a crucial check against legislative and executive overreach.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 56,
@@ -732,7 +786,8 @@ const data_00 = [
 	      	"Overseeing the judiciary"
 	    ],
 	    "correct_ans": "Appointing government officials",
-	    "explanation": "The Commission on Elections (COMELEC) focuses on ensuring fair and transparent elections, including voter registration, election conduct, campaign finance regulations, and investigating election-related offenses. However, appointing government officials falls outside their designated functions."
+	    "explanation": "The Commission on Elections (COMELEC) focuses on ensuring fair and transparent elections, including voter registration, election conduct, campaign finance regulations, and investigating election-related offenses. However, appointing government officials falls outside their designated functions.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 57,
@@ -745,7 +800,8 @@ const data_00 = [
 	      	"District"
 	    ],
 	    "correct_ans": "Barangay",
-	    "explanation": "While provinces, cities, and municipalities play important roles in local governance, the barangay serves as the smallest and most fundamental unit, directly connecting with communities at the grassroots level."
+	    "explanation": "While provinces, cities, and municipalities play important roles in local governance, the barangay serves as the smallest and most fundamental unit, directly connecting with communities at the grassroots level.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 58,
@@ -758,7 +814,8 @@ const data_00 = [
 	      	"The government"
 	    ],
 	    "correct_ans": "The family",
-	    "explanation": "The Philippine Constitution recognizes the family as the \"fundamental unit of society,\" highlighting its crucial role in nurturing future generations, instilling values, and contributing to social stability."
+	    "explanation": "The Philippine Constitution recognizes the family as the \"fundamental unit of society,\" highlighting its crucial role in nurturing future generations, instilling values, and contributing to social stability.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 		"id": 59,
@@ -771,19 +828,23 @@ const data_00 = [
 		    "Article XIV: Education, Science and Technology, Arts, Culture, and Sports"
 		],
 		"correct_ans": "Article XII: National Economy and Patrimony",
-		"explanation": "Article XII explicitly states the Philippines' commitment to 'utilize the country's natural resources and protect and conserve the environment.' It also emphasizes the principle of intergenerational equity, ensuring that the current generation uses resources responsibly for the benefit of future generations."
+		"explanation": "Article XII explicitly states the Philippines' commitment to 'utilize the country's natural resources and protect and conserve the environment.' It also emphasizes the principle of intergenerational equity, ensuring that the current generation uses resources responsibly for the benefit of future generations.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
-	  "id": 60,
-	  "question": "The Philippine Constitution guarantees various fundamental rights to its citizens. Which of the following is NOT explicitly mentioned as a right in Article III: Bill of Rights?",
-	  "choices": [
+	  	"id": 60,
+	  	"question": "The Philippine Constitution guarantees various fundamental rights to its citizens. Which of the following is NOT explicitly mentioned as a right in Article III: Bill of Rights?",
+	  	"choices": [
 	    	"Freedom of speech and expression",
 	    	"Right to a speedy and impartial trial",
 	    	"Right to own property",
 	    	"Right to privacy",
 	    	"Right to marry and raise a family"
-	  ],
-	  "correct_ans": "Right to own property",
-	  "explanation": "While Article III protects numerous rights, including freedom of speech, fair trial, privacy, and marriage, the right to own property is not explicitly listed. However, the Constitution implicitly recognizes this right through provisions protecting individual liberties and private property rights."
-	}
+	  	],
+	  	"correct_ans": "Right to own property",
+	  	"explanation": "While Article III protects numerous rights, including freedom of speech, fair trial, privacy, and marriage, the right to own property is not explicitly listed. However, the Constitution implicitly recognizes this right through provisions protecting individual liberties and private property rights.",
+	  	"poster_name": "Manuel G. Sintos"
+	},
+
+
 ]

@@ -16,7 +16,8 @@ const data_11 = [
       "E"
     ],
     "correct_ans": "D",
-    "explanation": "The correct answer is D because the verb “are” should agree with the subject “neither of the boys”, which is singular. Therefore, the correct sentence should be “Neither of the boys in my math class who are in the chess club is interested in participating in the tournament.” The word “neither” is used to mean “not one and not the other of two people or things” and is always singular, so it should be followed by a singular verb. In this case, the verb “is” should be used instead of “are”."
+    "explanation": "The correct answer is D because the verb “are” should agree with the subject “neither of the boys”, which is singular. Therefore, the correct sentence should be “Neither of the boys in my math class who are in the chess club is interested in participating in the tournament.” The word “neither” is used to mean “not one and not the other of two people or things” and is always singular, so it should be followed by a singular verb. In this case, the verb “is” should be used instead of “are”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 1,
@@ -29,7 +30,8 @@ const data_11 = [
       "E"
     ],
     "correct_ans": "D",
-    "explanation": "The correct answer is D because the verb “are” should agree with the subject “Each of the students”, which is singular. Therefore, the correct sentence should be “Each of the students in my history class who are in the drama club is excited about the upcoming play.” The word “each” is used to refer to every one of two or more people or things, considered separately, and is always singular, so it should be followed by a singular verb. In this case, the verb “is” should be used instead of “are”."
+    "explanation": "The correct answer is D because the verb “are” should agree with the subject “Each of the students”, which is singular. Therefore, the correct sentence should be “Each of the students in my history class who are in the drama club is excited about the upcoming play.” The word “each” is used to refer to every one of two or more people or things, considered separately, and is always singular, so it should be followed by a singular verb. In this case, the verb “is” should be used instead of “are”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 2,
@@ -42,7 +44,8 @@ const data_11 = [
       "E"
     ],
     "correct_ans": "D",
-    "explanation": "The correct answer is D because the verb “are” should agree with the subject “Each of the players”, which is singular. Therefore, the correct sentence should be “Each of the players on my football team who are in the starting lineup is ready for the big game.”"
+    "explanation": "The correct answer is D because the verb “are” should agree with the subject “Each of the players”, which is singular. Therefore, the correct sentence should be “Each of the players on my football team who are in the starting lineup is ready for the big game.”",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 3,
@@ -55,7 +58,8 @@ const data_11 = [
       "E"
     ],
     "correct_ans": "D",
-    "explanation": "The correct answer is D because the verb “are” should agree with the subject “Neither of the teachers”, which is singular. Therefore, the correct sentence should be “Neither of the teachers in my school who are in the science department is available for extra help after school.”"
+    "explanation": "The correct answer is D because the verb “are” should agree with the subject “Neither of the teachers”, which is singular. Therefore, the correct sentence should be “Neither of the teachers in my school who are in the science department is available for extra help after school.”",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 4,
@@ -68,7 +72,8 @@ const data_11 = [
       "E"
     ],
     "correct_ans": "D",
-    "explanation": "The correct answer is D because the verb “are” should agree with the subject “Each of the members”, which is singular. Therefore, the correct sentence should be “Each of the members in my book club who are reading the new novel is excited to discuss it at our next meeting.”"
+    "explanation": "The correct answer is D because the verb “are” should agree with the subject “Each of the members”, which is singular. Therefore, the correct sentence should be “Each of the members in my book club who are reading the new novel is excited to discuss it at our next meeting.”",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 5,
@@ -81,7 +86,8 @@ const data_11 = [
       "E"
     ],
     "correct_ans": "D",
-    "explanation": "The correct answer is D because the verb “are” should agree with the subject “Neither of the candidates”, which is singular. Therefore, the correct sentence should be “Neither of the candidates in the upcoming election who are in the final debate is prepared to discuss their platforms.”"
+    "explanation": "The correct answer is D because the verb “are” should agree with the subject “Neither of the candidates”, which is singular. Therefore, the correct sentence should be “Neither of the candidates in the upcoming election who are in the final debate is prepared to discuss their platforms.”",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 6,
@@ -94,7 +100,8 @@ const data_11 = [
       "E"
     ],
     "correct_ans": "D",
-    "explanation": "The correct answer is D because the verb “are” should agree with the subject “Each of the artists”, which is singular. Therefore, the correct sentence should be “Each of the artists in my painting class who are working on a new piece is excited to share their work.”"
+    "explanation": "The correct answer is D because the verb “are” should agree with the subject “Each of the artists”, which is singular. Therefore, the correct sentence should be “Each of the artists in my painting class who are working on a new piece is excited to share their work.”",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 7,
@@ -107,7 +114,8 @@ const data_11 = [
       "E"
     ],
     "correct_ans": "C",
-    "explanation": "The correct answer is C because the verb “are” should agree with the subject “who”, which refers to “Neither of the candidates”, and is singular. Therefore, the correct sentence should be “Neither of the candidates in the upcoming election who is in the final debate is prepared to discuss their platforms.”"
+    "explanation": "The correct answer is C because the verb “are” should agree with the subject “who”, which refers to “Neither of the candidates”, and is singular. Therefore, the correct sentence should be “Neither of the candidates in the upcoming election who is in the final debate is prepared to discuss their platforms.”",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 8,
@@ -120,7 +128,8 @@ const data_11 = [
       "E"
     ],
     "correct_ans": "C",
-    "explanation": "The correct answer is C because the verb “are” should agree with the subject “who”, which refers to “Each of the artists”, and is singular. Therefore, the correct sentence should be “Each of the artists in my painting class who is working on a new piece is excited to share their work.”"
+    "explanation": "The correct answer is C because the verb “are” should agree with the subject “who”, which refers to “Each of the artists”, and is singular. Therefore, the correct sentence should be “Each of the artists in my painting class who is working on a new piece is excited to share their work.”",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 9,
@@ -133,7 +142,8 @@ const data_11 = [
       "E"
     ],
     "correct_ans": "E",
-    "explanation": "There is no error in the sentence. The sentence is grammatically correct as it is. The verb “are” correctly agrees with the plural subject “The students”. Therefore, the sentence “The students in my chemistry class who are working on the group project are excited to present their findings.” is correct."
+    "explanation": "There is no error in the sentence. The sentence is grammatically correct as it is. The verb “are” correctly agrees with the plural subject “The students”. Therefore, the sentence “The students in my chemistry class who are working on the group project are excited to present their findings.” is correct.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 10,
@@ -146,7 +156,8 @@ const data_11 = [
       "E"
     ],
     "correct_ans": "D",
-    "explanation": "The correct answer is \"is keeping everyone awake\" because he verb “is” should agree with the subject “The dogs”, which is plural. Therefore, the correct sentence should be “The dogs in my neighborhood who are always barking at night are keeping everyone awake.”"
+    "explanation": "The correct answer is \"is keeping everyone awake\" because he verb “is” should agree with the subject “The dogs”, which is plural. Therefore, the correct sentence should be “The dogs in my neighborhood who are always barking at night are keeping everyone awake.”",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 11,
@@ -159,7 +170,8 @@ const data_11 = [
       "E"
     ],
     "correct_ans": "C",
-    "explanation": "The correct answer is \"who are about ancient history\" because the word “who” should be replaced with “that” when referring to inanimate objects. Therefore, the correct sentence should be “Neither of the books on the library shelf that are about ancient history seems interesting to me.”"
+    "explanation": "The correct answer is \"who are about ancient history\" because the word “who” should be replaced with “that” when referring to inanimate objects. Therefore, the correct sentence should be “Neither of the books on the library shelf that are about ancient history seems interesting to me.”",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 12,
@@ -172,7 +184,8 @@ const data_11 = [
       "E"
     ],
     "correct_ans": "C",
-    "explanation": "The correct answer is \"who are about love and loss\" because the word “who” should be replaced with “that” when referring to inanimate objects. Therefore, the correct sentence should be “Each of the songs on my new album that are about love and loss is deeply personal to me.”"
+    "explanation": "The correct answer is \"who are about love and loss\" because the word “who” should be replaced with “that” when referring to inanimate objects. Therefore, the correct sentence should be “Each of the songs on my new album that are about love and loss is deeply personal to me.”",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 13,
@@ -185,7 +198,8 @@ const data_11 = [
       "E"
     ],
     "correct_ans": "E",
-    "explanation": "The correct answer is E, which means there is no error in the sentence. The sentence is grammatically correct as it is. The sentence “The ongoing challenges in the West Philippine Sea should not be the sole factor shaping the relationship between the Philippines and China, according to President Ferdinand Marcos Jr.” is correct."
+    "explanation": "The correct answer is E, which means there is no error in the sentence. The sentence is grammatically correct as it is. The sentence “The ongoing challenges in the West Philippine Sea should not be the sole factor shaping the relationship between the Philippines and China, according to President Ferdinand Marcos Jr.” is correct.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 14,
@@ -198,7 +212,8 @@ const data_11 = [
       "E"
     ],
     "correct_ans": "E",
-    "explanation": "The correct answer is E, which means there is no error in the sentence. The sentence is grammatically correct as it is. The verb “are” correctly agrees with the plural subject “The West Philippine Sea issues”. Therefore, the sentence “The West Philippine Sea issues, to be discussed in a non-combative way during the Asia-Pacific forum, are a major concern.” is correct."
+    "explanation": "The correct answer is E, which means there is no error in the sentence. The sentence is grammatically correct as it is. The verb “are” correctly agrees with the plural subject “The West Philippine Sea issues”. Therefore, the sentence “The West Philippine Sea issues, to be discussed in a non-combative way during the Asia-Pacific forum, are a major concern.” is correct.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 15,
@@ -211,7 +226,8 @@ const data_11 = [
       "E"
     ],
     "correct_ans": "C",
-    "explanation": "The correct answer is C because the word “who” should be replaced with “which” when referring to inanimate objects or industries. Therefore, the correct sentence should be \"The halal industry in the Philippines, which is calling for legislation, is facing gaps in regulation."
+    "explanation": "The correct answer is C because the word “who” should be replaced with “which” when referring to inanimate objects or industries. Therefore, the correct sentence should be \"The halal industry in the Philippines, which is calling for legislation, is facing gaps in regulation.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 16,
@@ -224,6 +240,7 @@ const data_11 = [
       "E"
     ],
     "correct_ans": "C",
-    "explanation": "The answer is C. have published their findings. <br/><br/>The subject “The team of scientists” is singular, so the verb should be “has” instead of “have.” However, the pronoun “their” is plural, which does not agree with the singular subject. <br/><br/>The corrected sentence should read: <br/>The team of scientists, who are conducting the research, has published its findings in a renowned scientific journal."
+    "explanation": "The answer is C. have published their findings. <br/><br/>The subject “The team of scientists” is singular, so the verb should be “has” instead of “have.” However, the pronoun “their” is plural, which does not agree with the singular subject. <br/><br/>The corrected sentence should read: <br/>The team of scientists, who are conducting the research, has published its findings in a renowned scientific journal.",
+    "poster_name": "Manuel G. Sintos"
   }
 ];

@@ -16,7 +16,8 @@ const data_08 = [
       "Basketball players are usually tall."
     ],
     "correct_ans": "Basketball players are usually tall.",
-    "explanation": "Basketball players need to be able to reach the hoop, and being tall can be an advantage in this sport. This is why the statement “Basketball players are usually tall” is true. It doesn’t mean that all basketball players are tall or that only tall people can play basketball, but it is a common characteristic found in many players. Therefore, option E is the correct answer."
+    "explanation": "Basketball players need to be able to reach the hoop, and being tall can be an advantage in this sport. This is why the statement “Basketball players are usually tall” is true. It doesn’t mean that all basketball players are tall or that only tall people can play basketball, but it is a common characteristic found in many players. Therefore, option E is the correct answer.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 1,
@@ -29,7 +30,8 @@ const data_08 = [
       "Fast chopping enables chefs to handle more orders."
     ],
     "correct_ans": "Chefs can usually chop vegetables fast.",
-    "explanation": "The statement “Sarah is likely a chef. She can chop vegetables really fast.” does make some assumptions. Here’s how it aligns to the question:<br/><br/><b>Speed in chopping vegetables helps chefs prepare meals faster.</b> - This assumption is implied in the statement. If Sarah’s fast vegetable chopping is being used as evidence of her being a chef, it suggests that this skill is beneficial in a culinary profession.<br/><br/><b>Only people who can chop vegetables fast can be chefs.</b> - This assumption is not necessarily made in the statement. While it suggests that fast vegetable chopping is a characteristic of a chef (which Sarah possesses), it doesn’t claim that it’s a requirement or that only individuals with this skill can be chefs.<br/><br/><b>Chopping vegetables fast helps Sarah cook.</b> - This assumption seems to be implied. If Sarah’s fast chopping is being linked to her being a chef, it suggests that this skill aids in her cooking.<br/><br/><b>Chefs can usually chop vegetables fast.</b> - This assumption is made in the statement. It’s suggested that fast vegetable chopping is a typical skill of a chef.<br/><br/><b>Fast chopping enables chefs to handle more orders.</b> - This assumption is not explicitly made in the statement. While it could be inferred, the statement doesn’t directly link fast chopping to the ability to handle more orders."
+    "explanation": "The statement “Sarah is likely a chef. She can chop vegetables really fast.” does make some assumptions. Here’s how it aligns to the question:<br/><br/><b>Speed in chopping vegetables helps chefs prepare meals faster.</b> - This assumption is implied in the statement. If Sarah’s fast vegetable chopping is being used as evidence of her being a chef, it suggests that this skill is beneficial in a culinary profession.<br/><br/><b>Only people who can chop vegetables fast can be chefs.</b> - This assumption is not necessarily made in the statement. While it suggests that fast vegetable chopping is a characteristic of a chef (which Sarah possesses), it doesn’t claim that it’s a requirement or that only individuals with this skill can be chefs.<br/><br/><b>Chopping vegetables fast helps Sarah cook.</b> - This assumption seems to be implied. If Sarah’s fast chopping is being linked to her being a chef, it suggests that this skill aids in her cooking.<br/><br/><b>Chefs can usually chop vegetables fast.</b> - This assumption is made in the statement. It’s suggested that fast vegetable chopping is a typical skill of a chef.<br/><br/><b>Fast chopping enables chefs to handle more orders.</b> - This assumption is not explicitly made in the statement. While it could be inferred, the statement doesn’t directly link fast chopping to the ability to handle more orders.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 2,
@@ -42,7 +44,8 @@ const data_08 = [
       "Swimmers usually have a strong upper body."
     ],
     "correct_ans": "Swimmers usually have a strong upper body.",
-    "explanation": "Swimmers need to have a strong upper body to swim effectively. This is why the statement “Swimmers usually have a strong upper body” is true."
+    "explanation": "Swimmers need to have a strong upper body to swim effectively. This is why the statement “Swimmers usually have a strong upper body” is true.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 3,
@@ -55,7 +58,8 @@ const data_08 = [
       "Singers usually have a powerful voice."
     ],
     "correct_ans": "Singers usually have a powerful voice.",
-    "explanation": "Singers need to have a powerful voice to sing effectively. This is why the statement “Singers usually have a powerful voice” is true."
+    "explanation": "Singers need to have a powerful voice to sing effectively. This is why the statement “Singers usually have a powerful voice” is true.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 4,
@@ -68,7 +72,8 @@ const data_08 = [
       "Writers usually have a wide vocabulary."
     ],
     "correct_ans": "Writers usually have a wide vocabulary.",
-    "explanation": "Writers need to have a wide vocabulary to express their ideas effectively. This is why the statement “Writers usually have a wide vocabulary” is true."
+    "explanation": "Writers need to have a wide vocabulary to express their ideas effectively. This is why the statement “Writers usually have a wide vocabulary” is true.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 5,
@@ -81,7 +86,8 @@ const data_08 = [
       "Dancers are usually very flexible."
     ],
     "correct_ans": "Dancers are usually very flexible.",
-    "explanation": "Dancers need to be flexible to perform a variety of dance moves. This is why the statement “Dancers are usually very flexible” is true."
+    "explanation": "Dancers need to be flexible to perform a variety of dance moves. This is why the statement “Dancers are usually very flexible” is true.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 6,
@@ -94,7 +100,8 @@ const data_08 = [
       "Mathematicians are good problem solvers."
     ],
     "correct_ans": "Alice is a mathematician.",
-    "explanation": "Since all mathematicians are logical and Alice is logical, it can be concluded that Alice is a mathematician."
+    "explanation": "Since all mathematicians are logical and Alice is logical, it can be concluded that Alice is a mathematician.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 7,
@@ -107,7 +114,8 @@ const data_08 = [
       "Athletes have good stamina."
     ],
     "correct_ans": "Mary is not an athlete.",
-    "explanation": "Since all athletes are fit and Mary is not fit, it can be concluded that Mary is not an athlete."
+    "explanation": "Since all athletes are fit and Mary is not fit, it can be concluded that Mary is not an athlete.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 8,
@@ -120,7 +128,8 @@ const data_08 = [
       "Teachers are good at explaining."
     ],
     "correct_ans": "Mike is not a teacher.",
-    "explanation": "Since all teachers are knowledgeable and Mike is not knowledgeable, it can be concluded that Mike is not a teacher."
+    "explanation": "Since all teachers are knowledgeable and Mike is not knowledgeable, it can be concluded that Mike is not a teacher.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 9,
@@ -133,7 +142,8 @@ const data_08 = [
       "Doctors are empathetic."
     ],
     "correct_ans": "Jake is not a doctor.",
-    "explanation": "Since all doctors are caring and Jake is not caring, it can be concluded that Jake is not a doctor."
+    "explanation": "Since all doctors are caring and Jake is not caring, it can be concluded that Jake is not a doctor.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 10,
@@ -146,7 +156,8 @@ const data_08 = [
       "Engineers are good at problem-solving."
     ],
     "correct_ans": "Alex is not an engineer.",
-    "explanation": "Since all engineers are analytical and Alex is not analytical, it can be concluded that Alex is not an engineer."
+    "explanation": "Since all engineers are analytical and Alex is not analytical, it can be concluded that Alex is not an engineer.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 11,
@@ -159,7 +170,8 @@ const data_08 = [
       "Both I and II are implicit"
     ],
     "correct_ans": "Both I and II are implicit",
-    "explanation": "Both assumptions are implicit in the statement. Assumption I is implicit because the project manager’s statement suggests that the new project has been fully defined and planned out, ready for the team to start working on it next month. Assumption II is implicit because the project manager’s statement suggests that the team members are capable of handling the new project, as they have been informed that they will be starting it next month. Therefore, both assumptions I and II are implicit in the statement."
+    "explanation": "Both assumptions are implicit in the statement. Assumption I is implicit because the project manager’s statement suggests that the new project has been fully defined and planned out, ready for the team to start working on it next month. Assumption II is implicit because the project manager’s statement suggests that the team members are capable of handling the new project, as they have been informed that they will be starting it next month. Therefore, both assumptions I and II are implicit in the statement.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 12,
@@ -172,7 +184,8 @@ const data_08 = [
       "Both I and II are implicit"
     ],
     "correct_ans": "Both I and II are implicit",
-    "explanation": "Both assumptions are implicit in the statement. Assumption I is implicit because the team leader’s statement suggests that the new strategy has been fully defined and planned out, ready for the group to start working on it next week. Assumption II is implicit because the team leader’s statement suggests that the group members are capable of handling the new strategy, as they have been informed that they will be starting it next week. Therefore, both assumptions I and II are implicit in the statement."
+    "explanation": "Both assumptions are implicit in the statement. Assumption I is implicit because the team leader’s statement suggests that the new strategy has been fully defined and planned out, ready for the group to start working on it next week. Assumption II is implicit because the team leader’s statement suggests that the group members are capable of handling the new strategy, as they have been informed that they will be starting it next week. Therefore, both assumptions I and II are implicit in the statement.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 13,
@@ -185,7 +198,8 @@ const data_08 = [
       "Both I and II are implicit"
     ],
     "correct_ans": "Both I and II are implicit",
-    "explanation": "Both assumptions are implicit in the statement. Assumption I is implicit because the coach’s statement suggests that the new play has been fully defined and planned out, ready for the team to start learning it next practice. Assumption II is implicit because the coach’s statement suggests that the team members are capable of learning the new play, as they have been informed that they will be starting it next practice. Therefore, both assumptions I and II are implicit in the statement."
+    "explanation": "Both assumptions are implicit in the statement. Assumption I is implicit because the coach’s statement suggests that the new play has been fully defined and planned out, ready for the team to start learning it next practice. Assumption II is implicit because the coach’s statement suggests that the team members are capable of learning the new play, as they have been informed that they will be starting it next practice. Therefore, both assumptions I and II are implicit in the statement.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 14,
@@ -198,7 +212,8 @@ const data_08 = [
       "Both I and II are implicit"
     ],
     "correct_ans": "Only I is implicit",
-    "explanation": "The statement implies that the new curriculum has been fully developed and approved (Assumption I), as it is ready to be introduced next year. However, the statement does not provide information on whether the teachers are prepared to teach the new curriculum (Assumption II)."
+    "explanation": "The statement implies that the new curriculum has been fully developed and approved (Assumption I), as it is ready to be introduced next year. However, the statement does not provide information on whether the teachers are prepared to teach the new curriculum (Assumption II).",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 15,
@@ -211,7 +226,8 @@ const data_08 = [
       "Both I and II are implicit"
     ],
     "correct_ans": "Only II is implicit",
-    "explanation": "The statement implies that the team members are capable of learning the new play (Assumption II), as they have been informed that they will be learning it next practice. However, the statement does not provide information on whether the new play has been fully defined and planned out (Assumption I)."
+    "explanation": "The statement implies that the team members are capable of learning the new play (Assumption II), as they have been informed that they will be learning it next practice. However, the statement does not provide information on whether the new play has been fully defined and planned out (Assumption I).",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 16,
@@ -224,7 +240,8 @@ const data_08 = [
       "Both I and II are implicit"
     ],
     "correct_ans": "Both I and II are implicit",
-    "explanation": "Both assumptions are implicit in the statement. Assumption I is implicit because the manager’s statement suggests that the new policy has been fully defined and planned out, ready for the staff to start implementing it next month. Assumption II is implicit because the manager’s statement suggests that the staff members are capable of implementing the new policy, as they have been informed that they will be starting it next month."
+    "explanation": "Both assumptions are implicit in the statement. Assumption I is implicit because the manager’s statement suggests that the new policy has been fully defined and planned out, ready for the staff to start implementing it next month. Assumption II is implicit because the manager’s statement suggests that the staff members are capable of implementing the new policy, as they have been informed that they will be starting it next month.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 17,
@@ -237,7 +254,8 @@ const data_08 = [
       "Both I and II are implicit"
     ],
     "correct_ans": "Neither I nor II is implicit",
-    "explanation": "The statement does not provide information on whether the new topic has been fully defined and planned out (Assumption I) or whether the students are capable of studying the new topic (Assumption II). Therefore, neither assumption is implicit in the statement."
+    "explanation": "The statement does not provide information on whether the new topic has been fully defined and planned out (Assumption I) or whether the students are capable of studying the new topic (Assumption II). Therefore, neither assumption is implicit in the statement.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 18,
@@ -250,7 +268,8 @@ const data_08 = [
       "Both I and II are implicit"
     ],
     "correct_ans": "Either I or II is implicit",
-    "explanation": "The statement implies that either the new scene has been fully defined and planned out (Assumption I) or the actors are capable of performing the new scene (Assumption II), as they have been informed that they will be performing it next rehearsal. However, the statement does not provide enough information to determine which assumption is implicit. Therefore, either Assumption I or Assumption II is implicit in the statement."
+    "explanation": "The statement implies that either the new scene has been fully defined and planned out (Assumption I) or the actors are capable of performing the new scene (Assumption II), as they have been informed that they will be performing it next rehearsal. However, the statement does not provide enough information to determine which assumption is implicit. Therefore, either Assumption I or Assumption II is implicit in the statement.",
+    "poster_name": "Manuel G. Sintos"
   }
 
 

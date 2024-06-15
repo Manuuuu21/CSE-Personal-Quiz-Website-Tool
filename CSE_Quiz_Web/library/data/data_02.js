@@ -16,7 +16,8 @@ const data_02 = [
 	        "Republic Act No. 8353 (Anti-Rape Law)"
 	    ],
 	    correct_ans: "Republic Act No. 8749 (Philippine Clean Air Act)",
-	    explanation: "Republic Act No. 8749, also known as the Philippine Clean Air Act, primarily focuses on environmental protection by addressing air quality management and pollution control to safeguard public health and the environment from air pollution."
+	    explanation: "Republic Act No. 8749, also known as the Philippine Clean Air Act, primarily focuses on environmental protection by addressing air quality management and pollution control to safeguard public health and the environment from air pollution.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
     id: 1,
@@ -29,7 +30,8 @@ const data_02 = [
 	        "Republic Act No. 8353 (Anti-Rape Law)"
 	    ],
 	    correct_ans: "Republic Act No. 9003 (Ecological Solid Waste Management Act of 2000)",
-	    explanation: "Republic Act No. 9003, known as the Ecological Solid Waste Management Act of 2000, addresses proper waste disposal and recycling to minimize the environmental impact of solid waste."
+	    explanation: "Republic Act No. 9003, known as the Ecological Solid Waste Management Act of 2000, addresses proper waste disposal and recycling to minimize the environmental impact of solid waste.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 2,
@@ -42,7 +44,8 @@ const data_02 = [
 	        "Republic Act No. 9275 (Philippine Clean Water Act of 2004)"
 	    ],
 	    correct_ans: "Republic Act No. 9275 (Philippine Clean Water Act of 2004)",
-	    explanation: "Republic Act No. 9275, known as the Philippine Clean Water Act of 2004, regulates the discharge of pollutants into water bodies to protect water resources."
+	    explanation: "Republic Act No. 9275, known as the Philippine Clean Water Act of 2004, regulates the discharge of pollutants into water bodies to protect water resources.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 3,
@@ -55,7 +58,8 @@ const data_02 = [
 	        "United Nations Convention on the Law of the Sea"
 	    ],
 	    correct_ans: "Convention on Biological Diversity",
-	    explanation: "The Convention on Biological Diversity is an international agreement that guides the Philippines in biodiversity conservation and sustainable use of biological resources."
+	    explanation: "The Convention on Biological Diversity is an international agreement that guides the Philippines in biodiversity conservation and sustainable use of biological resources.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 4,
@@ -68,7 +72,8 @@ const data_02 = [
 	        "Support industrial pollution"
 	    ],
 	    correct_ans: "Reduce greenhouse gas emissions",
-	    explanation: "The primary goal of the United Nations Framework Convention on Climate Change for the Philippines is to reduce greenhouse gas emissions and mitigate the impacts of climate change."
+	    explanation: "The primary goal of the United Nations Framework Convention on Climate Change for the Philippines is to reduce greenhouse gas emissions and mitigate the impacts of climate change.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 5,
@@ -81,7 +86,8 @@ const data_02 = [
 	        "Department of Trade and Industry"
 	    ],
 	    correct_ans: "Environmental Management Bureau (EMB)",
-	    explanation: "The DENR or Environmental Management Bureau (EMB) is primarily responsible for enforcing environmental laws and regulations in the Philippines."
+	    explanation: "The DENR or Environmental Management Bureau (EMB) is primarily responsible for enforcing environmental laws and regulations in the Philippines.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 6,
@@ -94,7 +100,8 @@ const data_02 = [
 	        "Nuclear energy"
 	    ],
 	    correct_ans: "Renewable energy sources",
-	    explanation: "Renewable energy sources like solar, wind, and hydroelectric power in the Philippines reduce greenhouse gas emissions and dependence on fossil fuels, promoting environmental conservation."
+	    explanation: "Renewable energy sources like solar, wind, and hydroelectric power in the Philippines reduce greenhouse gas emissions and dependence on fossil fuels, promoting environmental conservation.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 7,
@@ -107,7 +114,8 @@ const data_02 = [
 	        "Boosting plastic production"
 	    ],
 	    correct_ans: "Minimizing waste and promoting a sustainable approach",
-	    explanation: "Waste segregation and recycling programs help minimize waste sent to landfills and promote sustainable waste management practices."
+	    explanation: "Waste segregation and recycling programs help minimize waste sent to landfills and promote sustainable waste management practices.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 8,
@@ -120,7 +128,8 @@ const data_02 = [
 	        "Deforestation"
 	    ],
 	    correct_ans: "Reforestation",
-	    explanation: "Reforestation involves planting native trees and restoring deforested areas in the Philippines, contributing to conservation efforts."
+	    explanation: "Reforestation involves planting native trees and restoring deforested areas in the Philippines, contributing to conservation efforts.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 9,
@@ -133,7 +142,8 @@ const data_02 = [
 	        "Implementing disposable plastic tax"
 	    ],
 	    correct_ans: "Banning Single-Use Plastics",
-	    explanation: "The Philippines has implemented measures to ban single-use plastics in an effort to reduce plastic pollution and encourage sustainable alternatives."
+	    explanation: "The Philippines has implemented measures to ban single-use plastics in an effort to reduce plastic pollution and encourage sustainable alternatives.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 10,
@@ -146,7 +156,8 @@ const data_02 = [
 	        "Enhancing tourism infrastructure"
 	    ],
 	    correct_ans: "Protecting marine biodiversity and ecosystems",
-	    explanation: "The primary purpose of MPAs in the Philippines is to protect marine biodiversity and ecosystems by restricting human activities that could harm them."
+	    explanation: "The primary purpose of MPAs in the Philippines is to protect marine biodiversity and ecosystems by restricting human activities that could harm them.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 11,
@@ -159,7 +170,8 @@ const data_02 = [
 	        "Montreal Protocol"
 	    ],
 	    correct_ans: "Paris Agreement",
-	    explanation: "The Paris Agreement is a landmark international treaty adopted in 2015 to address climate change by setting emission reduction goals."
+	    explanation: "The Paris Agreement is a landmark international treaty adopted in 2015 to address climate change by setting emission reduction goals.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 12,
@@ -172,7 +184,8 @@ const data_02 = [
 	        "Forest fires"
 	    ],
 	    correct_ans: "Oil spills",
-	    explanation: "Oil spills release large amounts of oil into marine environments, causing extensive harm to marine life and ecosystems."
+	    explanation: "Oil spills release large amounts of oil into marine environments, causing extensive harm to marine life and ecosystems.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 13,
@@ -185,7 +198,8 @@ const data_02 = [
 	        "Landfilling"
 	    ],
 	    correct_ans: "Recycling",
-	    explanation: "Recycling involves the collection and conversion of waste materials into reusable products to reduce waste disposal and environmental impacts."
+	    explanation: "Recycling involves the collection and conversion of waste materials into reusable products to reduce waste disposal and environmental impacts.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 14,
@@ -198,7 +212,8 @@ const data_02 = [
 	        "El Niño"
 	    ],
 	    correct_ans: "Global warming",
-	    explanation: "Global warming refers to the long-term increase in the Earth's average temperature, primarily caused by human-induced activities that release greenhouse gases into the atmosphere."
+	    explanation: "Global warming refers to the long-term increase in the Earth's average temperature, primarily caused by human-induced activities that release greenhouse gases into the atmosphere.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 15,
@@ -211,7 +226,8 @@ const data_02 = [
 	        "Decomposition"
 	    ],
 	    correct_ans: "Photosynthesis",
-	    explanation: "Photosynthesis is the process by which plants and trees capture carbon dioxide from the atmosphere and produce oxygen and glucose using sunlight."
+	    explanation: "Photosynthesis is the process by which plants and trees capture carbon dioxide from the atmosphere and produce oxygen and glucose using sunlight.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 16,
@@ -224,7 +240,8 @@ const data_02 = [
 	        "Advocating for waste incineration"
 	    ],
 	    correct_ans: "Minimizing waste generation",
-	    explanation: "The 'Reduce, Reuse, Recycle' mantra aims to minimize waste generation by encouraging people to use resources efficiently, reduce consumption, and recycle materials to reduce environmental impacts."
+	    explanation: "The 'Reduce, Reuse, Recycle' mantra aims to minimize waste generation by encouraging people to use resources efficiently, reduce consumption, and recycle materials to reduce environmental impacts.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 17,
@@ -237,7 +254,8 @@ const data_02 = [
 	        "Acid rain"
 	    ],
 	    correct_ans: "Greenhouse effect",
-	    explanation: "The greenhouse effect is the phenomenon where greenhouse gases trap heat in the Earth's atmosphere, causing global temperatures to rise, a key factor in climate change."
+	    explanation: "The greenhouse effect is the phenomenon where greenhouse gases trap heat in the Earth's atmosphere, causing global temperatures to rise, a key factor in climate change.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 18,
@@ -250,7 +268,8 @@ const data_02 = [
 	        "Hibernation"
 	    ],
 	    correct_ans: "Extinction",
-	    explanation: "Extinction is the permanent disappearance of a species from a specific habitat or from the entire planet, often due to environmental changes or human activities."
+	    explanation: "Extinction is the permanent disappearance of a species from a specific habitat or from the entire planet, often due to environmental changes or human activities.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 19,
@@ -263,7 +282,8 @@ const data_02 = [
 	        "Hydrogen"
 	    ],
 	    correct_ans: "Wind",
-	    explanation: "Wind turbines utilize the kinetic energy of the wind to generate electricity, making wind the primary source of energy for these renewable power systems."
+	    explanation: "Wind turbines utilize the kinetic energy of the wind to generate electricity, making wind the primary source of energy for these renewable power systems.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 20,
@@ -276,7 +296,8 @@ const data_02 = [
 	        "Landfilling"
 	    ],
 	    correct_ans: "Composting",
-	    explanation: "Composting is the natural process of breaking down organic waste into nutrient-rich compost, which can be used to enhance soil quality and fertility."
+	    explanation: "Composting is the natural process of breaking down organic waste into nutrient-rich compost, which can be used to enhance soil quality and fertility.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 21,
@@ -289,7 +310,8 @@ const data_02 = [
 	        "Water vapor (H2O)"
 	    ],
 	    correct_ans: "Carbon dioxide (CO2)",
-	    explanation: "Carbon dioxide is the primary greenhouse gas released during the combustion of fossil fuels, contributing to climate change."
+	    explanation: "Carbon dioxide is the primary greenhouse gas released during the combustion of fossil fuels, contributing to climate change.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 22,
@@ -302,7 +324,8 @@ const data_02 = [
 	        "Urbanization"
 	    ],
 	    correct_ans: "Biodiversity",
-	    explanation: "Biodiversity refers to the variety of plant and animal species in a specific habitat or on the planet, encompassing genetic, species, and ecosystem diversity."
+	    explanation: "Biodiversity refers to the variety of plant and animal species in a specific habitat or on the planet, encompassing genetic, species, and ecosystem diversity.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 23,
@@ -315,7 +338,8 @@ const data_02 = [
 	        "Solar power"
 	    ],
 	    correct_ans: "Geothermal energy",
-	    explanation: "Geothermal energy is a renewable energy source that captures heat from the Earth's core, often used for heating buildings and generating electricity."
+	    explanation: "Geothermal energy is a renewable energy source that captures heat from the Earth's core, often used for heating buildings and generating electricity.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 24,
@@ -328,7 +352,8 @@ const data_02 = [
 	        "Eutrophication"
 	    ],
 	    correct_ans: "Plastic pollution",
-	    explanation: "Plastic pollution refers to the extensive presence of plastic waste in oceans, leading to harm to marine life and ecosystems."
+	    explanation: "Plastic pollution refers to the extensive presence of plastic waste in oceans, leading to harm to marine life and ecosystems.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 25,
@@ -341,6 +366,7 @@ const data_02 = [
 		    "Using Electric Fishing Rods"
 	    ],
 	    "correct_ans": "Overfishing",
-	    "explanation": "Overfishing refers to the practice of catching fish from a body of water at a rate that the species cannot replenish, leading to those species becoming underpopulated in that area. It’s a serious issue that threatens the balance of marine ecosystems and the livelihoods of communities that depend on fishing. It’s considered unregulated because it often happens in violation of laws and regulations intended to maintain sustainable fish populations. Please note that all forms of unregulated fishing are harmful and illegal, and they can have devastating effects on marine life and ecosystems. It’s important to promote and practice sustainable fishing methods to protect our oceans."
+	    "explanation": "Overfishing refers to the practice of catching fish from a body of water at a rate that the species cannot replenish, leading to those species becoming underpopulated in that area. It’s a serious issue that threatens the balance of marine ecosystems and the livelihoods of communities that depend on fishing. It’s considered unregulated because it often happens in violation of laws and regulations intended to maintain sustainable fish populations. Please note that all forms of unregulated fishing are harmful and illegal, and they can have devastating effects on marine life and ecosystems. It’s important to promote and practice sustainable fishing methods to protect our oceans.",
+	    "poster_name": "Manuel G. Sintos"
 	}
 ];

@@ -16,7 +16,8 @@ const data_14 = [
       "Investing in public transportation infrastructure can enhance the quality of life in urban areas."
     ],
     "correct_ans": "Investing in public transportation infrastructure can enhance the quality of life in urban areas.",
-    "explanation": "The correct answer is \"Investing in public transportation infrastructure can enhance the quality of life in urban areas\".<br/><br/>This is because the statement that needs to be supported is “Improving public transportation can significantly enhance the quality of life in urban areas.” While all the options are true according to the paragraph, option 5 directly addresses the statement by mentioning the enhancement of the quality of life in urban areas through investment in public transportation infrastructure. The other options discuss the benefits of public transportation, but they do not directly link these benefits to the enhancement of the quality of life in urban areas. Therefore, option 5 is the most accurate answer."
+    "explanation": "The correct answer is \"Investing in public transportation infrastructure can enhance the quality of life in urban areas\".<br/><br/>This is because the statement that needs to be supported is “Improving public transportation can significantly enhance the quality of life in urban areas.” While all the options are true according to the paragraph, option 5 directly addresses the statement by mentioning the enhancement of the quality of life in urban areas through investment in public transportation infrastructure. The other options discuss the benefits of public transportation, but they do not directly link these benefits to the enhancement of the quality of life in urban areas. Therefore, option 5 is the most accurate answer.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 1,
@@ -29,7 +30,8 @@ const data_14 = [
       "Promoting the use of renewable energy sources can reduce our carbon footprint."
     ],
     "correct_ans": "Promoting the use of renewable energy sources can reduce our carbon footprint.",
-    "explanation": "The correct answer is \"Promoting the use of renewable energy sources can reduce our carbon footprint.\"<br/><br/>This is because the statement that needs to be supported is “Promoting renewable energy sources can significantly reduce our carbon footprint.” While all the options are true according to the paragraph, option 5 directly addresses the statement by mentioning the reduction of our carbon footprint through the promotion of renewable energy sources."
+    "explanation": "The correct answer is \"Promoting the use of renewable energy sources can reduce our carbon footprint.\"<br/><br/>This is because the statement that needs to be supported is “Promoting renewable energy sources can significantly reduce our carbon footprint.” While all the options are true according to the paragraph, option 5 directly addresses the statement by mentioning the reduction of our carbon footprint through the promotion of renewable energy sources.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 2,
@@ -42,7 +44,8 @@ const data_14 = [
       "Maintaining biodiversity is crucial for ecosystem health."
     ],
     "correct_ans": "Maintaining biodiversity is crucial for ecosystem health.",
-    "explanation": "The correct answer is \"Maintaining biodiversity is crucial for ecosystem health.\"<br/><br/>This is because the statement that needs to be supported is “Maintaining biodiversity is crucial for ecosystem health.” While all the options are true according to the paragraph, option 5 directly addresses the statement by mentioning the importance of maintaining biodiversity for the health of the ecosystem."
+    "explanation": "The correct answer is \"Maintaining biodiversity is crucial for ecosystem health.\"<br/><br/>This is because the statement that needs to be supported is “Maintaining biodiversity is crucial for ecosystem health.” While all the options are true according to the paragraph, option 5 directly addresses the statement by mentioning the importance of maintaining biodiversity for the health of the ecosystem.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 3,
@@ -55,7 +58,8 @@ const data_14 = [
       "Regular exercise can improve mental health."
     ],
     "correct_ans": "Regular exercise can improve mental health.",
-    "explanation": "The correct answer is \"Regular exercise can improve mental health.\"<br/><br/>This is because the statement that needs to be supported is “Regular exercise can improve mental health.” While all the options are true according to the paragraph, option 5 directly addresses the statement by mentioning the improvement of mental health through regular exercise."
+    "explanation": "The correct answer is \"Regular exercise can improve mental health.\"<br/><br/>This is because the statement that needs to be supported is “Regular exercise can improve mental health.” While all the options are true according to the paragraph, option 5 directly addresses the statement by mentioning the improvement of mental health through regular exercise.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 4,
@@ -68,7 +72,8 @@ const data_14 = [
       "To communicate with other bee colonies"
     ],
     "correct_ans": "To collect nectar and pollen from flowers",
-    "explanation": "The passage mentions that the worker bees in a honey bee colony have the role of collecting nectar and pollen from flowers. This is used to produce honey, which is a primary function of the worker bees. Therefore, the correct answer is “To collect nectar and pollen from flowers”. The other options, while they may be part of a worker bee’s responsibilities, are not mentioned in the passage as their primary role."
+    "explanation": "The passage mentions that the worker bees in a honey bee colony have the role of collecting nectar and pollen from flowers. This is used to produce honey, which is a primary function of the worker bees. Therefore, the correct answer is “To collect nectar and pollen from flowers”. The other options, while they may be part of a worker bee’s responsibilities, are not mentioned in the passage as their primary role.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 5,
@@ -81,7 +86,8 @@ const data_14 = [
       "Corruption, inaccessible education, and healthcare services, and natural disasters."
     ],
     "correct_ans": "Limited job opportunities, inaccessible education, and healthcare services.",
-    "explanation": "The passage mentions that poverty and inequality in the Philippines stem from various factors, including limited job opportunities, inaccessible education, and healthcare services. Therefore, the correct answer is “Limited job opportunities, inaccessible education, and healthcare services”."
+    "explanation": "The passage mentions that poverty and inequality in the Philippines stem from various factors, including limited job opportunities, inaccessible education, and healthcare services. Therefore, the correct answer is “Limited job opportunities, inaccessible education, and healthcare services”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 6,
@@ -94,7 +100,8 @@ const data_14 = [
       "Foreign relations impact, the COVID-19 pandemic, and poverty and income inequality."
     ],
     "correct_ans": "The COVID-19 pandemic, poverty and income inequality, and corruption.",
-    "explanation": "The passage mentions that the major contemporary issues in the Philippines in 2023 include the COVID-19 pandemic, poverty and income inequality, and corruption. Therefore, the correct answer is “The COVID-19 pandemic, poverty and income inequality, and corruption”."
+    "explanation": "The passage mentions that the major contemporary issues in the Philippines in 2023 include the COVID-19 pandemic, poverty and income inequality, and corruption. Therefore, the correct answer is “The COVID-19 pandemic, poverty and income inequality, and corruption”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 7,
@@ -107,7 +114,8 @@ const data_14 = [
       "All of the the answer is correct"
     ],
     "correct_ans": "All of the the answer is correct",
-    "explanation": "The passage mentions that the COVID-19 pandemic has led to increased cases and deaths, economic consequences of lockdowns and restrictions, exposed weaknesses within the healthcare system, and underlined the importance of better social protection measures for vulnerable groups. Therefore, the correct answer is “All of the the answer is correct”."
+    "explanation": "The passage mentions that the COVID-19 pandemic has led to increased cases and deaths, economic consequences of lockdowns and restrictions, exposed weaknesses within the healthcare system, and underlined the importance of better social protection measures for vulnerable groups. Therefore, the correct answer is “All of the the answer is correct”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 8,
@@ -120,7 +128,8 @@ const data_14 = [
       "Corruption is a problem only in public services"
     ],
     "correct_ans": "Corruption is a major issue in the Philippines",
-    "explanation": "The passage mentions that corruption remains a formidable challenge in the Philippines, pervading government institutions, public services, and business transactions alike. Therefore, the correct answer is “Corruption is a major issue in the Philippines”."
+    "explanation": "The passage mentions that corruption remains a formidable challenge in the Philippines, pervading government institutions, public services, and business transactions alike. Therefore, the correct answer is “Corruption is a major issue in the Philippines”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 9,
@@ -133,7 +142,8 @@ const data_14 = [
       "All of the the answer is correct"
     ],
     "correct_ans": "All of the the answer is correct",
-    "explanation": "The passage mentions that the Philippines has been widely criticized for its record on human rights, with numerous allegations leveled at extrajudicial killings, police brutality, press freedom infringement, and the suppression of dissent and curtailing of civil liberties. Therefore, the correct answer is “All of the the answer is correct”."
+    "explanation": "The passage mentions that the Philippines has been widely criticized for its record on human rights, with numerous allegations leveled at extrajudicial killings, police brutality, press freedom infringement, and the suppression of dissent and curtailing of civil liberties. Therefore, the correct answer is “All of the the answer is correct”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 10,
@@ -146,7 +156,8 @@ const data_14 = [
       "From 92% in 2015, 94% in 2016, to 97% in 2017"
     ],
     "correct_ans": "From 88% in 2015, 90% in 2016, to 97% in 2017",
-    "explanation": "The passage mentions that a three-year period analysis of DepEd’s budget utilization yielded a steady improvement from 88% in 2015, 90% in 2016, to 97% in 2017. Therefore, the correct answer is “From 88% in 2015, 90% in 2016, to 97% in 2017”."
+    "explanation": "The passage mentions that a three-year period analysis of DepEd’s budget utilization yielded a steady improvement from 88% in 2015, 90% in 2016, to 97% in 2017. Therefore, the correct answer is “From 88% in 2015, 90% in 2016, to 97% in 2017”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 11,
@@ -159,7 +170,8 @@ const data_14 = [
       "All of the the answer is correct"
     ],
     "correct_ans": "Lack of school infrastructure",
-    "explanation": "The passage mentions that the top challenge faced by the Department of Education (DepEd) in the delivery of basic education among Filipino learners is the lack of school infrastructure. Therefore, the correct answer is “Lack of school infrastructure”."
+    "explanation": "The passage mentions that the top challenge faced by the Department of Education (DepEd) in the delivery of basic education among Filipino learners is the lack of school infrastructure. Therefore, the correct answer is “Lack of school infrastructure”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 12,
@@ -172,7 +184,8 @@ const data_14 = [
       "All of the the answer is correct"
     ],
     "correct_ans": "Majority of school buildings need minor repairs",
-    "explanation": "The passage mentions that out of 327,851 school buildings in the country, 100,072 school buildings need minor repairs. Therefore, the correct answer is “Majority of school buildings need minor repairs”."
+    "explanation": "The passage mentions that out of 327,851 school buildings in the country, 100,072 school buildings need minor repairs. Therefore, the correct answer is “Majority of school buildings need minor repairs”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 13,
@@ -185,7 +198,8 @@ const data_14 = [
       "None of the above"
     ],
     "correct_ans": "All of the the answer is correct",
-    "explanation": "The passage mentions that in 2017, DepEd served a total of 26.9 million learners: 26.3 million learners enrolled in public and private schools, and 641,584 learners under the Alternative Learning System (ALS) – surpassing the target enrolment for Kindergarten, elementary, and secondary education. Therefore, the correct answer is “All of the the answer is correct”."
+    "explanation": "The passage mentions that in 2017, DepEd served a total of 26.9 million learners: 26.3 million learners enrolled in public and private schools, and 641,584 learners under the Alternative Learning System (ALS) – surpassing the target enrolment for Kindergarten, elementary, and secondary education. Therefore, the correct answer is “All of the the answer is correct”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 14,
@@ -198,6 +212,7 @@ const data_14 = [
       "None of the above"
     ],
     "correct_ans": "Both lack of transparency and accountability",
-    "explanation": "The passage mentions that the challenges in procurement practices in the Philippines include a lack of transparency and accountability. Therefore, the correct answer is “Both lack of transparency and accountability”."
+    "explanation": "The passage mentions that the challenges in procurement practices in the Philippines include a lack of transparency and accountability. Therefore, the correct answer is “Both lack of transparency and accountability”.",
+    "poster_name": "Manuel G. Sintos"
   }
 ];

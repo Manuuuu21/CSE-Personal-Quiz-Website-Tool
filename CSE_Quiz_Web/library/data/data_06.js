@@ -16,7 +16,8 @@ const data_06 = [
 	        "12 cupcakes"
 	    ],
 	    correct_ans: "8 cupcakes",
-	    explanation: "To find the maximum number of cupcakes that can be placed in each box with no cupcakes left over, we need to find the greatest common factor (GCF) of 36 and 24. The GCF of 36 and 24 is 12. Therefore, the maximum number of cupcakes that can be placed in each box is 12. However, since this is not among the options provided, we choose the largest option that is a divisor of both 36 and 24, which is 8 cupcakes."
+	    explanation: "To find the maximum number of cupcakes that can be placed in each box with no cupcakes left over, we need to find the greatest common factor (GCF) of 36 and 24. The GCF of 36 and 24 is 12. Therefore, the maximum number of cupcakes that can be placed in each box is 12. However, since this is not among the options provided, we choose the largest option that is a divisor of both 36 and 24, which is 8 cupcakes.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 1,
@@ -29,7 +30,8 @@ const data_06 = [
 	        "5 apples"
 	    ],
 	    correct_ans: "3 apples",
-	    explanation: "Sally initially had 5 apples. After giving 2 apples to her friend, she has 3 apples left."
+	    explanation: "Sally initially had 5 apples. After giving 2 apples to her friend, she has 3 apples left.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 2,
@@ -42,7 +44,8 @@ const data_06 = [
 	        "12 chocolates"
 	    ],
 	    correct_ans: "4 chocolates",
-	    explanation: "To divide 24 chocolates equally among 6 friends, you can perform 24 ÷ 6 = 4. So, each friend will receive 4 chocolates."
+	    explanation: "To divide 24 chocolates equally among 6 friends, you can perform 24 ÷ 6 = 4. So, each friend will receive 4 chocolates.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 3,
@@ -55,7 +58,8 @@ const data_06 = [
 	        "300 miles"
 	    ],
 	    correct_ans: "180 miles",
-	    explanation: "To find the distance traveled, you can multiply the speed (60 miles per hour) by the time (3 hours): 60 miles/hour × 3 hours = 180 miles."
+	    explanation: "To find the distance traveled, you can multiply the speed (60 miles per hour) by the time (3 hours): 60 miles/hour × 3 hours = 180 miles.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 4,
@@ -68,7 +72,8 @@ const data_06 = [
 	        "$22"
 	    ],
 	    correct_ans: "$18",
-	    explanation: "To calculate the discounted price, subtract 10% of $20 from the original price: $20 - (10% of $20) = $20 - $2 = $18."
+	    explanation: "To calculate the discounted price, subtract 10% of $20 from the original price: $20 - (10% of $20) = $20 - $2 = $18.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 5,
@@ -81,7 +86,8 @@ const data_06 = [
 	        "56 square units"
 	    ],
 	    correct_ans: "48 square units",
-	    explanation: "The area of a rectangle is calculated by multiplying its length and width: 8 units × 6 units = 48 square units."
+	    explanation: "The area of a rectangle is calculated by multiplying its length and width: 8 units × 6 units = 48 square units.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 6,
@@ -94,7 +100,8 @@ const data_06 = [
 	        "18 marbles"
 	    ],
 	    correct_ans: "36 marbles",
-	    explanation: "John has 3 times as many marbles as Sarah, so 3 * 12 marbles = 36 marbles."
+	    explanation: "John has 3 times as many marbles as Sarah, so 3 * 12 marbles = 36 marbles.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 7,
@@ -107,7 +114,8 @@ const data_06 = [
 	        "$50"
 	    ],
 	    correct_ans: "$40",
-	    explanation: "To calculate the discounted price, subtract 20% of $50 from the original price: $50 - (20% of $50) = $50 - $10 = $40."
+	    explanation: "To calculate the discounted price, subtract 20% of $50 from the original price: $50 - (20% of $50) = $50 - $10 = $40.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 8,
@@ -120,7 +128,8 @@ const data_06 = [
 	        "5 slices"
 	    ],
 	    correct_ans: "5 slices",
-	    explanation: "If a pizza has 8 slices and you eat 3, then there are 8 - 3 = 5 slices left."
+	    explanation: "If a pizza has 8 slices and you eat 3, then there are 8 - 3 = 5 slices left.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 9,
@@ -133,7 +142,8 @@ const data_06 = [
 	        "300 miles"
 	    ],
 	    correct_ans: "200 miles",
-	    explanation: "To find the distance traveled, multiply the speed (50 miles per hour) by the time (4 hours): 50 miles/hour × 4 hours = 200 miles."
+	    explanation: "To find the distance traveled, multiply the speed (50 miles per hour) by the time (4 hours): 50 miles/hour × 4 hours = 200 miles.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 10,
@@ -146,7 +156,8 @@ const data_06 = [
 	        "$120"
 	    ],
 	    correct_ans: "$75",
-	    explanation: "If you start with $120 and spend $45, you have $120 - $45 = $75 left."
+	    explanation: "If you start with $120 and spend $45, you have $120 - $45 = $75 left.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 11,
@@ -159,7 +170,8 @@ const data_06 = [
 	        "180 pesos"
 	    ],
 	    correct_ans: "130 pesos",
-	    explanation: "If you start with 250 pesos and spend 120 pesos, you have 130 pesos left."
+	    explanation: "If you start with 250 pesos and spend 120 pesos, you have 130 pesos left.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 12,
@@ -172,7 +184,8 @@ const data_06 = [
 	        "1400 pesos"
 	    ],
 	    correct_ans: "700 pesos",
-	    explanation: "Sarah wants to buy 2 school bags, so she will spend 2 * 350 pesos = 700 pesos."
+	    explanation: "Sarah wants to buy 2 school bags, so she will spend 2 * 350 pesos = 700 pesos.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 13,
@@ -185,7 +198,8 @@ const data_06 = [
 	        "10 pencils"
 	    ],
 	    correct_ans: "4 pencils",
-	    explanation: "To distribute 48 pencils equally among 12 students, you can perform 48 ÷ 12 = 4 pencils per student."
+	    explanation: "To distribute 48 pencils equally among 12 students, you can perform 48 ÷ 12 = 4 pencils per student.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 14,
@@ -198,7 +212,8 @@ const data_06 = [
 	        "195 pesos"
 	    ],
 	    correct_ans: "153 pesos",
-	    explanation: "To calculate the discounted price, subtract 15% of 180 pesos from the original price: 180 pesos - (15% of 180 pesos) = 180 pesos - 27 pesos = 153 pesos."
+	    explanation: "To calculate the discounted price, subtract 15% of 180 pesos from the original price: 180 pesos - (15% of 180 pesos) = 180 pesos - 27 pesos = 153 pesos.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 15,
@@ -211,7 +226,8 @@ const data_06 = [
 	        "12 students"
 	    ],
 	    correct_ans: "4 students",
-	    explanation: "To find out how many students can share each desk, divide the number of students (24) by the number of desks (6): 24 students ÷ 6 desks = 4 students per desk."
+	    explanation: "To find out how many students can share each desk, divide the number of students (24) by the number of desks (6): 24 students ÷ 6 desks = 4 students per desk.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 16,
@@ -224,7 +240,8 @@ const data_06 = [
 	        "5 pesos"
 	    ],
 	    correct_ans: "3 pesos",
-	    explanation: "To find the cost of each pencil, divide the total cost (24 pesos) by the number of pencils in the pack (8): 24 pesos ÷ 8 pencils = 3 pesos per pencil."
+	    explanation: "To find the cost of each pencil, divide the total cost (24 pesos) by the number of pencils in the pack (8): 24 pesos ÷ 8 pencils = 3 pesos per pencil.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 17,
@@ -237,7 +254,8 @@ const data_06 = [
 	        "700 pages"
 	    ],
 	    correct_ans: "600 pages",
-	    explanation: "To find the total number of pages, multiply the number of books (5) by the number of pages in each book (120): 5 books × 120 pages/book = 600 pages."
+	    explanation: "To find the total number of pages, multiply the number of books (5) by the number of pages in each book (120): 5 books × 120 pages/book = 600 pages.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 18,
@@ -250,7 +268,8 @@ const data_06 = [
 	        "12 cups"
 	    ],
 	    correct_ans: "8 cups",
-	    explanation: "To find the total cups of flour needed, multiply the cups of flour per batch (2 cups) by the number of batches (4): 2 cups/batch × 4 batches = 8 cups."
+	    explanation: "To find the total cups of flour needed, multiply the cups of flour per batch (2 cups) by the number of batches (4): 2 cups/batch × 4 batches = 8 cups.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 19,
@@ -263,7 +282,8 @@ const data_06 = [
 	        "6,000 pesos"
 	    ],
 	    correct_ans: "5,000 pesos",
-	    explanation: "To find the total cost, multiply the cost of one bicycle (2,500 pesos) by the number of bicycles (2): 2,500 pesos/bicycle × 2 bicycles = 5,000 pesos."
+	    explanation: "To find the total cost, multiply the cost of one bicycle (2,500 pesos) by the number of bicycles (2): 2,500 pesos/bicycle × 2 bicycles = 5,000 pesos.",
+   		"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 20,
@@ -276,7 +296,8 @@ const data_06 = [
 	        "5 slices"
 	    ],
 	    correct_ans: "4 slices",
-	    explanation: "If a pizza has 6 slices and you eat 2 slices, then there are 6 - 2 = 4 slices left."
+	    explanation: "If a pizza has 6 slices and you eat 2 slices, then there are 6 - 2 = 4 slices left.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 21,
@@ -289,7 +310,8 @@ const data_06 = [
 	        "12 chocolates"
 	    ],
 	    correct_ans: "6 chocolates",
-	    explanation: "To divide 36 chocolates into 6 equal groups, you can perform 36 ÷ 6 = 6 chocolates per group."
+	    explanation: "To divide 36 chocolates into 6 equal groups, you can perform 36 ÷ 6 = 6 chocolates per group.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 22,
@@ -302,7 +324,8 @@ const data_06 = [
 	        "250 kilometers"
 	    ],
 	    correct_ans: "200 kilometers",
-	    explanation: "To find the distance traveled, multiply the speed (80 kilometers per hour) by the time (2.5 hours): 80 kilometers/hour × 2.5 hours = 200 kilometers."
+	    explanation: "To find the distance traveled, multiply the speed (80 kilometers per hour) by the time (2.5 hours): 80 kilometers/hour × 2.5 hours = 200 kilometers.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 23,
@@ -315,7 +338,8 @@ const data_06 = [
 	        "340 pesos"
 	    ],
 	    correct_ans: "340 pesos",
-	    explanation: "To calculate the discounted price, subtract 15% of 400 pesos from the original price: 400 pesos - (15% of 400 pesos) = 400 pesos - 60 pesos = 340 pesos."
+	    explanation: "To calculate the discounted price, subtract 15% of 400 pesos from the original price: 400 pesos - (15% of 400 pesos) = 400 pesos - 60 pesos = 340 pesos.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 24,
@@ -328,7 +352,8 @@ const data_06 = [
 	        "105 pesos"
 	    ],
 	    correct_ans: "45 pesos",
-	    explanation: "To find the total cost of 3 ice creams, multiply the cost per ice cream (45 pesos) by the number of ice creams (3): 45 pesos/ice cream × 3 ice creams = 135 pesos. Subtracting this from your initial amount gives 180 pesos - 135 pesos = 45 pesos left."
+	    explanation: "To find the total cost of 3 ice creams, multiply the cost per ice cream (45 pesos) by the number of ice creams (3): 45 pesos/ice cream × 3 ice creams = 135 pesos. Subtracting this from your initial amount gives 180 pesos - 135 pesos = 45 pesos left.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 25,
@@ -341,7 +366,8 @@ const data_06 = [
 	        "6 students"
 	    ],
 	    correct_ans: "5 students",
-	    explanation: "To find out how many students can be seated at each desk, divide the number of students (30) by the total number of desks (5 rows × 6 desks/row = 30 desks): 30 students ÷ 30 desks = 5 students per desk."
+	    explanation: "To find out how many students can be seated at each desk, divide the number of students (30) by the total number of desks (5 rows × 6 desks/row = 30 desks): 30 students ÷ 30 desks = 5 students per desk.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 26,
@@ -354,7 +380,8 @@ const data_06 = [
 	        "7 candies"
 	    ],
 	    correct_ans: "6 candies",
-	    explanation: "To distribute 48 candies equally among 8 friends, you can perform 48 ÷ 8 = 6 candies per friend."
+	    explanation: "To distribute 48 candies equally among 8 friends, you can perform 48 ÷ 8 = 6 candies per friend.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 27,
@@ -367,7 +394,8 @@ const data_06 = [
 	        "6 pencils"
 	    ],
 	    correct_ans: "4 pencils",
-	    explanation: "To divide 16 pencils into 4 equal groups, you can perform 16 ÷ 4 = 4 pencils per group."
+	    explanation: "To divide 16 pencils into 4 equal groups, you can perform 16 ÷ 4 = 4 pencils per group.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 28,
@@ -380,7 +408,8 @@ const data_06 = [
 	        "12 roses"
 	    ],
 	    correct_ans: "12 roses",
-	    explanation: "To arrange the roses into bouquets with an equal number of red and white roses, you need to find the greatest common factor (GCF) of 36 and 24, which is 12. Therefore, each bouquet will have 12 roses."
+	    explanation: "To arrange the roses into bouquets with an equal number of red and white roses, you need to find the greatest common factor (GCF) of 36 and 24, which is 12. Therefore, each bouquet will have 12 roses.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 29,
@@ -393,7 +422,8 @@ const data_06 = [
 	        "1,250 pesos"
 	    ],
 	    correct_ans: "750 pesos",
-	    explanation: "If you have 1,000 pesos and buy a toy for 250 pesos, you will have 1,000 pesos - 250 pesos = 750 pesos left."
+	    explanation: "If you have 1,000 pesos and buy a toy for 250 pesos, you will have 1,000 pesos - 250 pesos = 750 pesos left.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 30,
@@ -406,7 +436,8 @@ const data_06 = [
 	        "600 pesos"
 	    ],
 	    correct_ans: "450 pesos",
-	    explanation: "To calculate the discounted price, subtract 25% of 600 pesos from the original price: 600 pesos - (25% of 600 pesos) = 600 pesos - 150 pesos = 450 pesos."
+	    explanation: "To calculate the discounted price, subtract 25% of 600 pesos from the original price: 600 pesos - (25% of 600 pesos) = 600 pesos - 150 pesos = 450 pesos.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 31,
@@ -419,7 +450,8 @@ const data_06 = [
 	        "5 students"
 	    ],
 	    correct_ans: "5 students",
-	    explanation: "To find out how many students can be seated at each desk, divide the number of students (35) by the total number of desks (7 rows × 5 desks/row = 35 desks): 35 students ÷ 35 desks = 5 students per desk."
+	    explanation: "To find out how many students can be seated at each desk, divide the number of students (35) by the total number of desks (7 rows × 5 desks/row = 35 desks): 35 students ÷ 35 desks = 5 students per desk.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 32,
@@ -432,7 +464,8 @@ const data_06 = [
 	        "5:3"
 	    ],
 	    correct_ans: "2:3",
-	    explanation: "To calculate the win-loss ratio, divide the number of wins (10) by the number of losses (15 - 10 = 5): 10:5, which simplifies to 2:1. However, the ratio is typically expressed as a fraction, so it becomes 2/3, which is equivalent to 2:3."
+	    explanation: "To calculate the win-loss ratio, divide the number of wins (10) by the number of losses (15 - 10 = 5): 10:5, which simplifies to 2:1. However, the ratio is typically expressed as a fraction, so it becomes 2/3, which is equivalent to 2:3.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 33,
@@ -445,7 +478,8 @@ const data_06 = [
 	        "10 chocolates"
 	    ],
 	    correct_ans: "4 chocolates",
-	    explanation: "To distribute 40 chocolates equally among 10 friends, you can perform 40 ÷ 10 = 4 chocolates per friend."
+	    explanation: "To distribute 40 chocolates equally among 10 friends, you can perform 40 ÷ 10 = 4 chocolates per friend.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 34,
@@ -458,7 +492,8 @@ const data_06 = [
 	        "10,200 pesos"
 	    ],
 	    correct_ans: "10,200 pesos",
-	    explanation: "To calculate the discounted price, subtract 15% of 12,000 pesos from the original price: 12,000 pesos - (15% of 12,000 pesos) = 12,000 pesos - 1,800 pesos = 10,200 pesos."
+	    explanation: "To calculate the discounted price, subtract 15% of 12,000 pesos from the original price: 12,000 pesos - (15% of 12,000 pesos) = 12,000 pesos - 1,800 pesos = 10,200 pesos.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 35,
@@ -471,7 +506,8 @@ const data_06 = [
 	        "15 bags"
 	    ],
 	    correct_ans: "6 bags",
-	    explanation: "To determine the number of bags needed, divide the total number of apples (18) by the number of apples per bag (3): 18 apples ÷ 3 apples/bag = 6 bags."
+	    explanation: "To determine the number of bags needed, divide the total number of apples (18) by the number of apples per bag (3): 18 apples ÷ 3 apples/bag = 6 bags.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 36,
@@ -484,7 +520,8 @@ const data_06 = [
 	        "108,000 pesos"
 	    ],
 	    correct_ans: "72,000 pesos",
-	    explanation: "Let x be the amount invested in the second account in pesos. Then, the amount invested in the first account is 2x pesos. The interest earned from the first account is 0.06 * (2x) pesos, and the interest earned from the second account is 0.04 * x pesos. The total interest is given as 36,000 pesos, so we can write the equation: 0.06 * (2x) + 0.04 * x = 36,000. Solving for x, we find x = 12,000 pesos. The total amount initially invested in both accounts is 2x + x = 3x = 3 * 12,000 pesos = 36,000 pesos."
+	    explanation: "Let x be the amount invested in the second account in pesos. Then, the amount invested in the first account is 2x pesos. The interest earned from the first account is 0.06 * (2x) pesos, and the interest earned from the second account is 0.04 * x pesos. The total interest is given as 36,000 pesos, so we can write the equation: 0.06 * (2x) + 0.04 * x = 36,000. Solving for x, we find x = 12,000 pesos. The total amount initially invested in both accounts is 2x + x = 3x = 3 * 12,000 pesos = 36,000 pesos.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 37,
@@ -501,7 +538,8 @@ const data_06 = [
 			The total cost of the lot and the house is Php 55,000.00 + Php 180,000.00 = Php 235,000.00.<br/><br/>
 			If the profit is Php 55,000.00, then the selling price is Php 235,000.00 + Php 55,000.00 = Php 290,000.00.<br/><br/>
 			Therefore, the selling price of the house and lot is Php 290,000.00.
-	    `
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 38,
@@ -524,7 +562,8 @@ const data_06 = [
 			Number of spans = 164 / 2 = 82 spans<br/><br/>
 			Therefore, the total cost of fencing the whole lot is Php 500.00/span x 82 spans = Php 41,000.00.<br/><br/>
 			So the answer is Php 41,000.00
-	    `
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 39,
@@ -560,7 +599,8 @@ const data_06 = [
 			Time = 1 job / 7/6 job/hour = 6/7 hours<br/><br/>
 
 			Therefore, the two machines will work together for 4 hours.
-	    `
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 40,
@@ -600,7 +640,8 @@ const data_06 = [
 	    correct_ans: "200.00 Dollar",
 	    explanation: `
 			The student can exchange his Php 10,000 for 200.00 Dollar because Php 10,000 divided by Php 50.12 per dollar is equal to 200.00 Dollar.
-	    `
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 41,
@@ -613,6 +654,7 @@ const data_06 = [
 	      "Php 44,000,000.00"
 	    ],
 	    "correct_ans": "Php 50,000,000.00",
-	    "explanation": "Given that 250 square meters cost Php 1,250,000.00, the cost per square meter is Php 1,250,000.00 / 250 = Php 5,000.00.<br/><br/>1 hectare is equivalent to 10,000 square meters. So, if you buy 1 hectare, the cost would be 10,000 * Php 5,000.00 = Php 50,000,000.00.<br/><br/>Therefore, if you buy 1 hectare, it will cost you Php 50,000,000.00."
+	    "explanation": "Given that 250 square meters cost Php 1,250,000.00, the cost per square meter is Php 1,250,000.00 / 250 = Php 5,000.00.<br/><br/>1 hectare is equivalent to 10,000 square meters. So, if you buy 1 hectare, the cost would be 10,000 * Php 5,000.00 = Php 50,000,000.00.<br/><br/>Therefore, if you buy 1 hectare, it will cost you Php 50,000,000.00.",
+    	"poster_name": "Manuel G. Sintos"
 	}
 ];

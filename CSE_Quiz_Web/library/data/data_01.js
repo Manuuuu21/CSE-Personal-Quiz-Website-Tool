@@ -16,7 +16,8 @@ const data_01 = [
 	        "To endorse discrimination and harassment"
 	    ],
 	    correct_ans: "To ensure transparency, integrity, and accountability",
-	    explanation: "RA 6713 aims to ensure transparency, integrity, and accountability among public officials and employees."
+	    explanation: "RA 6713 aims to ensure transparency, integrity, and accountability among public officials and employees.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 1,
@@ -29,7 +30,8 @@ const data_01 = [
 	        "Social media passwords"
 	    ],
 	    correct_ans: "Statement of Assets, Liabilities, and Net Worth (SALN)",
-	    explanation: "RA 6713 requires public officials and employees to disclose their Statement of Assets, Liabilities, and Net Worth (SALN) for transparency."
+	    explanation: "RA 6713 requires public officials and employees to disclose their Statement of Assets, Liabilities, and Net Worth (SALN) for transparency.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 2,
@@ -42,7 +44,8 @@ const data_01 = [
 	        "To discourage public officials from reporting wrongdoing"
 	    ],
 	    correct_ans: "To prevent conflicts between personal interests and official duties",
-	    explanation: "RA 6713's provisions on conflict of interest aim to prevent conflicts between personal interests and official duties."
+	    explanation: "RA 6713's provisions on conflict of interest aim to prevent conflicts between personal interests and official duties.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 3,
@@ -55,7 +58,8 @@ const data_01 = [
 	        "To promote bribery and corruption"
 	    ],
 	    correct_ans: "To set limits on the value and source of gifts",
-	    explanation: "RA 6713 aims to set limits on the value and source of gifts that public officials and employees can accept to prevent undue influence and corruption."
+	    explanation: "RA 6713 aims to set limits on the value and source of gifts that public officials and employees can accept to prevent undue influence and corruption.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 4,
@@ -68,7 +72,8 @@ const data_01 = [
 	        "Civil Service Commission (CSC)"
 	    ],
 	    correct_ans: "Civil Service Commission (CSC)",
-	    explanation: "The Civil Service Commission (CSC) is the government agency responsible for enforcing RA 6713 and investigating violations of ethical standards among public officials and employees."
+	    explanation: "The Civil Service Commission (CSC) is the government agency responsible for enforcing RA 6713 and investigating violations of ethical standards among public officials and employees.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 5,
@@ -81,7 +86,8 @@ const data_01 = [
 	        "Public interest"
 	    ],
 	    correct_ans: "Political partisanship",
-	    explanation: "RA 6713 does not promote political partisanship among public officials and employees; instead, it encourages impartiality."
+	    explanation: "RA 6713 does not promote political partisanship among public officials and employees; instead, it encourages impartiality.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 6,
@@ -94,7 +100,8 @@ const data_01 = [
 	        "It includes social media passwords"
 	    ],
 	    correct_ans: "It helps assess a public official's financial integrity and possible conflicts of interest",
-	    explanation: "The SALN is crucial for assessing the financial integrity and identifying potential conflicts of interest among public officials."
+	    explanation: "The SALN is crucial for assessing the financial integrity and identifying potential conflicts of interest among public officials.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 7,
@@ -107,7 +114,8 @@ const data_01 = [
 	        "To promote political donations"
 	    ],
 	    correct_ans: "To establish limits on gift value and sources",
-	    explanation: "RA 6713 aims to establish limits on the value and sources of gifts to prevent undue influence and corruption."
+	    explanation: "RA 6713 aims to establish limits on the value and sources of gifts to prevent undue influence and corruption.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 8,
@@ -120,7 +128,8 @@ const data_01 = [
 	        "It approves public budgets"
 	    ],
 	    correct_ans: "It investigates violations and enforces ethical standards",
-	    explanation: "The CSC is responsible for investigating violations and ensuring the enforcement of ethical standards under RA 6713."
+	    explanation: "The CSC is responsible for investigating violations and ensuring the enforcement of ethical standards under RA 6713.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 9,
@@ -133,7 +142,8 @@ const data_01 = [
 	        "To discourage public officials from reporting wrongdoing"
 	    ],
 	    correct_ans: "To ensure public officials act in the best interests of the public",
-	    explanation: "The conflict of interest provisions in RA 6713 aim to ensure that public officials prioritize the best interests of the public over personal interests."
+	    explanation: "The conflict of interest provisions in RA 6713 aim to ensure that public officials prioritize the best interests of the public over personal interests.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 10,
@@ -146,7 +156,8 @@ const data_01 = [
 	        "Favoring family members in government appointments"
 	    ],
 	    correct_ans: "Engaging in political activities while in public office",
-	    explanation: "While RA 6713 prohibits unethical behavior such as corrupt practices, accepting valuable gifts, disclosing confidential information, and favoring family members, it allows public officials to engage in political activities as long as they do so in compliance with certain restrictions."
+	    explanation: "While RA 6713 prohibits unethical behavior such as corrupt practices, accepting valuable gifts, disclosing confidential information, and favoring family members, it allows public officials to engage in political activities as long as they do so in compliance with certain restrictions.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 11,
@@ -159,7 +170,8 @@ const data_01 = [
 	        "Regional Director of a Government Agency"
 	    ],
 	    correct_ans: "Public School Teacher",
-	    explanation: "RA 6713 primarily applies to public officials and employees in government service, including elected and appointed officials, but it generally does not cover public school teachers unless they hold specific administrative positions within the government."
+	    explanation: "RA 6713 primarily applies to public officials and employees in government service, including elected and appointed officials, but it generally does not cover public school teachers unless they hold specific administrative positions within the government.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 12,
@@ -172,7 +184,8 @@ const data_01 = [
 	        "Department of Foreign Affairs"
 	    ],
 	    correct_ans: "Department of the Interior and Local Government",
-	    explanation: "The Department of the Interior and Local Government (DILG) in the Philippines is responsible for regulating and supervising local government units to ensure effective governance and adherence to laws and regulations."
+	    explanation: "The Department of the Interior and Local Government (DILG) in the Philippines is responsible for regulating and supervising local government units to ensure effective governance and adherence to laws and regulations.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 13,
@@ -185,7 +198,8 @@ const data_01 = [
 	        "To enforce labor laws"
 	    ],
 	    correct_ans: "To audit government finances and expenditures",
-	    explanation: "The primary purpose of the Commission on Audit (COA) in the Philippines is to audit government finances and expenditures to ensure transparency, accountability, and the proper use of public funds."
+	    explanation: "The primary purpose of the Commission on Audit (COA) in the Philippines is to audit government finances and expenditures to ensure transparency, accountability, and the proper use of public funds.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 14,
@@ -198,7 +212,8 @@ const data_01 = [
 	        "Only upon retirement"
 	    ],
 	    correct_ans: "Annually",
-	    explanation: "Public officials and employees are required to submit their Statement of Assets, Liabilities, and Net Worth (SALN) annually to the Civil Service Commission."
+	    explanation: "Public officials and employees are required to submit their Statement of Assets, Liabilities, and Net Worth (SALN) annually to the Civil Service Commission.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 15,
@@ -211,7 +226,8 @@ const data_01 = [
 	        "To conduct elections"
 	    ],
 	    correct_ans: "To investigate and prosecute violations of ethical standards by public officials",
-	    explanation: "The Office of the Ombudsman in the Philippines plays a key role in investigating and prosecuting violations of ethical standards by public officials, including those covered under RA 6713."
+	    explanation: "The Office of the Ombudsman in the Philippines plays a key role in investigating and prosecuting violations of ethical standards by public officials, including those covered under RA 6713.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 16,
@@ -224,7 +240,8 @@ const data_01 = [
 	        "Only military personnel"
 	    ],
 	    correct_ans: "All public officials and employees, whether elected or appointed",
-	    explanation: "RA 6713 applies to all public officials and employees in the Philippines, whether they are elected or appointed to their positions."
+	    explanation: "RA 6713 applies to all public officials and employees in the Philippines, whether they are elected or appointed to their positions.",
+	    "poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 17,
@@ -237,7 +254,8 @@ const data_01 = [
 	        "Participating in community service"
 	    ],
 	    correct_ans: "Participating in community service",
-	    explanation: "While RA 6713 restricts public officials and employees from certain activities like accepting valuable gifts or engaging in partisan politics, it does not prohibit them from participating in community service as long as it doesn't conflict with their official duties."
+	    explanation: "While RA 6713 restricts public officials and employees from certain activities like accepting valuable gifts or engaging in partisan politics, it does not prohibit them from participating in community service as long as it doesn't conflict with their official duties.",
+	    "poster_name": "Manuel G. Sintos"
 	}
 
 ];

@@ -16,7 +16,8 @@ const data_07 = [
       "Black"
     ],
     "correct_ans": "Green",
-    "explanation": "The question is asking for the color most commonly associated with the word “Grass”. Just as the sky is most commonly associated with the color blue, grass is most commonly associated with the color green. Therefore, the correct answer is “Green”."
+    "explanation": "The question is asking for the color most commonly associated with the word “Grass”. Just as the sky is most commonly associated with the color blue, grass is most commonly associated with the color green. Therefore, the correct answer is “Green”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 1,
@@ -29,7 +30,8 @@ const data_07 = [
       "Strasbourg"
     ],
     "correct_ans": "Paris",
-    "explanation": "The correct answer is Paris because it is the capital city of France, just as Manila is the capital city of the Philippines. Each option in the question represents a capital city, but only Paris is the capital of France."
+    "explanation": "The correct answer is Paris because it is the capital city of France, just as Manila is the capital city of the Philippines. Each option in the question represents a capital city, but only Paris is the capital of France.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 2,
@@ -42,7 +44,8 @@ const data_07 = [
       "Black "
     ],
     "correct_ans": "Blue",
-    "explanation": "The question is asking for the color most commonly associated with the word “Sky”. Just as the sun is most commonly associated with the color yellow, the sky is most commonly associated with the color blue. Therefore, the correct answer is “Blue”."
+    "explanation": "The question is asking for the color most commonly associated with the word “Sky”. Just as the sun is most commonly associated with the color yellow, the sky is most commonly associated with the color blue. Therefore, the correct answer is “Blue”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 3,
@@ -55,7 +58,8 @@ const data_07 = [
       "Neigh"
     ],
     "correct_ans": "Meow",
-    "explanation": "The question is asking for the sound most commonly associated with the word “Cat”. Just as a dog is most commonly associated with the sound bark, a cat is most commonly associated with the sound meow. Therefore, the correct answer is “Meow”."
+    "explanation": "The question is asking for the sound most commonly associated with the word “Cat”. Just as a dog is most commonly associated with the sound bark, a cat is most commonly associated with the sound meow. Therefore, the correct answer is “Meow”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 4,
@@ -68,7 +72,8 @@ const data_07 = [
       "Neigh"
     ],
     "correct_ans": "Roar",
-    "explanation": "The question is asking for the sound most commonly associated with the word “Lion”. Just as a dog is most commonly associated with the sound bark, a lion is most commonly associated with the sound roar. Therefore, the correct answer is “Roar”."
+    "explanation": "The question is asking for the sound most commonly associated with the word “Lion”. Just as a dog is most commonly associated with the sound bark, a lion is most commonly associated with the sound roar. Therefore, the correct answer is “Roar”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 5,
@@ -81,7 +86,8 @@ const data_07 = [
       "Fishery"
     ],
     "correct_ans": "Fishery",
-    "explanation": "The question is asking for the place most commonly associated with the word “Fish”. Just as bread is most commonly associated with a bakery, fish is most commonly associated with a fishery. Therefore, the correct answer is “Fishery”."
+    "explanation": "The question is asking for the place most commonly associated with the word “Fish”. Just as bread is most commonly associated with a bakery, fish is most commonly associated with a fishery. Therefore, the correct answer is “Fishery”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 6,
@@ -94,7 +100,8 @@ const data_07 = [
       "Forest"
     ],
     "correct_ans": "Sky",
-    "explanation": "The question is asking for the place most commonly associated with the word “Plane”. Just as a car is most commonly associated with the road, a plane is most commonly associated with the sky. Therefore, the correct answer is “Sky”."
+    "explanation": "The question is asking for the place most commonly associated with the word “Plane”. Just as a car is most commonly associated with the road, a plane is most commonly associated with the sky. Therefore, the correct answer is “Sky”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 7,
@@ -107,7 +114,8 @@ const data_07 = [
       "Read"
     ],
     "correct_ans": "Cut",
-    "explanation": "The question is asking for the action most commonly associated with the word “Knife”. Just as a pencil is most commonly used to write, a knife is most commonly used to cut. Therefore, the correct answer is “Cut”."
+    "explanation": "The question is asking for the action most commonly associated with the word “Knife”. Just as a pencil is most commonly used to write, a knife is most commonly used to cut. Therefore, the correct answer is “Cut”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 8,
@@ -120,7 +128,8 @@ const data_07 = [
       "Wide"
     ],
     "correct_ans": "Small",
-    "explanation": "The question is asking for the size most commonly associated with the word “Ant”. Just as an elephant is most commonly associated with being large, an ant is most commonly associated with being small. Therefore, the correct answer is “Small”."
+    "explanation": "The question is asking for the size most commonly associated with the word “Ant”. Just as an elephant is most commonly associated with being large, an ant is most commonly associated with being small. Therefore, the correct answer is “Small”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 9,
@@ -133,7 +142,8 @@ const data_07 = [
       "Sky"
     ],
     "correct_ans": "Desert",
-    "explanation": "The question is asking for the habitat most commonly associated with the word “Camel”. Just as a whale is most commonly associated with the ocean, a camel is most commonly associated with the desert. Therefore, the correct answer is “Desert”."
+    "explanation": "The question is asking for the habitat most commonly associated with the word “Camel”. Just as a whale is most commonly associated with the ocean, a camel is most commonly associated with the desert. Therefore, the correct answer is “Desert”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 10,
@@ -146,7 +156,8 @@ const data_07 = [
       "Soft"
     ],
     "correct_ans": "Cold",
-    "explanation": "The question is asking for the temperature most commonly associated with the word “Ice”. Just as the sun is most commonly associated with being hot, ice is most commonly associated with being cold. Therefore, the correct answer is “Cold”."
+    "explanation": "The question is asking for the temperature most commonly associated with the word “Ice”. Just as the sun is most commonly associated with being hot, ice is most commonly associated with being cold. Therefore, the correct answer is “Cold”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 11,
@@ -159,7 +170,8 @@ const data_07 = [
       "Helium"
     ],
     "correct_ans": "Carbon Dioxide",
-    "explanation": "The question is asking for the gas most commonly associated with the word “Car”. Just as a tree is most commonly associated with producing oxygen, a car is most commonly associated with producing carbon dioxide. Therefore, the correct answer is “Carbon Dioxide”."
+    "explanation": "The question is asking for the gas most commonly associated with the word “Car”. Just as a tree is most commonly associated with producing oxygen, a car is most commonly associated with producing carbon dioxide. Therefore, the correct answer is “Carbon Dioxide”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 12,
@@ -172,7 +184,8 @@ const data_07 = [
       "Walk"
     ],
     "correct_ans": "Crawl",
-    "explanation": "The question is asking for the movement most commonly associated with the word “Snake”. Just as a butterfly is most commonly associated with flying, a snake is most commonly associated with crawling. Therefore, the correct answer is “Crawl”."
+    "explanation": "The question is asking for the movement most commonly associated with the word “Snake”. Just as a butterfly is most commonly associated with flying, a snake is most commonly associated with crawling. Therefore, the correct answer is “Crawl”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 13,
@@ -185,7 +198,8 @@ const data_07 = [
       "Walk"
     ],
     "correct_ans": "Swim",
-    "explanation": "The question is asking for the movement most commonly associated with the word “Fish”. Just as a bird is most commonly associated with flying, a fish is most commonly associated with swimming. Therefore, the correct answer is “Swim”."
+    "explanation": "The question is asking for the movement most commonly associated with the word “Fish”. Just as a bird is most commonly associated with flying, a fish is most commonly associated with swimming. Therefore, the correct answer is “Swim”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 14,
@@ -198,7 +212,8 @@ const data_07 = [
       "Windy"
     ],
     "correct_ans": "Hot",
-    "explanation": "The question is asking for the temperature most commonly associated with the word “Summer”. Just as winter is most commonly associated with being cold, summer is most commonly associated with being hot. Therefore, the correct answer is “Hot”."
+    "explanation": "The question is asking for the temperature most commonly associated with the word “Summer”. Just as winter is most commonly associated with being cold, summer is most commonly associated with being hot. Therefore, the correct answer is “Hot”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 15,
@@ -211,7 +226,8 @@ const data_07 = [
       "Writing"
     ],
     "correct_ans": "Cooking",
-    "explanation": "The question is asking for the activity most commonly associated with the word “Oven”. Just as a piano is most commonly associated with music, an oven is most commonly associated with cooking. Therefore, the correct answer is “Cooking”."
+    "explanation": "The question is asking for the activity most commonly associated with the word “Oven”. Just as a piano is most commonly associated with music, an oven is most commonly associated with cooking. Therefore, the correct answer is “Cooking”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 16,
@@ -224,7 +240,8 @@ const data_07 = [
       "Warm"
     ],
     "correct_ans": "Cold",
-    "explanation": "The question is asking for the temperature most commonly associated with the word “Snow”. Just as rain is most commonly associated with being wet, snow is most commonly associated with being cold. Therefore, the correct answer is “Cold”."
+    "explanation": "The question is asking for the temperature most commonly associated with the word “Snow”. Just as rain is most commonly associated with being wet, snow is most commonly associated with being cold. Therefore, the correct answer is “Cold”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 17,
@@ -237,7 +254,8 @@ const data_07 = [
       "Cook"
     ],
     "correct_ans": "Drive",
-    "explanation": "The question is asking for the action most commonly associated with the word “Car”. Just as a book is most commonly associated with reading, a car is most commonly associated with driving. Therefore, the correct answer is “Drive”."
+    "explanation": "The question is asking for the action most commonly associated with the word “Car”. Just as a book is most commonly associated with reading, a car is most commonly associated with driving. Therefore, the correct answer is “Drive”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 18,
@@ -250,7 +268,8 @@ const data_07 = [
       "Wood"
     ],
     "correct_ans": "Metal",
-    "explanation": "The question is asking for the material most commonly associated with the word “Pan”. Just as a shirt is most commonly made of cotton, a pan is most commonly made of metal. Therefore, the correct answer is “Metal”."
+    "explanation": "The question is asking for the material most commonly associated with the word “Pan”. Just as a shirt is most commonly made of cotton, a pan is most commonly made of metal. Therefore, the correct answer is “Metal”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 19,
@@ -263,7 +282,8 @@ const data_07 = [
       "Pleasant"
     ],
     "correct_ans": "Horrible",
-    "explanation": "The question is asking for the word most closely associated with “Terrible”. Just as “Tranquil” is associated with “Peaceful”, “Terrible” is associated with “Horrible”. Therefore, the correct answer is “Horrible”."
+    "explanation": "The question is asking for the word most closely associated with “Terrible”. Just as “Tranquil” is associated with “Peaceful”, “Terrible” is associated with “Horrible”. Therefore, the correct answer is “Horrible”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 20,
@@ -276,7 +296,8 @@ const data_07 = [
       "Blissful"
     ],
     "correct_ans": "Miserable",
-    "explanation": "The question is asking for the word most closely associated with “Sad”. Just as “Happy” is associated with “Joyful”, “Sad” is associated with “Miserable”. Therefore, the correct answer is “Miserable”."
+    "explanation": "The question is asking for the word most closely associated with “Sad”. Just as “Happy” is associated with “Joyful”, “Sad” is associated with “Miserable”. Therefore, the correct answer is “Miserable”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 21,
@@ -289,7 +310,8 @@ const data_07 = [
       "Radiant"
     ],
     "correct_ans": "Dull",
-    "explanation": "The question is asking for the word most closely associated with “Dark”. Just as “Bright” is associated with “Shiny”, “Dark” is associated with “Dull”. Therefore, the correct answer is “Dull”."
+    "explanation": "The question is asking for the word most closely associated with “Dark”. Just as “Bright” is associated with “Shiny”, “Dark” is associated with “Dull”. Therefore, the correct answer is “Dull”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 22,
@@ -302,7 +324,8 @@ const data_07 = [
       "Vigorous"
     ],
     "correct_ans": "Feeble",
-    "explanation": "The question is asking for the word most closely associated with “Weak”. Just as “Strong” is associated with “Powerful”, “Weak” is associated with “Feeble”. Therefore, the correct answer is “Feeble”."
+    "explanation": "The question is asking for the word most closely associated with “Weak”. Just as “Strong” is associated with “Powerful”, “Weak” is associated with “Feeble”. Therefore, the correct answer is “Feeble”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 23,
@@ -315,7 +338,8 @@ const data_07 = [
       "Valiant"
     ],
     "correct_ans": "Timid",
-    "explanation": "The question is asking for the word most closely associated with “Cowardly”. Just as “Courageous” is associated with “Brave”, “Cowardly” is associated with “Timid”. Therefore, the correct answer is “Timid”."
+    "explanation": "The question is asking for the word most closely associated with “Cowardly”. Just as “Courageous” is associated with “Brave”, “Cowardly” is associated with “Timid”. Therefore, the correct answer is “Timid”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 24,
@@ -328,7 +352,8 @@ const data_07 = [
       "Fluent"
     ],
     "correct_ans": "Mute",
-    "explanation": "The question is asking for the word most closely associated with “Inarticulate”. Just as “Eloquent” is associated with “Articulate”, “Inarticulate” is associated with “Mute”. Therefore, the correct answer is “Mute”."
+    "explanation": "The question is asking for the word most closely associated with “Inarticulate”. Just as “Eloquent” is associated with “Articulate”, “Inarticulate” is associated with “Mute”. Therefore, the correct answer is “Mute”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 25,
@@ -341,7 +366,8 @@ const data_07 = [
       "Pleasant"
     ],
     "correct_ans": "Evil",
-    "explanation": "The question is asking for the word most closely associated with “Malevolent”. Just as “Benevolent” is associated with “Kind”, “Malevolent” is associated with “Evil”. Therefore, the correct answer is “Evil”."
+    "explanation": "The question is asking for the word most closely associated with “Malevolent”. Just as “Benevolent” is associated with “Kind”, “Malevolent” is associated with “Evil”. Therefore, the correct answer is “Evil”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 26,
@@ -354,7 +380,8 @@ const data_07 = [
       "Positive"
     ],
     "correct_ans": "Gloomy",
-    "explanation": "The question is asking for the word most closely associated with “Pessimistic”. Just as “Optimistic” is associated with “Hopeful”, “Pessimistic” is associated with “Gloomy”. Therefore, the correct answer is “Gloomy”."
+    "explanation": "The question is asking for the word most closely associated with “Pessimistic”. Just as “Optimistic” is associated with “Hopeful”, “Pessimistic” is associated with “Gloomy”. Therefore, the correct answer is “Gloomy”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 27,
@@ -367,7 +394,8 @@ const data_07 = [
       "Inventive"
     ],
     "correct_ans": "Traditional",
-    "explanation": "The question is asking for the word most closely associated with “Conventional”. Just as “Innovative” is associated with “Creative”, “Conventional” is associated with “Traditional”. Therefore, the correct answer is “Traditional”."
+    "explanation": "The question is asking for the word most closely associated with “Conventional”. Just as “Innovative” is associated with “Creative”, “Conventional” is associated with “Traditional”. Therefore, the correct answer is “Traditional”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 28,
@@ -380,7 +408,8 @@ const data_07 = [
       "Legitimate"
     ],
     "correct_ans": "Counterfeit",
-    "explanation": "The question is asking for the word most closely associated with “Fake”. Just as “Authentic” is associated with “Genuine”, “Fake” is associated with “Counterfeit”. Therefore, the correct answer is “Counterfeit”."
+    "explanation": "The question is asking for the word most closely associated with “Fake”. Just as “Authentic” is associated with “Genuine”, “Fake” is associated with “Counterfeit”. Therefore, the correct answer is “Counterfeit”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 29,
@@ -393,7 +422,8 @@ const data_07 = [
       "Helping"
     ],
     "correct_ans": "Taking",
-    "explanation": "The question is asking for the word most closely associated with “Selfish”. Just as “Generous” is associated with “Giving”, “Selfish” is associated with “Taking”. Therefore, the correct answer is “Taking”."
+    "explanation": "The question is asking for the word most closely associated with “Selfish”. Just as “Generous” is associated with “Giving”, “Selfish” is associated with “Taking”. Therefore, the correct answer is “Taking”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 30,
@@ -406,7 +436,8 @@ const data_07 = [
       "Valiant"
     ],
     "correct_ans": "Timid",
-    "explanation": "The question is asking for the word most closely associated with “Cowardly”. Just as “Courageous” is associated with “Brave”, “Cowardly” is associated with “Timid”. Therefore, the correct answer is “Timid”."
+    "explanation": "The question is asking for the word most closely associated with “Cowardly”. Just as “Courageous” is associated with “Brave”, “Cowardly” is associated with “Timid”. Therefore, the correct answer is “Timid”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 31,
@@ -419,7 +450,8 @@ const data_07 = [
       "Charming"
     ],
     "correct_ans": "Repulsive",
-    "explanation": "The question is asking for the word most closely associated with “Ugly”. Just as “Beautiful” is associated with “Attractive”, “Ugly” is associated with “Repulsive”. Therefore, the correct answer is “Repulsive”."
+    "explanation": "The question is asking for the word most closely associated with “Ugly”. Just as “Beautiful” is associated with “Attractive”, “Ugly” is associated with “Repulsive”. Therefore, the correct answer is “Repulsive”.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 32,
@@ -432,7 +464,8 @@ const data_07 = [
       "Successful"
     ],
     "correct_ans": "Impoverished",
-    "explanation": "The question is asking for the word most closely associated with “Poor”. Just as “Rich” is associated with “Wealthy”, “Poor” is associated with “Impoverished”. Therefore, the correct answer is “Impoverished”."
+    "explanation": "The question is asking for the word most closely associated with “Poor”. Just as “Rich” is associated with “Wealthy”, “Poor” is associated with “Impoverished”. Therefore, the correct answer is “Impoverished”.",
+    "poster_name": "Manuel G. Sintos"
   }
 
 

@@ -16,7 +16,8 @@ const data_13 = [
       "B-C-D-E-A"
     ],
     "correct_ans": "B-C-E-A-D",
-    "explanation": "The correct answer is (BCEAD) because it logically organizes the sentences to form a coherent paragraph about water.<br/><br/>Sentence B introduces the topic (water).<br/>Sentence C explains the different states of water.<br/>Sentence E describes what happens when water in its gaseous state cools down.<br/>Sentence A names this process (evaporation).<br/>Finally, sentence D gives more detail about how water in its gaseous state can form clouds. The other options do not provide a logical flow of ideas."
+    "explanation": "The correct answer is (BCEAD) because it logically organizes the sentences to form a coherent paragraph about water.<br/><br/>Sentence B introduces the topic (water).<br/>Sentence C explains the different states of water.<br/>Sentence E describes what happens when water in its gaseous state cools down.<br/>Sentence A names this process (evaporation).<br/>Finally, sentence D gives more detail about how water in its gaseous state can form clouds. The other options do not provide a logical flow of ideas.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 1,
@@ -29,7 +30,8 @@ const data_13 = [
       "B-C-D-A-E"
     ],
     "correct_ans": "B-C-D-E-A",
-    "explanation": "The correct answer is (B-C-D-E-A) because it logically organizes the sentences to form a coherent paragraph about butterflies.<br/><br/>Sentence B introduces the topic (butterflies).<br/>Sentence C explains the initial stage of a butterfly’s life cycle (as a caterpillar).<br/>Sentence D describes the next stage (forming a cocoon).<br/>Sentence E describes the final stage (emerging as a butterfly).<br/>Finally, sentence A names this process (metamorphosis). The other options do not provide a logical flow of ideas."
+    "explanation": "The correct answer is (B-C-D-E-A) because it logically organizes the sentences to form a coherent paragraph about butterflies.<br/><br/>Sentence B introduces the topic (butterflies).<br/>Sentence C explains the initial stage of a butterfly’s life cycle (as a caterpillar).<br/>Sentence D describes the next stage (forming a cocoon).<br/>Sentence E describes the final stage (emerging as a butterfly).<br/>Finally, sentence A names this process (metamorphosis). The other options do not provide a logical flow of ideas.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 2,
@@ -42,7 +44,8 @@ const data_13 = [
       "B-C-D-A-E"
     ],
     "correct_ans": "C-B-D-E-A",
-    "explanation": "The correct answer is (C-B-D-E-A) because it logically organizes the sentences to form a coherent paragraph about clouds.<br/><br/>Sentence C explains how clouds are formed (when water vapor cools down).<br/>Sentence B introduces the topic (clouds).<br/>Sentence D describes one role of clouds (influencing temperature by reflecting sunlight).<br/>Sentence E describes another role of clouds (releasing water as rain).<br/>Finally, sentence A names this process (condensation). The other options do not provide a logical flow of ideas."
+    "explanation": "The correct answer is (C-B-D-E-A) because it logically organizes the sentences to form a coherent paragraph about clouds.<br/><br/>Sentence C explains how clouds are formed (when water vapor cools down).<br/>Sentence B introduces the topic (clouds).<br/>Sentence D describes one role of clouds (influencing temperature by reflecting sunlight).<br/>Sentence E describes another role of clouds (releasing water as rain).<br/>Finally, sentence A names this process (condensation). The other options do not provide a logical flow of ideas.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 3,
@@ -55,7 +58,8 @@ const data_13 = [
       "C-B-A-D-E"
     ],
     "correct_ans": "B-C-D-E-A",
-    "explanation": "The correct answer is (B-C-D-E-A) because it logically organizes the sentences to form a coherent paragraph about yeast.<br/><br/>Sentence B introduces the topic (yeast).<br/>Sentence C explains what yeast is used for (baking and brewing).<br/>Sentence D describes how yeast is used in baking (helps dough rise by producing carbon dioxide).<br/>Sentence E describes how yeast is used in brewing (converts sugars into alcohol).<br/>Finally, sentence A names this process (fermentation). The other options do not provide a logical flow of ideas."
+    "explanation": "The correct answer is (B-C-D-E-A) because it logically organizes the sentences to form a coherent paragraph about yeast.<br/><br/>Sentence B introduces the topic (yeast).<br/>Sentence C explains what yeast is used for (baking and brewing).<br/>Sentence D describes how yeast is used in baking (helps dough rise by producing carbon dioxide).<br/>Sentence E describes how yeast is used in brewing (converts sugars into alcohol).<br/>Finally, sentence A names this process (fermentation). The other options do not provide a logical flow of ideas.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 4,
@@ -68,7 +72,8 @@ const data_13 = [
       "C-B-A-D-E"
     ],
     "correct_ans": "B-C-D-A-E",
-    "explanation": "The correct answer is (B-C-D-A-E) because it logically organizes the sentences to form a coherent paragraph about rivers.<br/><br/>Sentence B introduces the topic (rivers).<br/>Sentence C explains what rivers do (carry sediment from one place to another).<br/>Sentence D describes the long-term effects of this process (create valleys and canyons).<br/>Sentence A names this process (erosion).<br/>Finally, sentence E describes what happens to the sediment (it is deposited when the river slows down or reaches the sea). The other options do not provide a logical flow of ideas."
+    "explanation": "The correct answer is (B-C-D-A-E) because it logically organizes the sentences to form a coherent paragraph about rivers.<br/><br/>Sentence B introduces the topic (rivers).<br/>Sentence C explains what rivers do (carry sediment from one place to another).<br/>Sentence D describes the long-term effects of this process (create valleys and canyons).<br/>Sentence A names this process (erosion).<br/>Finally, sentence E describes what happens to the sediment (it is deposited when the river slows down or reaches the sea). The other options do not provide a logical flow of ideas.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 5,
@@ -81,7 +86,8 @@ const data_13 = [
       "B-A-C-E-D"
     ],
     "correct_ans": "B-A-C-D-E",
-    "explanation": "The correct answer is (B-A-C-D-E) because it logically organizes the sentences to form a coherent paragraph about New York City.<br/><br/>Sentence B introduces the topic (New York City).<br/>Sentence A describes the city’s arts scene and cultural landmarks.<br/>Sentence C mentions some of the city’s iconic sites.<br/>Sentence D talks about the city’s role as a global hub for finance and business.<br/>Finally, sentence E lists the five boroughs that make up the city. The other options do not provide a logical flow of ideas."
+    "explanation": "The correct answer is (B-A-C-D-E) because it logically organizes the sentences to form a coherent paragraph about New York City.<br/><br/>Sentence B introduces the topic (New York City).<br/>Sentence A describes the city’s arts scene and cultural landmarks.<br/>Sentence C mentions some of the city’s iconic sites.<br/>Sentence D talks about the city’s role as a global hub for finance and business.<br/>Finally, sentence E lists the five boroughs that make up the city. The other options do not provide a logical flow of ideas.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 6,
@@ -94,7 +100,8 @@ const data_13 = [
       "B-C-A-D-E"
     ],
     "correct_ans": "B-D-A-C-E",
-    "explanation": "The correct answer is (B-D-A-C-E) because it logically organizes the sentences to form a coherent paragraph about Paris.<br/><br/>Sentence B introduces the topic (Paris).<br/>Sentence D talks about the city’s rich history and cultural significance.<br/>Sentence A mentions some of the city’s popular tourist attractions.<br/>Sentence C discusses the city’s renown in cuisine and fashion.<br/>Finally, sentence E describes the city’s architecture, cafes, and markets. The other options do not provide a logical flow of ideas."
+    "explanation": "The correct answer is (B-D-A-C-E) because it logically organizes the sentences to form a coherent paragraph about Paris.<br/><br/>Sentence B introduces the topic (Paris).<br/>Sentence D talks about the city’s rich history and cultural significance.<br/>Sentence A mentions some of the city’s popular tourist attractions.<br/>Sentence C discusses the city’s renown in cuisine and fashion.<br/>Finally, sentence E describes the city’s architecture, cafes, and markets. The other options do not provide a logical flow of ideas.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 7,
@@ -107,7 +114,8 @@ const data_13 = [
       "B-C-E-D-A"
     ],
     "correct_ans": "B-C-A-D-E",
-    "explanation": "The correct answer is (BCADE) because it logically organizes the sentences to form a coherent paragraph about plants. <br/>Sentence B introduces the topic (plants). <br/>Sentence C explains what plants do (absorb carbon dioxide and release oxygen). Sentence A names this process (photosynthesis). <br/>Sentence D mentions another role of plants (providing food and habitat for animals). <br/>Finally, sentence E gives more detail about how plants produce their own food. The other options do not provide a logical flow of ideas."
+    "explanation": "The correct answer is (BCADE) because it logically organizes the sentences to form a coherent paragraph about plants. <br/>Sentence B introduces the topic (plants). <br/>Sentence C explains what plants do (absorb carbon dioxide and release oxygen). Sentence A names this process (photosynthesis). <br/>Sentence D mentions another role of plants (providing food and habitat for animals). <br/>Finally, sentence E gives more detail about how plants produce their own food. The other options do not provide a logical flow of ideas.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 8,
@@ -120,7 +128,8 @@ const data_13 = [
       "B-C-A-E-D"
     ],
     "correct_ans": "B-A-C-D-E",
-    "explanation": "The correct answer is (B-A-C-D-E) because it logically organizes the sentences to form a coherent paragraph about Sydney.<br/><br/>Sentence B introduces the topic (Sydney).<br/>Sentence A describes the city’s popular tourist attractions.<br/>Sentence C gives more detail about one of the city’s iconic landmarks.<br/>Sentence D talks about the city’s diverse culture and vibrant city life.<br/>Finally, sentence E describes the city’s architecture, cafes, and markets. The other options do not provide a logical flow of ideas."
+    "explanation": "The correct answer is (B-A-C-D-E) because it logically organizes the sentences to form a coherent paragraph about Sydney.<br/><br/>Sentence B introduces the topic (Sydney).<br/>Sentence A describes the city’s popular tourist attractions.<br/>Sentence C gives more detail about one of the city’s iconic landmarks.<br/>Sentence D talks about the city’s diverse culture and vibrant city life.<br/>Finally, sentence E describes the city’s architecture, cafes, and markets. The other options do not provide a logical flow of ideas.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 9,
@@ -133,7 +142,8 @@ const data_13 = [
       "B-C-D-A-E"
     ],
     "correct_ans": "C-B-D-E-A",
-    "explanation": "The correct answer is (C-B-D-E-A) because it logically organizes the sentences to form a coherent paragraph about clouds.<br/><br/>Sentence C explains how clouds are formed (when water vapor cools down).<br/>Sentence B introduces the topic (clouds).<br/>Sentence D describes one role of clouds (influencing temperature by reflecting sunlight).<br/>Sentence E describes another role of clouds (releasing water as rain).<br/>Finally, sentence A names this process (condensation). The other options do not provide a logical flow of ideas."
+    "explanation": "The correct answer is (C-B-D-E-A) because it logically organizes the sentences to form a coherent paragraph about clouds.<br/><br/>Sentence C explains how clouds are formed (when water vapor cools down).<br/>Sentence B introduces the topic (clouds).<br/>Sentence D describes one role of clouds (influencing temperature by reflecting sunlight).<br/>Sentence E describes another role of clouds (releasing water as rain).<br/>Finally, sentence A names this process (condensation). The other options do not provide a logical flow of ideas.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 10,
@@ -146,7 +156,8 @@ const data_13 = [
       "B-C-A-D-E"
     ],
     "correct_ans": "B-D-A-C-E",
-    "explanation": "The correct answer is (B-D-A-C-E) because it logically organizes the sentences to form a coherent paragraph about Paris.<br/><br/>Sentence B introduces the topic (Paris).<br/>Sentence D talks about the city’s rich history and cultural significance.<br/>Sentence A mentions some of the city’s popular tourist attractions.<br/>Sentence C discusses the city’s renown in cuisine and fashion.<br/>Finally, sentence E describes the city’s architecture, cafes, and markets. The other options do not provide a logical flow of ideas."
+    "explanation": "The correct answer is (B-D-A-C-E) because it logically organizes the sentences to form a coherent paragraph about Paris.<br/><br/>Sentence B introduces the topic (Paris).<br/>Sentence D talks about the city’s rich history and cultural significance.<br/>Sentence A mentions some of the city’s popular tourist attractions.<br/>Sentence C discusses the city’s renown in cuisine and fashion.<br/>Finally, sentence E describes the city’s architecture, cafes, and markets. The other options do not provide a logical flow of ideas.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 11,
@@ -159,7 +170,8 @@ const data_13 = [
       "B-C-A-D-E"
     ],
     "correct_ans": "B-D-A-C-E",
-    "explanation": "The correct answer is (B-D-A-C-E) because it logically organizes the sentences to form a coherent paragraph about Rome.<br/><br/>Sentence B introduces the topic (Rome).<br/>Sentence D talks about the city’s rich history and cultural significance.<br/>Sentence A mentions some of the city’s popular tourist attractions.<br/>Sentence C discusses the city’s famous cuisine.<br/>Finally, sentence E describes the city’s ancient ruins, cafes, and markets. The other options do not provide a logical flow of ideas."
+    "explanation": "The correct answer is (B-D-A-C-E) because it logically organizes the sentences to form a coherent paragraph about Rome.<br/><br/>Sentence B introduces the topic (Rome).<br/>Sentence D talks about the city’s rich history and cultural significance.<br/>Sentence A mentions some of the city’s popular tourist attractions.<br/>Sentence C discusses the city’s famous cuisine.<br/>Finally, sentence E describes the city’s ancient ruins, cafes, and markets. The other options do not provide a logical flow of ideas.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 12,
@@ -172,7 +184,8 @@ const data_13 = [
       "B-C-D-A-E"
     ],
     "correct_ans": "B-C-D-E-A",
-    "explanation": "The correct answer is (B-C-D-E-A) because it logically organizes the sentences to form a coherent paragraph about bees.<br/><br/>Sentence B introduces the topic (bees).<br/>Sentence C explains what bees do (collect nectar and pollen).<br/>Sentence D describes how bees help plants reproduce.<br/>Sentence E explains the result of this process (plants produce fruit and seeds).<br/>Finally, sentence A names this process (pollination). The other options do not provide a logical flow of ideas."
+    "explanation": "The correct answer is (B-C-D-E-A) because it logically organizes the sentences to form a coherent paragraph about bees.<br/><br/>Sentence B introduces the topic (bees).<br/>Sentence C explains what bees do (collect nectar and pollen).<br/>Sentence D describes how bees help plants reproduce.<br/>Sentence E explains the result of this process (plants produce fruit and seeds).<br/>Finally, sentence A names this process (pollination). The other options do not provide a logical flow of ideas.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 13,
@@ -185,7 +198,8 @@ const data_13 = [
       "B-C-A-D-E"
     ],
     "correct_ans": "B-D-A-C-E",
-    "explanation": "The correct answer is (B-D-A-C-E) because it logically organizes the sentences to form a coherent paragraph about Beijing.<br/><br/>Sentence B introduces the topic (Beijing).<br/>Sentence D talks about the city’s rich history and cultural significance.<br/>Sentence A mentions some of the city’s popular tourist attractions.<br/>Sentence C discusses the city’s famous cuisine.<br/>Finally, sentence E describes the city’s ancient architecture, hutongs, and markets. The other options do not provide a logical flow of ideas."
+    "explanation": "The correct answer is (B-D-A-C-E) because it logically organizes the sentences to form a coherent paragraph about Beijing.<br/><br/>Sentence B introduces the topic (Beijing).<br/>Sentence D talks about the city’s rich history and cultural significance.<br/>Sentence A mentions some of the city’s popular tourist attractions.<br/>Sentence C discusses the city’s famous cuisine.<br/>Finally, sentence E describes the city’s ancient architecture, hutongs, and markets. The other options do not provide a logical flow of ideas.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 14,
@@ -198,7 +212,8 @@ const data_13 = [
       "B-C-A-E-D"
     ],
     "correct_ans": "B-C-D-E-A",
-    "explanation": "The correct answer is (B-C-D-E-A) because it logically organizes the sentences to form a coherent paragraph about the territorial dispute in the South China Sea.<br/><br/>Sentence B introduces the topic (challenges faced by the Philippines).<br/>Sentence C specifies one of these challenges (the territorial dispute in the South China Sea).<br/>Sentence D provides more detail about the dispute (involving China and concerning certain islands).<br/>Sentence E describes the recent escalation of the dispute.<br/>Finally, sentence A mentions the result of this escalation (increased military tensions)."
+    "explanation": "The correct answer is (B-C-D-E-A) because it logically organizes the sentences to form a coherent paragraph about the territorial dispute in the South China Sea.<br/><br/>Sentence B introduces the topic (challenges faced by the Philippines).<br/>Sentence C specifies one of these challenges (the territorial dispute in the South China Sea).<br/>Sentence D provides more detail about the dispute (involving China and concerning certain islands).<br/>Sentence E describes the recent escalation of the dispute.<br/>Finally, sentence A mentions the result of this escalation (increased military tensions).",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 15,
@@ -211,7 +226,8 @@ const data_13 = [
       "B-C-A-E-D"
     ],
     "correct_ans": "B-C-D-A-E",
-    "explanation": "The correct answer is (B-C-D-A-E) because it logically organizes the sentences to form a coherent paragraph about the economic challenges in the Philippines.<br/><br/>Sentence B introduces the topic (the state of the economy in the Philippines).<br/>Sentence C describes the situation many Filipinos are facing (struggling to find jobs and high cost of living).<br/>Sentence D mentions a recent event that has worsened these challenges (the COVID-19 pandemic).<br/>Sentence A describes the result of these challenges (high unemployment rate and economic recession).<br/>Finally, sentence E mentions the government’s response to these challenges."
+    "explanation": "The correct answer is (B-C-D-A-E) because it logically organizes the sentences to form a coherent paragraph about the economic challenges in the Philippines.<br/><br/>Sentence B introduces the topic (the state of the economy in the Philippines).<br/>Sentence C describes the situation many Filipinos are facing (struggling to find jobs and high cost of living).<br/>Sentence D mentions a recent event that has worsened these challenges (the COVID-19 pandemic).<br/>Sentence A describes the result of these challenges (high unemployment rate and economic recession).<br/>Finally, sentence E mentions the government’s response to these challenges.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 16,
@@ -224,7 +240,8 @@ const data_13 = [
       "B-C-A-E-D"
     ],
     "correct_ans": "B-C-E-D-A",
-    "explanation": "The correct answer is (B-C-E-D-A) because it logically organizes the sentences to form a coherent paragraph about social inequality in the Philippines.<br/><br/>Sentence B introduces the topic (social inequality in the Philippines).<br/>Sentence C describes the situation (the gap between the rich and the poor).<br/>Sentence E provides more detail about the effects of this situation (lack of access to basic services and opportunities).<br/>Sentence D mentions the government’s response to these challenges.<br/>Finally, sentence A describes the result of these challenges (social injustice and increased crime rates)."
+    "explanation": "The correct answer is (B-C-E-D-A) because it logically organizes the sentences to form a coherent paragraph about social inequality in the Philippines.<br/><br/>Sentence B introduces the topic (social inequality in the Philippines).<br/>Sentence C describes the situation (the gap between the rich and the poor).<br/>Sentence E provides more detail about the effects of this situation (lack of access to basic services and opportunities).<br/>Sentence D mentions the government’s response to these challenges.<br/>Finally, sentence A describes the result of these challenges (social injustice and increased crime rates).",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 17,
@@ -237,7 +254,8 @@ const data_13 = [
       "B-D-A-C-E"
     ],
     "correct_ans": "B-A-E-C-D",
-    "explanation": "The sentences provided seem to form a coherent paragraph when arranged in the following order: B, A, E, C, D.<br/><br/>B. One of the things that come to mind when we talk about the environment is pollution.<br/>A. Because of pollution, the ecosystem is disturbed; in some areas, even thrown out balance.<br/>E. Many living creatures die because of this abrupt change.<br/>C. With these poisons on land, air, and water, food is getting scarcer.<br/>D. It is easy now to imagine that without clean food and air, humankind will surely perish.<br/><br/>This arrangement starts with a general statement about pollution (B), then discusses its effects on the ecosystem (A) and living creatures (E), followed by the impact on food availability ©, and ends with a dire prediction for humankind (D). It forms a logical progression from the cause (pollution) to the potential ultimate effect (the perishing of humankind)."
+    "explanation": "The sentences provided seem to form a coherent paragraph when arranged in the following order: B, A, E, C, D.<br/><br/>B. One of the things that come to mind when we talk about the environment is pollution.<br/>A. Because of pollution, the ecosystem is disturbed; in some areas, even thrown out balance.<br/>E. Many living creatures die because of this abrupt change.<br/>C. With these poisons on land, air, and water, food is getting scarcer.<br/>D. It is easy now to imagine that without clean food and air, humankind will surely perish.<br/><br/>This arrangement starts with a general statement about pollution (B), then discusses its effects on the ecosystem (A) and living creatures (E), followed by the impact on food availability ©, and ends with a dire prediction for humankind (D). It forms a logical progression from the cause (pollution) to the potential ultimate effect (the perishing of humankind).",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 18,
@@ -250,7 +268,8 @@ const data_13 = [
       "B-E-A-C-D"
     ],
     "correct_ans": "E-A-C-B-D",
-    "explanation": "The sentences provided seem to form a coherent paragraph when arranged in the following order: E, A, C, B, D.<br/><br/>E. Theodore Roosevelt and Franklin Delano Roosevelt had many things in common aside from their names.<br/>A. Both of them came from affluent and distinguished families.<br/>C. The two Roosevelts became popular governors who were known for their intellectual pursuits.<br/>B. As presidents, the two were both dynamic conservationists and reformists.<br/>D. Thus, historians agree that these two men intensified and reshaped the power of the presidency.<br/><br/>This arrangement starts with a general statement about the Roosevelts’ similarities (E), then discusses their family backgrounds (A) and political careers as governors (C), followed by their presidencies (B), and ends with a conclusion about their impact on the presidency (D). It forms a logical progression from their personal backgrounds to their political careers and contributions."
+    "explanation": "The sentences provided seem to form a coherent paragraph when arranged in the following order: E, A, C, B, D.<br/><br/>E. Theodore Roosevelt and Franklin Delano Roosevelt had many things in common aside from their names.<br/>A. Both of them came from affluent and distinguished families.<br/>C. The two Roosevelts became popular governors who were known for their intellectual pursuits.<br/>B. As presidents, the two were both dynamic conservationists and reformists.<br/>D. Thus, historians agree that these two men intensified and reshaped the power of the presidency.<br/><br/>This arrangement starts with a general statement about the Roosevelts’ similarities (E), then discusses their family backgrounds (A) and political careers as governors (C), followed by their presidencies (B), and ends with a conclusion about their impact on the presidency (D). It forms a logical progression from their personal backgrounds to their political careers and contributions.",
+    "poster_name": "Manuel G. Sintos"
   },
   {
     "id": 19,
@@ -263,6 +282,7 @@ const data_13 = [
       "A-D-C-E-B"
     ],
     "correct_ans": "B-C-E-A-D",
-    "explanation": "To form a coherent paragraph when arranged in the following order: B, C, E, A, D.<br/><br/>B. The opportunity for options in life distinguishes the rich from the poor.<br/>C. Through better motivation, the upper levels of the poor could be tempted to grab the options track.<br/>E. It requires vital measures to motivate such people close to breakthrough level income.<br/>A. It is imperative that government and non-government organizations should tap the potentialities of these people to uplift their economic status.<br/>D. For sure, these are the people who are likely to get a foot on the option ladder.<br/><br/>This arrangement starts with a general statement about the difference between the rich and the poor (B), then discusses the potential for the poor to improve their situation through motivation (C) and necessary measures (E), followed by the role of organizations in uplifting their economic status (A), and ends with a conclusion about their potential to climb the economic ladder (D). It forms a logical progression from the current state of affairs to the potential for improvement."
+    "explanation": "To form a coherent paragraph when arranged in the following order: B, C, E, A, D.<br/><br/>B. The opportunity for options in life distinguishes the rich from the poor.<br/>C. Through better motivation, the upper levels of the poor could be tempted to grab the options track.<br/>E. It requires vital measures to motivate such people close to breakthrough level income.<br/>A. It is imperative that government and non-government organizations should tap the potentialities of these people to uplift their economic status.<br/>D. For sure, these are the people who are likely to get a foot on the option ladder.<br/><br/>This arrangement starts with a general statement about the difference between the rich and the poor (B), then discusses the potential for the poor to improve their situation through motivation (C) and necessary measures (E), followed by the role of organizations in uplifting their economic status (A), and ends with a conclusion about their potential to climb the economic ladder (D). It forms a logical progression from the current state of affairs to the potential for improvement.",
+    "poster_name": "Manuel G. Sintos"
   }
 ];

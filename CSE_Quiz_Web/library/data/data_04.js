@@ -25,7 +25,8 @@ const data_04 = [
 	    	2x / 2 = 10 / 2<br/><br/>
 	    	This results in:<br/>
 	    	x = 5
-	    `
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 1,
@@ -47,7 +48,8 @@ const data_04 = [
 	    	(3x) / 3 = 27 / 3<br/><br/>
 	    	Simplify both sides of the equation. This will give you the final answer:<br/>
 	    	x = 9
-	    `
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 		{
 	    id: 2,
@@ -71,7 +73,8 @@ const data_04 = [
 	    	-y = 9<br/><br/>
 	    	Step 5: Divide both sides of the equation by -1.<br/>
 	    	y = -9
-	    `
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 3,
@@ -89,7 +92,8 @@ const data_04 = [
 			Area = (1/2) * base * height<br/><br/>
 			In this case, the base is 6 units and the height is 8 units, so the area is:<br/><br/>
 			Area = (1/2) * 6 * 8 = 24 square units
-	    `
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 4,
@@ -108,7 +112,8 @@ const data_04 = [
 			P = 2 * (10 + 5)<br/>
 			P = 2 * 15<br/>
 			P = 30 units
-	    `
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 5,
@@ -125,7 +130,8 @@ const data_04 = [
 	    	The formula for calculating distance is:<br/>
 			Distance = Speed x Time<br/><br/>
 			In this case, the speed is 60 miles per hour and the time is 3 hours. So, the distance traveled is 180 miles.<br/>
-	    `
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 6,
@@ -138,7 +144,8 @@ const data_04 = [
 	        "14"
 	    ],
 	    correct_ans: "12",
-	    explanation: "The square root of a number is a value that, when multiplied by itself, equals the original number. In this case, the square root of 144 is 12 because 12 × 12 = 144."
+	    explanation: "The square root of a number is a value that, when multiplied by itself, equals the original number. In this case, the square root of 144 is 12 because 12 × 12 = 144.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 7,
@@ -159,8 +166,8 @@ const data_04 = [
 			x = 30 / 0.2<br/>
 			x = 150<br/><br/>
 			Therefore, the number is 150.
-
-	    `
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 8,
@@ -173,7 +180,8 @@ const data_04 = [
 	        "9"
 	    ],
 	    correct_ans: "7",
-	    explanation: "The square root of 49 is 7 because 7 multiplied by itself (7 x 7) equals 49."
+	    explanation: "The square root of 49 is 7 because 7 multiplied by itself (7 x 7) equals 49.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 9,
@@ -190,7 +198,8 @@ const data_04 = [
 	    	The circumference of a circle is the distance around the circle. It is equal to 2πr, where r is the radius of the circle.<br/><br/>
 			In this case, the radius is 5 centimeters, so the circumference is 2π * 5 = 10π centimeters.<br/><br/>
 			π is an irrational number approximately equal to 3.14. So, the circumference of the circle is approximately equal to 10 * 3.14 = 31.4 centimeters.
-	    `
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 10,
@@ -209,7 +218,8 @@ const data_04 = [
 			In this case, the length is 12 units and the width is 8 units. So, the area is<br/><br/>
 			Area = 12 * 8<br/>
 			Area = 96 square units
-	    `
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 11,
@@ -231,7 +241,8 @@ const data_04 = [
 			= 6x - 10x + 8 + 5<br/>
 			= -4x + 13<br/><br/>
 			Therefore, the simplified expression is -4x + 13.
-	    `
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 12,
@@ -248,7 +259,8 @@ const data_04 = [
 	    	the formula for the radius of a circle:<br/><br/>
 			Radius = Diameter / 2<br/><br/>
 			In this case, the diameter is 14 centimeters, so the radius is 14 / 2 = 7 centimeters.
-	    `
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 13,
@@ -272,7 +284,8 @@ const data_04 = [
 			Divide both sides of the equation by 3:<br/>
 			3x / 3 = 10 / 3<br/>
 			x = 10/3 or x = 3.33 (rounded to two decimal places)
-	    `
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 14,
@@ -285,7 +298,8 @@ const data_04 = [
 	        "24"
 	    ],
 	    correct_ans: "5.25",
-	    explanation: "First, we convert 3/4 to a decimal number. 3/4 is equal to 0.75. So, the product is 7 * 0.75 = 5.25"
+	    explanation: "First, we convert 3/4 to a decimal number. 3/4 is equal to 0.75. So, the product is 7 * 0.75 = 5.25",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 15,
@@ -307,7 +321,8 @@ const data_04 = [
 			x = 75 / 1.25<br/><br/>
 			Simplifying the right side, we get:<br/>
 			x = 60
-	    `
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 16,
@@ -320,7 +335,8 @@ const data_04 = [
 	        "27"
 	    ],
 	    correct_ans: "18",
-	    explanation: "To find the LCM of 6 and 9, first list the multiples of each number: Multiples of 6: 6, 12, 18, 24, ... Multiples of 9: 9, 18, 27, ... The least common multiple (LCM) is the smallest number that both 6 and 9 can divide into evenly, which is 18."
+	    explanation: "To find the LCM of 6 and 9, first list the multiples of each number: Multiples of 6: 6, 12, 18, 24, ... Multiples of 9: 9, 18, 27, ... The least common multiple (LCM) is the smallest number that both 6 and 9 can divide into evenly, which is 18.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 17,
@@ -344,7 +360,8 @@ const data_04 = [
 			x = 32 / 4<br/>
 			x = 8<br/><br/>
 			Therefore, x is equal to 8.
-	    `
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 18,
@@ -368,7 +385,8 @@ const data_04 = [
 			= 4a+4b - 3a+3b = (4a-3a) + (4b+3b)<br/>
 			= a+7b<br/><br/>
 			Therefore, the result of subtracting 3a-3b from 4a+4b is a+7b.
-	    `
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 19,
@@ -389,7 +407,8 @@ const data_04 = [
 			Finally, we can combine the terms:<br/>
 			= 10/6 + 20/6 = 30/6 = 5<br/><br/>
 			Therefore, the answer is 5.
-	    `
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 20,
@@ -406,7 +425,9 @@ const data_04 = [
 	    	To isolate 'y', <br/>
 	    	first, add 7 to both sides of the equation: 3y - 7 + 7 = 20 + 7, <br/>
 	    	which simplifies to 3y = 27. <br/><br/>
-	    	Then, divide both sides by 3 to find y: (3y)/3 = 27/3, yielding y = 9.`
+	    	Then, divide both sides by 3 to find y: (3y)/3 = 27/3, yielding y = 9.
+	    `,
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 21,
@@ -419,7 +440,8 @@ const data_04 = [
 	        "5x"
 	    ],
 	    correct_ans: "0",
-	    explanation: "To simplify the expression, combine like terms. 2x + 3x - 5x = (2 + 3 - 5)x = 0x = 0."
+	    explanation: "To simplify the expression, combine like terms. 2x + 3x - 5x = (2 + 3 - 5)x = 0x = 0.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 22,
@@ -432,7 +454,8 @@ const data_04 = [
 	        "x = 9"
 	    ],
 	    correct_ans: "x = 6",
-	    explanation: "To isolate 'x', first, add 7 to both sides of the equation: 4x - 7 + 7 = 17 + 7, which simplifies to 4x = 24. Then, divide both sides by 4 to find x: (4x)/4 = 24/4, yielding x = 6."
+	    explanation: "To isolate 'x', first, add 7 to both sides of the equation: 4x - 7 + 7 = 17 + 7, which simplifies to 4x = 24. Then, divide both sides by 4 to find x: (4x)/4 = 24/4, yielding x = 6.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 23,
@@ -445,7 +468,8 @@ const data_04 = [
 	        "x = 0, y = 5"
 	    ],
 	    correct_ans: "x = 3, y = 2",
-	    explanation: "Solve the system of equations using either substitution or elimination. The solution is x = 3 and y = 2."
+	    explanation: "Solve the system of equations using either substitution or elimination. The solution is x = 3 and y = 2.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 24,
@@ -458,7 +482,8 @@ const data_04 = [
 	        "3x - 6"
 	    ],
 	    correct_ans: "5x + 6",
-	    explanation: "To simplify the expression, distribute the numbers inside the parentheses and then combine like terms: 3(x + 2) - 2(3 - x) = 3x + 6 - 6 + 2x = (3x + 2x) + (6 - 6) = 5x + 6."
+	    explanation: "To simplify the expression, distribute the numbers inside the parentheses and then combine like terms: 3(x + 2) - 2(3 - x) = 3x + 6 - 6 + 2x = (3x + 2x) + (6 - 6) = 5x + 6.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 25,
@@ -471,7 +496,8 @@ const data_04 = [
 	        "y = 5"
 	    ],
 	    correct_ans: "y = 3",
-	    explanation: "To solve for 'y', first, subtract 5 from both sides of the equation: 2y/3 + 5 - 5 = 7 - 5, which simplifies to 2y/3 = 2. Then, multiply both sides by 3 to find y: (2y/3) * 3 = 2 * 3, yielding y = 3."
+	    explanation: "To solve for 'y', first, subtract 5 from both sides of the equation: 2y/3 + 5 - 5 = 7 - 5, which simplifies to 2y/3 = 2. Then, multiply both sides by 3 to find y: (2y/3) * 3 = 2 * 3, yielding y = 3.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    id: 26,
@@ -484,7 +510,8 @@ const data_04 = [
 	        "x = 5, y = 0"
 	    ],
 	    correct_ans: "x = 2, y = 1",
-	    explanation: "Solve the system of equations either by substitution or elimination. The solution is x = 2 and y = 1."
+	    explanation: "Solve the system of equations either by substitution or elimination. The solution is x = 2 and y = 1.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 27,
@@ -497,7 +524,8 @@ const data_04 = [
 	      "x = 8"
 	    ],
 	    "correct_ans": "x = 4",
-	    "explanation": "Given equation: 3x + 5 = 17<br/><br/>Step 1: Subtract 5 from both sides: <br/>3x+5-5 = 17-5<br/><br/>This simplifies into this:<br/>3x = 12<br/><br/>Step 2: Divide both sides by 3 to get the answer:<br/>3x/3 = 12/3<br/><br/>So, the answer is x = 4."
+	    "explanation": "Given equation: 3x + 5 = 17<br/><br/>Step 1: Subtract 5 from both sides: <br/>3x+5-5 = 17-5<br/><br/>This simplifies into this:<br/>3x = 12<br/><br/>Step 2: Divide both sides by 3 to get the answer:<br/>3x/3 = 12/3<br/><br/>So, the answer is x = 4.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 28,
@@ -510,7 +538,8 @@ const data_04 = [
 	      "256 square feet"
 	    ],
 	    "correct_ans": "192 square feet",
-	    "explanation": "Solution:<br/>Area = Length × Width<br/>Area = 12 feet × 16 feet = 192 square feet<br/><br/>Therefore, the correct answer is 192 square feet."
+	    "explanation": "Area = Length × Width<br/>Area = 12 feet × 16 feet = 192 square feet<br/><br/>Therefore, the correct answer is 192 square feet.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 29,
@@ -523,7 +552,8 @@ const data_04 = [
 	      "$24"
 	    ],
 	    "correct_ans": "$20",
-	    "explanation": "Solution:<br/>Sale Price = Original Price - (Original Price × Discount Percentage)<br/>Sale Price = $25 - ($25 × 0.20)<br/>Sale Price = $25 - $5 = $20<br/><br/>Therefore, the correct answer is $20."
+	    "explanation": "Sale Price = Original Price - (Original Price × Discount Percentage)<br/>Sale Price = $25 - ($25 × 0.20)<br/>Sale Price = $25 - $5 = $20<br/><br/>Therefore, the correct answer is $20.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 30,
@@ -536,7 +566,8 @@ const data_04 = [
 	      "12 cups"
 	    ],
 	    "correct_ans": "6 cups",
-	    "explanation": "Solution:<br/>The ratio of cups of flour to cookies is constant. Therefore, if 2 cups of flour make 12 cookies, then to make 36 cookies:<br/>Cups of flour = (2 cups / 12 cookies) × 36 cookies = 6 cups<br/><br/>Therefore, the correct answer is 6 cups."
+	    "explanation": "The ratio of cups of flour to cookies is constant. Therefore, if 2 cups of flour make 12 cookies, then to make 36 cookies:<br/>Cups of flour = (2 cups / 12 cookies) × 36 cookies = 6 cups<br/><br/>Therefore, the correct answer is 6 cups.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 31,
@@ -549,7 +580,8 @@ const data_04 = [
 	      "48 inches"
 	    ],
 	    "correct_ans": "32 inches",
-	    "explanation": "Solution:<br/>Perimeter of a square = 4 × side length<br/>Perimeter = 4 × 8 inches = 32 inches<br/><br/>Therefore, the correct answer is 32 inches."
+	    "explanation": "Perimeter of a square = 4 × side length<br/>Perimeter = 4 × 8 inches = 32 inches<br/><br/>Therefore, the correct answer is 32 inches.",
+    	"poster_name": "Manuel G. Sintos"
 	},
 	{
 	    "id": 32,
@@ -562,7 +594,8 @@ const data_04 = [
 	      "x = 10"
 	    ],
 	    "correct_ans": "x = 4",
-	    "explanation": "Given the equation:<br/>2(x + 3) = 14<br/><br/>Distribute the 2 on the left side by multiplying, which results in:<br/>2x + 6 = 14<br/><br/>Subtract 6 from both sides:<br/>2x + 6 - 6 = 14 - 6<br/><br/>This results in:<br/>2x = 14 - 6<br/>2x = 8<br/><br/>Divide both sides by 2:<br/>2x/2 = 8/2<br/>x = 8/2<br/><br/>we get x = 4"
+	    "explanation": "Given the equation:<br/>2(x + 3) = 14<br/><br/>Distribute the 2 on the left side by multiplying, which results in:<br/>2x + 6 = 14<br/><br/>Subtract 6 from both sides:<br/>2x + 6 - 6 = 14 - 6<br/><br/>This results in:<br/>2x = 14 - 6<br/>2x = 8<br/><br/>Divide both sides by 2:<br/>2x/2 = 8/2<br/>x = 8/2<br/><br/>we get x = 4",
+    	"poster_name": "Manuel G. Sintos"
 	}
 
 
