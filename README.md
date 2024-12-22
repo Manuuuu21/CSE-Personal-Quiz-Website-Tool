@@ -23,6 +23,8 @@ Try it out and provide feedback. :)
 ![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/result_display.png)
 ## Reviewing Answer
 ![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/review_ans.png)
+## Scoreboard
+![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/scoreboard.png)
 ## Questionnaire Data Format Maker
 ![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/questionnaire_format_maker.png)
 ## Configuration Numbers of Quiz
