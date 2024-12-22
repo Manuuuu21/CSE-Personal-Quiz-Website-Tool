@@ -11,12 +11,19 @@ My goal is to to make your study sessions interactive, modern, and engaging. Als
 Try it out and provide feedback. :)
 
 # Screenshots
-## HOMEPAGE
+## Homepage
 ![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/homepage.png)
+## Quiz
 ![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/quiz1.png)
+## Question Sample
 ![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/question_example.png)
+## Exam
 ![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/exam.png)
+## Result Display
 ![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/result_display.png)
+## Reviewing Answer
 ![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/review_ans.png)
+## Questionnaire Data Format Maker
 ![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/questionnaire_format_maker.png)
+## Configuration Numbers of Quiz
 ![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/config_quiz.png)
