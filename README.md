@@ -12,20 +12,20 @@ Try it out and provide feedback. :)
 
 # Screenshots
 ## Homepage
-![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/homepage.png)
+![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/img/screenshots/homepage.png)
 ## Quiz
-![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/quiz1.png)
+![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/img/screenshots/quiz1.png)
 ## Question Sample
-![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/question_example.png)
+![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/img/screenshots/question_example.png)
 ## Exam
-![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/exam.png)
+![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/img/screenshots/exam.png)
 ## Report of Rating
-![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/result_display.png)
+![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/img/screenshots/result_display.png)
 ## Reviewing Answer
-![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/review_ans.png)
+![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/img/screenshots/review_ans.png)
 ## Scoreboard
-![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/scoreboard.png)
+![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/img/screenshots/scoreboard.png)
 ## Questionnaire Data Format Maker
-![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/questionnaire_format_maker.png)
+![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/img/screenshots/questionnaire_format_maker.png)
 ## Configuration Numbers of Quiz
-![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/CSE_Quiz_Web/img/screenshots/config_quiz.png)
+![Img](https://github.com/Manuuuu21/CSE-Personal-Quiz-Website-Tool/blob/main/img/screenshots/config_quiz.png)
