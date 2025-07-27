@@ -9,6 +9,8 @@ The best feature here is that you can create your own questions, which you can a
 My goal is to to make your study sessions interactive, modern, and engaging (Game-based learning approach). Also, this tool offers an interactive, modern, and captivating way for you to review, prepare for the CS Exam. I believe that effective learning should be dynamic and enjoyable, and I hope this tool helps you achieve your goals.
 
 Try it out and provide feedback. :)
+# Try the Website
+https://manuuuu21.github.io/CSE-Personal-Quiz-Website-Tool/
 
 # Screenshots
 ## Homepage
